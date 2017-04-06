@@ -1,0 +1,6 @@
+// scss func
+
+@mixin display-important($value: none)
+{
+	display: $value !important;
+}
