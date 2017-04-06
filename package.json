@@ -1,0 +1,21 @@
+{
+  "name": "stylish-adblock-for-mobile",
+  "version": "1.0.0",
+  "description": "stylish-adblock-for-mobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./build.js",
+    "sass": "node-sass --output-style expanded --include-path src --indent-type tab --indent-width 1 --source-map dist/stylish.adblock.mobile.css.map -w ./src -o ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluelovers/stylish-adblock-for-mobile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluelovers/stylish-adblock-for-mobile/issues"
+  },
+  "homepage": "https://github.com/bluelovers/stylish-adblock-for-mobile#readme"
+}
