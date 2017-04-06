@@ -1,6 +1,18 @@
 // scss func
 
+@import "var.scss";
+
 @mixin display-important($value: none)
 {
 	display: $value !important;
+}
+
+@mixin font-size-article($value: $fontSizeArticleMobile)
+{
+	font-size: $value;
+}
+
+@mixin font-size-article-important($value: $fontSizeArticleMobile)
+{
+	font-size: $value !important;
 }
