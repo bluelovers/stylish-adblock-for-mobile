@@ -8,3 +8,20 @@
 	}
 
 }
+
+@-moz-document domain("wetalk.tw") {
+
+	.modal-backdrop.in
+	, #mobileModal.in
+	, .adsbygoogle
+	, .adblock
+	{
+		display: none !important;
+	}
+
+	.modal-open
+	{
+		overflow: auto !important;
+	}
+
+}
