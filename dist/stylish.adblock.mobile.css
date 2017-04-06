@@ -1,5 +1,9 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-/* site */
+/* sites */
+/* site: site/_all.scss */
+/*
+test
+ */
 /* site: site/ck101.com.scss */
 @-moz-document domain("ck101.com") {
 	/* line 4, src/site/ck101.com.scss */
@@ -12,15 +16,18 @@
 /* site: site/wetalk.tw.scss */
 @-moz-document domain("wetalk.tw") {
 	/* line 4, src/site/wetalk.tw.scss */
-	.modal-backdrop.in,
+	.adsbygoogle, .modal-backdrop.in,
 	#mobileModal.in,
-	.adsbygoogle,
 	.adblock {
 		display: none !important;
 	}
-	/* line 12, src/site/wetalk.tw.scss */
+	/* line 16, src/site/wetalk.tw.scss */
 	.modal-open {
 		overflow: auto !important;
+	}
+	/* line 23, src/site/wetalk.tw.scss */
+	#contentWarp .postmessage {
+		font-size: 12pt !important;
 	}
 }
 

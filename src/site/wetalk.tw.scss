@@ -1,17 +1,34 @@
 @-moz-document domain("wetalk.tw")
 {
 
-	.modal-backdrop.in,
-	#mobileModal.in,
-	.adsbygoogle,
-	.adblock
+	.adsbygoogle
 	{
 		@include display-important(none);
+	}
+
+	.modal-backdrop.in,
+	#mobileModal.in,
+	.adblock
+	{
+		@extend .adsbygoogle;
 	}
 
 	.modal-open
 	{
 		overflow: auto !important;
+	}
+
+	#contentWarp
+	{
+		.postmessage
+		{
+			@include font-size-article-important();
+		}
+	}
+
+	.t_f, .t_f td
+	{
+		//@include font-size-article($fontSizeArticle);
 	}
 
 }
