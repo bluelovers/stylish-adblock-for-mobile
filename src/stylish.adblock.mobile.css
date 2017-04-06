@@ -1,20 +1,23 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document domain("ck101.com") {
+@-moz-document domain("ck101.com")
+{
 
-	.pi-DK-AdOnBottom-MaxWidth, .adfixWp
+	.pi-DK-AdOnBottom-MaxWidth,
+	.adfixWp
 	{
 		display: none !important;
 	}
 
 }
 
-@-moz-document domain("wetalk.tw") {
+@-moz-document domain("wetalk.tw")
+{
 
-	.modal-backdrop.in
-	, #mobileModal.in
-	, .adsbygoogle
-	, .adblock
+	.modal-backdrop.in,
+	#mobileModal.in,
+	.adsbygoogle,
+	.adblock
 	{
 		display: none !important;
 	}

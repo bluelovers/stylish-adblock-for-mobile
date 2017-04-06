@@ -1,0 +1,10 @@
+@-moz-document domain("ck101.com")
+{
+
+	.pi-DK-AdOnBottom-MaxWidth,
+	.adfixWp
+	{
+		@include display-important(none);
+	}
+
+}

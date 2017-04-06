@@ -1,0 +1,17 @@
+@-moz-document domain("wetalk.tw")
+{
+
+	.modal-backdrop.in,
+	#mobileModal.in,
+	.adsbygoogle,
+	.adblock
+	{
+		@include display-important(none);
+	}
+
+	.modal-open
+	{
+		overflow: auto !important;
+	}
+
+}
