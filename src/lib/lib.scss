@@ -7,9 +7,16 @@
 	display: $value !important;
 }
 
-@mixin font-size-article($value: $fontSizeArticleMobile)
+@mixin font-size-article($value: $fontSizeArticleMobile, $important: false)
 {
-	font-size: $value;
+	@if $important == true
+	{
+		font-size: $value !important;
+	}
+	@else
+	{
+		font-size: $value;
+	}
 }
 
 @mixin font-size-article-important($value: $fontSizeArticleMobile)
