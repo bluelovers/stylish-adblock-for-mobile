@@ -29,10 +29,10 @@ const options = {
 
 sass.render(options, function (err, result)
 {
-	console.log(err, result);
-
 	if (!err)
 	{
+		console.log(result);
+
 		// No errors during the compilation, write this result on the disk
 		fs.writeFile(options.outFile, result.css, function (err)
 		{
@@ -57,5 +57,9 @@ sass.render(options, function (err, result)
 				console.log(options.sourceMap);
 			}
 		});
+	}
+	else
+	{
+		console.error(err, result);
 	}
 });
