@@ -6,8 +6,15 @@
 		@include display-important(none);
 	}
 
-	.modal-backdrop.in,
-	#mobileModal.in,
+	.in
+	{
+		&.modal-backdrop,
+		&#mobileModal
+		{
+			@extend .adsbygoogle;
+		}
+	}
+
 	.adblock
 	{
 		@extend .adsbygoogle;
@@ -26,9 +33,14 @@
 		}
 	}
 
-	.t_f, .t_f td
+	.t_f
 	{
-		//@include font-size-article($fontSizeArticle);
+		&, & td
+		{
+			//@include font-size-article($fontSizeArticle);
+		}
 	}
+
+
 
 }
