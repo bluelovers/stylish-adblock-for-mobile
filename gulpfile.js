@@ -28,7 +28,7 @@ const options = {
 
 const scss_glob = './src/stylish.*.scss';
 
-gulp.task('sass', function ()
+gulp.task('sass', ['build-site'], function ()
 {
 	return gulp.src(scss_glob)
 		.pipe(sourcemaps.init())
@@ -43,4 +43,9 @@ gulp.task('sass', function ()
 gulp.task('sass:watch', function ()
 {
 	gulp.watch(scss_glob, ['sass']);
+});
+
+gulp.task('build-site', function (done)
+{
+	require('./script/build-site.js')(done);
 });
