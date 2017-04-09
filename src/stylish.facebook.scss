@@ -1,25 +1,56 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
+@import "lib/var.stylish.facebook.scss";
+
 @-moz-document domain("www.facebook.com") {
 
-	.userContent, ._wk, #fbPhotoSnowliftCaption, #fbPhotoSnowliftTagList, #fbPhotoSnowliftCaption .text_exposed_link, ._5k3v, ._5p3y ._5pbw, ._5p3y ._5pbx, ._5p3y ._5pbx span.text_exposed_link, ._4_j6, ._5k3v, ._6dh ._2yg .input, ._6dh ._2yg .uiMentionsInput .highlighterContent, .fbPhotoAlbumHeader .fbPhotoCaption, ._5p3y, ._5p3y button, ._5p3y input, ._5p3y label, ._5p3y select, ._5p3y td, ._5p3y textarea, ._5p3y .uiMentionsInput .highlighter, ._5p3y .uiButtonText, ._5p3y .uiButton input, ._5p3y .uiLinkButton input, ._5p3y button.as_link, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, html ._1llv ._2yg .input, html ._1llv ._2yg .uiMentionsInput .highlighterContent, ._36, .webMessengerMessageGroup ._38, .__wu ._539-.roundedBox .uiSearchInput .inputtext, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, #globalContainer .editNotePage .editNoteTitleInput, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nl, ._6nm, ._50f4, ._5elm ._5eln, ._5elm ._5elo .photoAlbumDescInput, ._5elm ._5elo .highlighterContent, ._5elm ._5elp .placeTypeaheadInput, ._5elm ._5elp .placeholder, ._l52, ._2yg .input, .UIFeedFormStory_Prompt textarea, html ._2yg .uiMentionsInput .highlighter, ._5p3y .fsl, ._9fi .uiSearchInput input, ._5h_u ._3_tq, .fbPhotoSnowlift.fbxPhoto .fbPhotoContributorName, ._4fzb ._1nb_, ._5p3y ._4fzb ._5pco, ._u77 #fbPhotoSnowliftCaption, ._u77 #fbPhotoSnowliftTagList, ._u77 #fbPhotoSnowliftCaption .text_exposed_link, ._36bx ._1mwp, ._2kml, ._39k5, ._2yaa, ._r_m .uiSearchInput input, ._r_m ._5mrx ._58al, ._2yaw + ._2yav, ._1fsj, ._4x9_, ._a7s ._524d a, ._a7s ._50u4, ._1ysv, ._19s_, .__wu ._539-.roundedBox .uiSearchInput .inputtext, .__wu ._539-.roundedBox .uiSearchInput.reDesignedInput .inputtext, ._4d3w.fbxPhoto._u77 .fbPhotoContributorName, ._4d3w .snowliftOverlayBar
+	.userContent
 	{
 		font-size: 1rem;
 	}
 
-	html, body, ._5p3y
+	._wk, #fbPhotoSnowliftCaption, #fbPhotoSnowliftTagList, #fbPhotoSnowliftCaption .text_exposed_link, ._5k3v, ._5p3y ._5pbw, ._5p3y ._5pbx, ._5p3y ._5pbx span.text_exposed_link, ._4_j6, ._5k3v, ._6dh ._2yg .input, ._6dh ._2yg .uiMentionsInput .highlighterContent, .fbPhotoAlbumHeader .fbPhotoCaption, ._5p3y, ._5p3y button, ._5p3y input, ._5p3y label, ._5p3y select, ._5p3y td, ._5p3y textarea, ._5p3y .uiMentionsInput .highlighter, ._5p3y .uiButtonText, ._5p3y .uiButton input, ._5p3y .uiLinkButton input, ._5p3y button.as_link, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, html ._1llv ._2yg .input, html ._1llv ._2yg .uiMentionsInput .highlighterContent, ._36, .webMessengerMessageGroup ._38, .__wu ._539-.roundedBox .uiSearchInput .inputtext, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, #globalContainer .editNotePage .editNoteTitleInput, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nl, ._6nm, ._50f4, ._5elm ._5eln, ._5elm ._5elo .photoAlbumDescInput, ._5elm ._5elo .highlighterContent, ._5elm ._5elp .placeTypeaheadInput, ._5elm ._5elp .placeholder, ._l52, ._2yg .input, .UIFeedFormStory_Prompt textarea, html ._2yg .uiMentionsInput .highlighter,
+	._5p3y .fsl, ._9fi .uiSearchInput input, ._5h_u ._3_tq,
+	.fbPhotoSnowlift.fbxPhoto .fbPhotoContributorName, ._4fzb ._1nb_, ._5p3y ._4fzb ._5pco, ._u77 #fbPhotoSnowliftCaption, ._u77 #fbPhotoSnowliftTagList, ._u77 #fbPhotoSnowliftCaption .text_exposed_link, ._36bx ._1mwp, ._2kml,
+	._39k5, ._2yaa,
+	._r_m .uiSearchInput input, ._r_m ._5mrx ._58al,
+	._2yaw + ._2yav,
+	._1fsj,
+	._4x9_, ._a7s ._524d a, ._a7s ._50u4, ._1ysv, ._19s_,
+	.__wu ._539-.roundedBox .uiSearchInput .inputtext, .__wu ._539-.roundedBox .uiSearchInput.reDesignedInput .inputtext,
+	._4d3w.fbxPhoto._u77 .fbPhotoContributorName,
+	._4d3w .snowliftOverlayBar,
+	._5pbw, ._5pbx, ._5pco, ._4fzb ._1nb_, ._4fzb ._5pco,
+
+	._58jw,
+	._5pbx span.text_exposed_link,
+
+	._1ht6, ._1htf, .__i_, ._4sp8, ._s15,
+
+	// 動態內容輸入框
+	._36bx ._1mwp._17nh, ._30oa ._2mcl,
 	{
-		font-size: /*[[size]]*/;
+		@extend .userContent;
+	}
+
+	._5p3y
+	{
+		@extend .userContent;
+	}
+
+	html, body
+	{
+		font-size: $fontSize;
 	}
 
 	._5v3q ._5pbx p
 	{
-		margin: /*[[plineheight]]*/ 0 0;
+		margin: $plineheight 0 0;
 	}
 
 	._5v3q ._5pbx p, ._5v3q ._5pbx .text_exposed_show p:first-child, ._5v3q ._5pbx .text_exposed_root > p:last-of-type
 	{
-		margin-top: /*[[plineheight]]*/;
+		margin-top: $plineheight;
 	}
 
 	._5v3q ._5pbx > p:last-of-type, ._5v3q ._5pbx .text_exposed > p:first-child
@@ -35,9 +66,9 @@
 	.fbxWelcomeBoxImg, ._rw, .UFIActorImage, ._55lt img, .tickerStoryImage, .webMessengerMessageGroup ._8o .img, .anchorContainer ._33h._8o.img, .anchorContainer ._12u1.img, img._54ru, ._8o .img
 	{
 		border-radius: 100% !important;
-		-o-transition: border-radius .20s ease-in-out;
-		-webkit-transition: border-radius .20s ease-in-out;
-		-moz-transition: border-radius .20s ease-in-out;
+		//-o-transition: border-radius .20s ease-in-out;
+		//-webkit-transition: border-radius .20s ease-in-out;
+		//-moz-transition: border-radius .20s ease-in-out;
 		transition: border-radius .20s ease-in-out;
 	}
 
@@ -65,20 +96,20 @@
 
 	._4-u2, .uiScaledImageContainer, ._2yq ._4-u2.mbm::before, ._4-u3._2ph_ ._5ks5._3-9a
 	{
-		-o-transition: border-color .20s ease-in-out;
-		-webkit-transition: border-color .20s ease-in-out;
-		-moz-transition: border-color .20s ease-in-out;
+		//-o-transition: border-color .20s ease-in-out;
+		//-webkit-transition: border-color .20s ease-in-out;
+		//-moz-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 	}
 
 	._4-u2:hover, ._2a2r:hover .uiScaledImageContainer, ._2yq ._4-u2.mbm:hover::before, ._4-u3._2ph_ ._5ks5._3-9a:hover
 	{
-		border-color: /*[[hovercolor]]*/;
+		border-color: $hovercolor;
 	}
 
 	.uiScrollableArea.ticker_container
 	{
-		height: /*[[scrollablearea]]*/ !important;
+		height: $scrollablearea !important;
 	}
 
 	.fbChatSidebar #pagelet_ticker
@@ -98,9 +129,9 @@
 
 	.stageWrapper.lfloat #snowliftStageActions
 	{
-		-o-transition: display .20s ease-in-out;
-		-webkit-transition: display .20s ease-in-out;
-		-moz-transition: display .20s ease-in-out;
+		//-o-transition: display .20s ease-in-out;
+		//-webkit-transition: display .20s ease-in-out;
+		//-moz-transition: display .20s ease-in-out;
 		transition: display .20s ease-in-out;
 		display: none;
 	}
