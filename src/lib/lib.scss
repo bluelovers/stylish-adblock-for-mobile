@@ -19,6 +19,19 @@
 	}
 }
 
+// for desktop only
+@mixin font-family-reset($value: $fontFamily, $important: false)
+{
+	@if $important == true
+	{
+		font-family: $value !important;
+	}
+	@else
+	{
+		font-family: $value;
+	}
+}
+
 @mixin font-size-article-important($value: $fontSizeArticleMobile)
 {
 	font-size: $value !important;

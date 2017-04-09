@@ -5,7 +5,7 @@
 const sass = require('node-sass');
 const fs = require('fs');
 
-require('./script/build-site.js');
+require('./script/build-site.js')();
 
 const scss_filename = 'src/stylish.adblock.mobile.scss';
 
