@@ -10,27 +10,34 @@ const dir = '../src/';
 
 const target_file = path.resolve(__dirname, dir, '_include_site.scss');
 
-glob("site/*.scss", {
-	cwd: path.resolve(__dirname, dir),
-}, function (err, files) {
+module.exports = (cb) =>
+{
+	return glob("site/*.scss", {
+		cwd: path.resolve(__dirname, dir),
+	}, function (err, files) {
 
-	let data = `// this file is auto build, don't edit this\n/* sites */\n`;
+		let data = `// this file is auto build, don't edit this\n/* sites */\n`;
 
-	for (let file of files)
-	{
-		data += `/* site: ${file} */\n@import "${file}";\n`;
-	}
-
-	fs.writeFile(target_file, data, function (err)
-	{
-		if (err)
+		for (let file of files)
 		{
-			console.error(err);
+			data += `/* site: ${file} */\n@import "${file}";\n`;
 		}
-		else
+
+		fs.writeFile(target_file, data, function (err)
 		{
-			//console.log(target_file, data);
-		}
+			if (typeof cb == 'function')
+			{
+				cb(err);
+			}
+			else if (err)
+			{
+				console.error(err);
+			}
+			else
+			{
+				//console.log(target_file, data);
+			}
+		});
 	});
+};
 
-});
