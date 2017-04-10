@@ -1,10 +1,43 @@
 // this file is auto build, don't edit this
-/* sites */
-/* site: site/_all.scss */
+/* sites:
+	ck101.com
+	pixnet.net
+	teepr.com
+	udn.com
+	userstyles.org
+	wetalk.tw
+	yahoo.com
+*/
+/* site: _all */
+$domain_all: '_all.scss';
+$domain: '_all.scss';
 @import "site/_all.scss";
-/* site: site/ck101.com.scss */
+
+/* site: ck101.com */
+$domain: 'ck101.com.scss';
 @import "site/ck101.com.scss";
-/* site: site/udn.com.scss */
+
+/* site: pixnet.net */
+$domain: 'pixnet.net.scss';
+@import "site/pixnet.net.scss";
+
+/* site: teepr.com */
+$domain: 'teepr.com.scss';
+@import "site/teepr.com.scss";
+
+/* site: udn.com */
+$domain: 'udn.com.scss';
 @import "site/udn.com.scss";
-/* site: site/wetalk.tw.scss */
+
+/* site: userstyles.org */
+$domain: 'userstyles.org.scss';
+@import "site/userstyles.org.scss";
+
+/* site: wetalk.tw */
+$domain: 'wetalk.tw.scss';
 @import "site/wetalk.tw.scss";
+
+/* site: yahoo.com */
+$domain: 'yahoo.com.scss';
+@import "site/yahoo.com.scss";
+
