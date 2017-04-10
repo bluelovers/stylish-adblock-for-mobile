@@ -31,13 +31,13 @@ https://userstyles.org/styles/140097/stylish-adblock-for-mobile
 ### 安裝圖解
 
 1. 沒什麼好解釋的，此步驟可直接經過 app 市集去安裝(例如 Google Play 商店)
-<br/>![readme01.png](.\res\readme01.png)
+<br/>![readme01.png](res/readme01.png)
 
 2. 將圖中綠色按鈕位置的按鈕啟動成綠色
-<br/>![readme02.png](.\res\readme02.png)
+<br/>![readme02.png](res/readme02.png)
 
 3. 必須要能看見以下綠色按鈕才是正確的
-<br/>![readme01.png](.\res\readme03.png)
+<br/>![readme01.png](res/readme03.png)
 
 ## 其他附加元件
 
