@@ -19,12 +19,12 @@
 //	@include site-elem-extend($domain, 'test');
 //}
 
-//@-moz-document domain("userstyles.org")
-//{
-	@include site-init-here($domain);
+@include site-init-here($domain);
 
-	ins.adsbygoogle
+article
+{
+	@include global_ad()
 	{
-		//@include adblock($domain);
+		@include adblock($domain);
 	}
-//}
+}
