@@ -16,12 +16,53 @@ module.exports = (cb) =>
 		cwd: path.resolve(__dirname, dir),
 	}, function (err, files) {
 
-		let data = `// this file is auto build, don't edit this\n/* sites */\n`;
+		let data = '';
+
+		let sites = [];
 
 		for (let file of files)
 		{
-			data += `/* site: ${file} */\n@import "${file}";\n`;
+			//let domain = path.basename(file, '.scss');
+			let filename = path.basename(file);
+			let domain = path.basename(filename, '.scss');
+
+			data += `/* site: ${domain} */\n`;
+
+			if (domain == '_all')
+			{
+				data += `\$domain_all: '${filename}';\n`;
+			}
+			else
+			{
+				sites.push(domain);
+			}
+
+			/*
+			if (domain == '_all')
+			{
+
+			}
+			else
+			{
+				data += `
+@-moz-document domain("${domain}")
+{
+	%ad_${domain}
+	{
+		@include display-important(none);
+	}
+}`;
+			}
+			*/
+
+			data += `\$domain: '${filename}';
+@import "${file}";
+\n`;
 		}
+
+		data = `// this file is auto build, don't edit this\n/* sites:
+\t${sites.join("\n\t")}
+*/\n${data}`;
 
 		fs.writeFile(target_file, data, function (err)
 		{
