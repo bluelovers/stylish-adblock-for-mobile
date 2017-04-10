@@ -1,14 +1,5 @@
 // this file is auto build, don't edit this
-/* sites:
-	ck101.com
-	pixnet.net
-	storm.mg
-	teepr.com
-	udn.com
-	userstyles.org
-	wetalk.tw
-	yahoo.com
-*/
+/* sites: ck101.com, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com */
 /* site: _all */
 $domain_all: '_all.scss';
 $domain: '_all.scss';
@@ -29,6 +20,10 @@ $domain: 'storm.mg.scss';
 /* site: teepr.com */
 $domain: 'teepr.com.scss';
 @import "site/teepr.com.scss";
+
+/* site: thenewslens.com */
+$domain: 'thenewslens.com.scss';
+@import "site/thenewslens.com.scss";
 
 /* site: udn.com */
 $domain: 'udn.com.scss';
