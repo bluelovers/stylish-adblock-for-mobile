@@ -1,9 +1,11 @@
 @-moz-document domain("wetalk.tw")
 {
 
+	@include site-init-here($domain);
+
 	.adsbygoogle
 	{
-		@include display-important(none);
+		@include adblock($domain);
 	}
 
 	.in
@@ -11,13 +13,13 @@
 		&.modal-backdrop,
 		&#mobileModal
 		{
-			@extend .adsbygoogle;
+			@include adblock($domain);
 		}
 	}
 
 	.adblock
 	{
-		@extend .adsbygoogle;
+		@include adblock($domain);
 	}
 
 	.modal-open
@@ -30,6 +32,24 @@
 		.postmessage
 		{
 			@include font-size-article-important();
+		}
+	}
+
+	.postmessage
+	{
+		> div[style*='background-color'][style*='width:320px;height:300px;']
+		{
+			width: auto !important;
+			height: auto !important;
+			max-width: 320px;
+			max-height: 300px;
+
+			padding: 0 !important;
+
+			> span:first-child
+			{
+				@include adblock($domain);
+			}
 		}
 	}
 

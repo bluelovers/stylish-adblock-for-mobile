@@ -19,7 +19,7 @@
 		font-size: 1rem;
 	}
 	/* line 41, src/stylish.facebook.scss */
-	html, body {
+	html, body, :root {
 		font-size: 10pt;
 	}
 	/* line 46, src/stylish.facebook.scss */

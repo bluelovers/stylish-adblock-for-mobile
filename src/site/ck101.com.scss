@@ -1,10 +1,12 @@
 @-moz-document domain("ck101.com")
 {
 
+	@include site-init-here($domain);
+
 	.pi-DK-AdOnBottom-MaxWidth,
 	.adfixWp
 	{
-		@include display-important(none);
+		@include adblock($domain);
 	}
 
 }

@@ -1,50 +1,126 @@
 @charset "UTF-8";
 @namespace url(http://www.w3.org/1999/xhtml);
-/* sites */
-/* site: site/_all.scss */
-/* site: site/ck101.com.scss */
+/* sites:
+	ck101.com
+	pixnet.net
+	teepr.com
+	udn.com
+	userstyles.org
+	wetalk.tw
+	yahoo.com
+*/
+/* site: _all */
+/*
+@homepage https://github.com/bluelovers/stylish-adblock-for-mobile
+
+@updateURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
+@downloadURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
+*/
+/* i really want this to be global */
+/* site: ck101.com */
 @-moz-document domain("ck101.com") {
-	/* line 4, src/site/ck101.com.scss */
+	/* line 8, src/lib/lib.scss */
 	.pi-DK-AdOnBottom-MaxWidth,
 	.adfixWp {
 		display: none !important;
 	}
 }
 
-/* site: site/udn.com.scss */
+/* site: pixnet.net */
+@-moz-document domain("pixnet.net") {
+	/* line 8, src/lib/lib.scss */
+	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, .pixnet-ad, .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
+		display: none !important;
+	}
+	/* line 23, src/site/pixnet.net.scss */
+	.article-body, .article-body.show-summary {
+		overflow-y: auto;
+		max-height: unset;
+	}
+}
+
+/* site: teepr.com */
+@-moz-document domain("teepr.com") {
+	/* line 8, src/lib/lib.scss */
+	.adsbygoogle, .below-title-ad-wrapper, .mid-post-ad, .popmake[data-popmake*='ad-popup'], .popmake-overlay, .remodal-is-opened.remodal-overlay, .remodal-is-opened.remodal-wrapper, .bot-sticky-ad {
+		display: none !important;
+	}
+	/* line 7, src/site/teepr.com.scss */
+	body, :root {
+		-moz-user-select: unset !important;
+		     user-select: unset !important;
+		-moz-user-select: auto !important;
+		     user-select: auto !important;
+	}
+	/* line 37, src/site/teepr.com.scss */
+	.bot-sticky-share {
+		bottom: 0px;
+	}
+}
+
+/* site: udn.com */
 @-moz-document domain("udn.com") {
-	/* line 4, src/site/udn.com.scss */
+	/* line 8, src/lib/lib.scss */
 	#mm-blocker, #threemin, .only_mobile, .only_web, #google_ad, #simplemodal-container, .simplemodal-overlay, .simplemodal-container {
 		display: none !important;
 	}
 	@media (min-width: 766px) and (orientation: landscape) {
-		/* line 23, src/site/udn.com.scss */
-		#story_body, .subject_news .story, #summary, .subjcet_news .story, .subject_news .story p, html, body {
+		/* line 26, src/site/udn.com.scss */
+		#story_body, html, body {
 			font-family: Helvetica, Arial, "LiHei Pro", "新細明體", PMingLiU, sans-serif;
 			font-size: 9pt;
 		}
 	}
 	@media (max-width: 766px), (orientation: portrait) {
-		/* line 32, src/site/udn.com.scss */
+		/* line 16, src/lib/lib.scss */
 		#story_body, .subject_news .story, #summary, .subjcet_news .story, .subject_news .story p {
+			_: unset;
 			font-size: 12pt !important;
 		}
 	}
 }
 
-/* site: site/wetalk.tw.scss */
-@-moz-document domain("wetalk.tw") {
-	/* line 4, src/site/wetalk.tw.scss */
-	.adsbygoogle, .in.modal-backdrop, .in#mobileModal, .adblock {
+/* site: userstyles.org */
+@-moz-document domain("userstyles.org") {
+	/* line 8, src/lib/lib.scss */
+	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon {
 		display: none !important;
 	}
-	/* line 23, src/site/wetalk.tw.scss */
+}
+
+/* site: wetalk.tw */
+@-moz-document domain("wetalk.tw") {
+	/* line 8, src/lib/lib.scss */
+	.adsbygoogle, .in.modal-backdrop, .in#mobileModal, .adblock, .postmessage > div[style*='background-color'][style*='width:320px;height:300px;'] > span:first-child {
+		display: none !important;
+	}
+	/* line 25, src/site/wetalk.tw.scss */
 	.modal-open {
 		overflow: auto !important;
 	}
-	/* line 30, src/site/wetalk.tw.scss */
+	/* line 32, src/site/wetalk.tw.scss */
 	#contentWarp .postmessage {
 		font-size: 12pt !important;
+	}
+	/* line 40, src/site/wetalk.tw.scss */
+	.postmessage > div[style*='background-color'][style*='width:320px;height:300px;'] {
+		width: auto !important;
+		height: auto !important;
+		max-width: 320px;
+		max-height: 300px;
+		padding: 0 !important;
+	}
+}
+
+/* site: yahoo.com */
+@-moz-document domain("mobi.yahoo.com") {
+	/* line 8, src/lib/lib.scss */
+	.big-ad-banner {
+		display: none !important;
+	}
+	/* line 12, src/site/yahoo.com.scss */
+	#atomic .Fz\(2rem\) {
+		font-size: 1.5rem;
 	}
 }
 

@@ -1,14 +1,17 @@
 
 @-moz-document domain("udn.com")
 {
+
+	@include site-init-here($domain);
+
 	#mm-blocker, #threemin, .only_mobile, .only_web, #google_ad
 	{
-		@include display-important(none);
+		@include adblock($domain);
 	}
 
 	#simplemodal-container, .simplemodal-overlay, #simplemodal-container, .simplemodal-container
 	{
-		@extend #google_ad;
+		@include adblock($domain);
 	}
 
 	//#story_body
@@ -17,8 +20,8 @@
 	//}
 	//
 
-	// FIXME desktop version only
-	@media (min-width: 766px) and (orientation: landscape)
+	//@media (min-width: 766px) and (orientation: landscape)
+	@include media-desktop()
 	{
 		#story_body, html, body
 		{
@@ -29,7 +32,8 @@
 
 	@media (max-width: 766px), (orientation: portrait)
 	{
-		#story_body
+		//#story_body
+		@include site-elem-here($domain, '#story_body', #story_body)
 		{
 			@include font-size-article-important();
 		}
@@ -37,6 +41,7 @@
 
 	.subject_news .story, #summary, .subjcet_news .story, .subject_news .story p
 	{
-		@extend #story_body;
+		//@extend #story_body;
+		@include site-elem-extend($domain, '#story_body');
 	}
 }

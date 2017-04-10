@@ -2,6 +2,43 @@
 
 @import "var.scss";
 
+// mulit @media domain selector @extend, make it only @extend on its @media block
+@mixin site-init-here($domain)
+{
+	%ad_#{$domain}
+	{
+		@include display-important(none);
+	}
+}
+
+@mixin site-elem-here($domain, $value, $selector: '')
+{
+	%elem_#{$domain}_#{$value}
+	{
+		// null
+		_: unset;
+		@content;
+	}
+
+	@if ($selector != '')
+	{
+		#{$selector}
+		{
+			@include site-elem-extend($domain, $value);
+		}
+	}
+}
+
+@mixin site-elem-extend($domain, $value)
+{
+	@extend %elem_#{$domain}_#{$value};
+}
+
+@mixin adblock($domain)
+{
+	@extend %ad_#{$domain};
+}
+
 @mixin display-important($value: none)
 {
 	display: $value !important;
@@ -35,4 +72,43 @@
 @mixin font-size-article-important($value: $fontSizeArticleMobile)
 {
 	font-size: $value !important;
+}
+
+@mixin user-select()
+{
+	user-select: unset !important;
+	user-select: auto !important;
+}
+
+@mixin media-desktop($addon: '')
+{
+	@if ($addon != '')
+	{
+		// FIXME try for desktop version only
+		@media (min-width: 766px) and (orientation: landscape) #{$addon}
+		{
+			@content;
+		}
+	}
+	@else
+	{
+		// FIXME try for desktop version only
+		@media (min-width: 766px) and (orientation: landscape)
+		{
+			@content;
+		}
+	}
+}
+
+@mixin global_ad()
+{
+	ins.adsbygoogle, .adsbygoogle
+	{
+		@content;
+	}
+
+	.adsbyfalcon
+	{
+		@content;
+	}
 }
