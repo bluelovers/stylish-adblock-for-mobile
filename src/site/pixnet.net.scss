@@ -1,0 +1,37 @@
+
+@-moz-document domain("pixnet.net")
+{
+
+	@include site-init-here($domain);
+
+	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post
+	{
+		@include adblock($domain);
+	}
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.pixnet-ad
+	{
+		@include adblock($domain);
+	}
+
+	// remove fake readmore
+	.article-body, .article-body.show-summary
+	{
+		overflow-y: auto;
+		max-height: unset;
+
+		@at-root
+		{
+			& .readmore-btn-container
+			{
+				@include adblock($domain);
+			}
+		}
+	}
+
+}
