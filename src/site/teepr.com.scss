@@ -1,0 +1,50 @@
+
+@-moz-document domain("teepr.com")
+{
+
+	@include site-init-here($domain);
+
+	body, :root
+	{
+		@include user-select();
+	}
+
+	.adsbygoogle
+	{
+		@include adblock($domain);
+	}
+
+	.below-title-ad-wrapper, .mid-post-ad
+	{
+		@include adblock($domain);
+	}
+
+	.popmake[data-popmake*='ad-popup'], .popmake-overlay
+	{
+		@include adblock($domain);
+	}
+
+	// 閒置後	.remodal-is-opened
+	{
+		&.remodal-overlay, &.remodal-wrapper
+		{
+			@include adblock($domain);
+		}
+	}
+
+
+	.bot-sticky-share
+	{
+		// tweak .bot-sticky-ad
+		bottom: 0px;
+
+		@at-root
+		{
+			.bot-sticky-ad
+			{
+				@include adblock($domain);
+			}
+		}
+	}
+
+}
