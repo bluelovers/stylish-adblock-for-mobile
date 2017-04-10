@@ -1,7 +1,37 @@
 
+/*
+@homepage https://github.com/bluelovers/stylish-adblock-for-mobile
+
+@updateURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
+@downloadURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
+*/
+
+// @see https://github.com/stylish-userstyles/stylish/wiki/Applying-styles-to-specific-sites
+/* i really want this to be global */
+
 ._1
 {
 	//transition: transform 1s;
 	//width: calc(50% - 2em);
 	//border-radius: 5px;
 }
+
+//@include site-elem-here($domain, 'test')
+//{
+//	@include user-select();
+//}
+//
+//.adsbygoogle111
+//{
+//	@include site-elem-extend($domain, 'test');
+//}
+
+//@-moz-document domain("userstyles.org")
+//{
+	@include site-init-here($domain);
+
+	ins.adsbygoogle
+	{
+		//@include adblock($domain);
+	}
+//}
