@@ -99,6 +99,10 @@
 	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon {
 		display: none !important;
 	}
+	/* line 14, src/site/userstyles.org.scss */
+	#additional-info-text {
+		max-height: 35em;
+	}
 }
 
 /* site: wetalk.tw */
