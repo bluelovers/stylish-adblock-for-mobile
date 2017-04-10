@@ -111,4 +111,9 @@
 	{
 		@content;
 	}
+
+	div[id*='div-gpt-ad-'], div[id*='google_ads_iframe']
+	{
+		@content;
+	}
 }
