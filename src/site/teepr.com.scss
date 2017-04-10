@@ -24,7 +24,8 @@
 		@include adblock($domain);
 	}
 
-	// 閒置後	.remodal-is-opened
+	// 閒置後
+	.remodal-is-opened
 	{
 		&.remodal-overlay, &.remodal-wrapper
 		{

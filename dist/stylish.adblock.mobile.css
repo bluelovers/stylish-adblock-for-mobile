@@ -1,8 +1,15 @@
 @charset "UTF-8";
 @namespace url(http://www.w3.org/1999/xhtml);
+/*
+@homepage https://github.com/bluelovers/stylish-adblock-for-mobile
+
+@updateURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
+@downloadURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
+*/
 /* sites:
 	ck101.com
 	pixnet.net
+	storm.mg
 	teepr.com
 	udn.com
 	userstyles.org
@@ -10,12 +17,6 @@
 	yahoo.com
 */
 /* site: _all */
-/*
-@homepage https://github.com/bluelovers/stylish-adblock-for-mobile
-
-@updateURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
-@downloadURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
-*/
 /* i really want this to be global */
 /* site: ck101.com */
 @-moz-document domain("ck101.com") {
@@ -36,6 +37,18 @@
 	.article-body, .article-body.show-summary {
 		overflow-y: auto;
 		max-height: unset;
+	}
+}
+
+/* site: storm.mg */
+@-moz-document domain("storm.mg") {
+	/* line 8, src/lib/lib.scss */
+	.ad_article_block, .div-inread-ad, article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'] {
+		display: none !important;
+	}
+	/* line 28, src/site/storm.mg.scss */
+	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p {
+		font-size: 12pt;
 	}
 }
 
