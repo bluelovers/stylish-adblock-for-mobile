@@ -1,7 +1,7 @@
 {
   "name": "stylish-adblock-for-mobile",
   "version": "1.0.0",
-  "description": "stylish-adblock-for-mobile",
+  "description": "stylish-adblock for mobile 主要針對行動瀏覽網站時出現的惱人廣告 例如 阻擋內容的廣告 或 行動裝置上不友善的廣告",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
