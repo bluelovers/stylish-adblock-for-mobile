@@ -6,18 +6,14 @@
 @updateURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
 @downloadURL https://userstyles.org/styles/140097/stylish-adblock-for-mobile
 */
-/* sites:
-	ck101.com
-	pixnet.net
-	storm.mg
-	teepr.com
-	udn.com
-	userstyles.org
-	wetalk.tw
-	yahoo.com
-*/
+/* sites: ck101.com, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com */
 /* site: _all */
 /* i really want this to be global */
+/* line 8, src/lib/lib.scss */
+article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'] {
+	display: none !important;
+}
+
 /* site: ck101.com */
 @-moz-document domain("ck101.com") {
 	/* line 8, src/lib/lib.scss */
@@ -30,7 +26,7 @@
 /* site: pixnet.net */
 @-moz-document domain("pixnet.net") {
 	/* line 8, src/lib/lib.scss */
-	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, .pixnet-ad, .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
+	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], .pixnet-ad, .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
 		display: none !important;
 	}
 	/* line 23, src/site/pixnet.net.scss */
@@ -71,6 +67,14 @@
 	}
 }
 
+/* site: thenewslens.com */
+@-moz-document domain("thenewslens.com") {
+	/* line 8, src/lib/lib.scss */
+	.ad-container-2, .ad-container, .div-onead-ad, body > .ad-btm {
+		display: none !important;
+	}
+}
+
 /* site: udn.com */
 @-moz-document domain("udn.com") {
 	/* line 8, src/lib/lib.scss */
@@ -96,7 +100,7 @@
 /* site: userstyles.org */
 @-moz-document domain("userstyles.org") {
 	/* line 8, src/lib/lib.scss */
-	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon {
+	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon, #style-info div[id*='div-gpt-ad-'], #style-info div[id*='google_ads_iframe'] {
 		display: none !important;
 	}
 	/* line 14, src/site/userstyles.org.scss */

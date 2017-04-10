@@ -60,9 +60,7 @@ module.exports = (cb) =>
 \n`;
 		}
 
-		data = `// this file is auto build, don't edit this\n/* sites:
-\t${sites.join("\n\t")}
-*/\n${data}`;
+		data = `// this file is auto build, don't edit this\n/* sites: ${sites.join(", ")} */\n${data}`;
 
 		fs.writeFile(target_file, data, function (err)
 		{
