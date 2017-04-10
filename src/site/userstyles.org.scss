@@ -1,0 +1,14 @@
+
+@-moz-document domain("userstyles.org")
+{
+	@include site-init-here($domain);
+
+	#style-info
+	{
+		@include global_ad()
+		{
+			@include adblock($domain);
+		}
+	}
+
+}
