@@ -2,6 +2,7 @@
 /* sites:
 	ck101.com
 	pixnet.net
+	storm.mg
 	teepr.com
 	udn.com
 	userstyles.org
@@ -20,6 +21,10 @@ $domain: 'ck101.com.scss';
 /* site: pixnet.net */
 $domain: 'pixnet.net.scss';
 @import "site/pixnet.net.scss";
+
+/* site: storm.mg */
+$domain: 'storm.mg.scss';
+@import "site/storm.mg.scss";
 
 /* site: teepr.com */
 $domain: 'teepr.com.scss';
