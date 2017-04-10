@@ -1,0 +1,33 @@
+
+@-moz-document domain("storm.mg")
+{
+
+	@include site-init-here($domain);
+
+	article
+	{
+		@at-root
+		{
+			.ad_article_block, .div-inread-ad
+			{
+				@include adblock($domain);
+			}
+		}
+
+		@include global_ad()
+		{
+			@include adblock($domain);
+		}
+
+		div[id*='div-gpt-ad-'], div[id*='google_ads_iframe']
+		{
+			@include adblock($domain);
+		}
+	}
+
+	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p
+	{
+		@include font-size-article();
+	}
+
+}
