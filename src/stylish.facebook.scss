@@ -38,7 +38,7 @@
 		@extend .userContent;
 	}
 
-	html, body
+	html, body, :root
 	{
 		font-size: $fontSize;
 	}
