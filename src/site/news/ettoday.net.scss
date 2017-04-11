@@ -1,0 +1,9 @@
+@-moz-document domain("ettoday.net")
+{
+	@include site-init-here($domain);
+
+	.adM01, .banner_970
+	{
+		@include adblock($domain);
+	}
+}
