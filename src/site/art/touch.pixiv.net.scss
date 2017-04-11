@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("touch.pixiv.net")
+{
+	@include site-init-here($domain);
+
+	#geniee_overlay
+	{
+		@include adblock($domain);
+	}
+}
