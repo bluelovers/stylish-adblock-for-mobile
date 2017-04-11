@@ -1,0 +1,21 @@
+
+
+@-moz-document domain("ourstarsky.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	#likeBox
+	{
+		@include adblock($domain);
+	}
+
+	.fabox
+	{
+		background: transparent;
+	}
+}
