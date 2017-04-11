@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, mirrormedia.mg, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
 @import "site/chinatimes.com.scss";
@@ -19,6 +19,10 @@ $domain: 'life.tw.scss';
 /* site: twgreatdaily.com */
 $domain: 'twgreatdaily.com.scss';
 @import "site/content_farm/twgreatdaily.com.scss";
+
+/* site: mirrormedia.mg */
+$domain: 'mirrormedia.mg.scss';
+@import "site/news/mirrormedia.mg.scss";
 
 /* site: pixnet.net */
 $domain: 'pixnet.net.scss';
