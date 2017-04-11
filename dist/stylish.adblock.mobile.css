@@ -24,7 +24,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
-/* sites: kocpc.com.tw, pixnet.net, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: kocpc.com.tw, pixnet.net, bnext.com.tw, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: kocpc.com.tw */
 @-moz-document domain("kocpc.com.tw") {
 	/* line 8, src/lib/lib.scss */
@@ -43,6 +43,14 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	.article-body, .article-body.show-summary {
 		overflow-y: auto;
 		max-height: unset;
+	}
+}
+
+/* site: bnext.com.tw */
+@-moz-document domain("bnext.com.tw") {
+	/* line 8, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .ad-pixfs, .ad_box, #oneadIRMIRTag, .is_ads {
+		display: none !important;
 	}
 }
 

@@ -1,0 +1,15 @@
+
+@-moz-document domain("bnext.com.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.ad-pixfs, .ad_box, #oneadIRMIRTag, .is_ads
+	{
+		@include adblock($domain);
+	}
+}
