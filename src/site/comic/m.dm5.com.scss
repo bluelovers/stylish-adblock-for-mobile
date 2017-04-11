@@ -1,0 +1,21 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("m.dm5.com")
+{
+	@include site-init-here($domain);
+
+	.kiwiad-popup-overlay, div[class^='kiwi-ad-wrapper-']
+	{
+
+	}
+
+	.adform_1, .adform_2
+	{
+		@include adblock($domain);
+	}
+
+	// 動態惡意廣告
+	div[class$='baseUrl'][id$='baseUrl']
+	{
+		@include adblock($domain);
+	}
+}
