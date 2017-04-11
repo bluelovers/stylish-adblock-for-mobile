@@ -15,16 +15,16 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* content_farm */
 @-moz-document domain("cocomy.net"), domain("life.tw"), domain("twgreatdaily.com") {
 	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #fullblock, #fbFixedAd, .adnwMRectRoot, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #fullblock, #fbFixedAd, .adnwMRectRoot, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
 		display: none !important;
 	}
-	/* line 197, src/lib/lib.scss */
-	body, body.modal-open {
+	/* line 205, src/lib/lib.scss */
+	body, body.modal-open, .modal-open, .modal-open.modal-open {
 		overflow: auto !important;
 	}
 }
 
-/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, mirrormedia.mg, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: chinatimes.com */
 @-moz-document domain("chinatimes.com") {
 	/* line 8, src/lib/lib.scss */
@@ -148,6 +148,14 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	/* line 60, src/site/content_farm/twgreatdaily.com.scss */
 	#article-body #article-content {
 		margin: 10px auto;
+	}
+}
+
+/* site: mirrormedia.mg */
+@-moz-document domain("mirrormedia.mg") {
+	/* line 8, src/lib/lib.scss */
+	.dfp-cover, .ad-container, .dfpad-set {
+		display: none !important;
 	}
 }
 
