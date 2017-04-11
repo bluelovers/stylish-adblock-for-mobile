@@ -1,0 +1,14 @@
+@-moz-document domain("chinatimes.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	div[id*='pagead'], .ad_rwd_dfp, div[class*='rwd_ad']
+	{
+		@include adblock($domain);
+	}
+}
