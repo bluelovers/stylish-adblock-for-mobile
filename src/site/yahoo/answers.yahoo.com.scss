@@ -1,0 +1,9 @@
+@-moz-document domain("answers.yahoo.com")
+{
+	@include site-init-here($domain);
+
+	div[id^='dmRosAdWrapper-']
+	{
+		@include adblock($domain);
+	}
+}
