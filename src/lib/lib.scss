@@ -141,6 +141,11 @@
 		@content;
 	}
 
+	a[href*='beap.gemini.yahoo.com']
+	{
+		@content;
+	}
+
 	div[id*='compass-fit-'][visibility]
 	{
 		@content;

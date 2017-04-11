@@ -1,0 +1,9 @@
+@-moz-document domain("my-formosa.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+}

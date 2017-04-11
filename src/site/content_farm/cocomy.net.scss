@@ -1,10 +1,13 @@
 
-@-moz-document domain("cocomy.net")
+@-moz-document domain("cocomy.net"), domain("coco01.net")
 {
-	@include site-init-here($domain);
+	//@include site-init-here($domain);
 
-	#adModal, .promote-box, .gm-module-iframe1, .post-top-ad
+	@include content-farm-include($domain);
+
+	#adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe
 	{
+		@include adblock($domain);
 		@include adblock($domain_content_farm);
 	}
 
