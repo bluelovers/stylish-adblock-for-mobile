@@ -148,6 +148,14 @@
 			@content;
 		}
 	}
+
+	@if ($mode >= 10)
+	{
+		div[class^='ad-']
+		{
+			@content;
+		}
+	}
 }
 
 @mixin content-farm-alert()
@@ -177,7 +185,7 @@
 {
 	@include site-init-here($domain);
 
-	@include global_ad(1)
+	@include global_ad(99)
 	{
 		@include adblock($domain);
 	}
@@ -192,7 +200,7 @@
 		@include adblock($domain);
 	}
 
-	body
+	body, .modal-open
 	{
 		&, &.modal-open
 		{
