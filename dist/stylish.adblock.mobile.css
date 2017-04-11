@@ -24,12 +24,25 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
-/* sites: kocpc.com.tw, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, pixnet.net, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: kocpc.com.tw, pixnet.net, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: kocpc.com.tw */
 @-moz-document domain("kocpc.com.tw") {
 	/* line 8, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .pi-Ad-mb-stick, .adsbyso, .author-adbox, .pi-ad-mobile-tag-outer {
 		display: none !important;
+	}
+}
+
+/* site: pixnet.net */
+@-moz-document domain("pixnet.net") {
+	/* line 8, src/lib/lib.scss */
+	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .pixnet-ad, [data-source='ad_mobile_2'], .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
+		display: none !important;
+	}
+	/* line 23, src/site/blog/pixnet.net.scss */
+	.article-body, .article-body.show-summary {
+		overflow-y: auto;
+		max-height: unset;
 	}
 }
 
@@ -200,19 +213,6 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	/* line 33, src/site/news/storm.mg.scss */
 	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p {
 		font-size: 12pt;
-	}
-}
-
-/* site: pixnet.net */
-@-moz-document domain("pixnet.net") {
-	/* line 8, src/lib/lib.scss */
-	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .pixnet-ad, [data-source='ad_mobile_2'], .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
-		display: none !important;
-	}
-	/* line 23, src/site/pixnet.net.scss */
-	.article-body, .article-body.show-summary {
-		overflow-y: auto;
-		max-height: unset;
 	}
 }
 
