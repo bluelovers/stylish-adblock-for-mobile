@@ -1,0 +1,9 @@
+@-moz-document domain("mirrormedia.mg")
+{
+	@include site-init-here($domain);
+
+	.dfp-cover, .ad-container, .dfpad-set
+	{
+		@include adblock($domain);
+	}
+}
