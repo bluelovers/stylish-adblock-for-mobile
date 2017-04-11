@@ -1,0 +1,15 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("apk.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.fullbg01, .dialog01
+	{
+		@include adblock($domain);
+	}
+}
