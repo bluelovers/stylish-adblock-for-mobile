@@ -146,9 +146,17 @@
 		@content;
 	}
 
-	div[id*='compass-fit-'][visibility]
+	div[id^='compass-fit-'][visibility]
 	{
 		@content;
+	}
+
+	ins
+	{
+		&[id^='aswift_']
+		{
+			@content;
+		}
 	}
 
 	@if ($mode > 0)
