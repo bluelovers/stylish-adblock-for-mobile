@@ -170,7 +170,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* site: storm.mg */
 @-moz-document domain("storm.mg") {
 	/* line 8, src/lib/lib.scss */
-	.ad_article_block, .div-inread-ad, article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], article div[id*='gemini-ad-'], ._popIn_recommend_article_ad {
+	.ad_article_block, .div-inread-ad, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, ._popIn_recommend_article_ad {
 		display: none !important;
 	}
 	/* line 33, src/site/news/storm.mg.scss */
