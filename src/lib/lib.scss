@@ -208,3 +208,11 @@
 		}
 	}
 }
+
+@mixin content-farm-uri()
+{
+	&[href*="cocomy.net"]
+	{
+		@content;
+	}
+}

@@ -24,7 +24,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
-/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, mirrormedia.mg, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, storm.mg, pixnet.net, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: chinatimes.com */
 @-moz-document domain("chinatimes.com") {
 	/* line 8, src/lib/lib.scss */
@@ -151,11 +151,31 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
+/* site: ettoday.net */
+@-moz-document domain("ettoday.net") {
+	/* line 8, src/lib/lib.scss */
+	.adM01, .banner_970 {
+		display: none !important;
+	}
+}
+
 /* site: mirrormedia.mg */
 @-moz-document domain("mirrormedia.mg") {
 	/* line 8, src/lib/lib.scss */
 	.dfp-cover, .ad-container, .dfpad-set {
 		display: none !important;
+	}
+}
+
+/* site: storm.mg */
+@-moz-document domain("storm.mg") {
+	/* line 8, src/lib/lib.scss */
+	.ad_article_block, .div-inread-ad, article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], article div[id*='gemini-ad-'], ._popIn_recommend_article_ad {
+		display: none !important;
+	}
+	/* line 33, src/site/news/storm.mg.scss */
+	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p {
+		font-size: 12pt;
 	}
 }
 
@@ -169,18 +189,6 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	.article-body, .article-body.show-summary {
 		overflow-y: auto;
 		max-height: unset;
-	}
-}
-
-/* site: storm.mg */
-@-moz-document domain("storm.mg") {
-	/* line 8, src/lib/lib.scss */
-	.ad_article_block, .div-inread-ad, article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], article div[id*='gemini-ad-'] {
-		display: none !important;
-	}
-	/* line 28, src/site/storm.mg.scss */
-	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p {
-		font-size: 12pt;
 	}
 }
 

@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, mirrormedia.mg, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, storm.mg, pixnet.net, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
 @import "site/chinatimes.com.scss";
@@ -20,17 +20,21 @@ $domain: 'life.tw.scss';
 $domain: 'twgreatdaily.com.scss';
 @import "site/content_farm/twgreatdaily.com.scss";
 
+/* site: ettoday.net */
+$domain: 'ettoday.net.scss';
+@import "site/news/ettoday.net.scss";
+
 /* site: mirrormedia.mg */
 $domain: 'mirrormedia.mg.scss';
 @import "site/news/mirrormedia.mg.scss";
 
+/* site: storm.mg */
+$domain: 'storm.mg.scss';
+@import "site/news/storm.mg.scss";
+
 /* site: pixnet.net */
 $domain: 'pixnet.net.scss';
 @import "site/pixnet.net.scss";
-
-/* site: storm.mg */
-$domain: 'storm.mg.scss';
-@import "site/storm.mg.scss";
 
 /* site: teepr.com */
 $domain: 'teepr.com.scss';

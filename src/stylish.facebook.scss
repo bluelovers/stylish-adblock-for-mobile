@@ -144,4 +144,34 @@
 		display: block;
 	}
 
+	.fbUserContent
+	{
+		.lfloat
+		{
+			div.mbs a[target='_blank']
+			{
+				@include content-farm-uri()
+				{
+					&::before
+					{
+						//content: "此網站是內容農場！\AThis site is a content farm!";
+						//
+						//display: inline-block !important;
+						//color: #000 !important;
+						//background-color: #FF9DA9 !important;
+						//
+						//font:
+						//{
+						//	size: 8pt;
+						//};
+						//
+						//padding: 2px 3px;
+						//
+						//border-radius: 5px;
+					}
+				}
+			}
+		}
+	}
+
 }
