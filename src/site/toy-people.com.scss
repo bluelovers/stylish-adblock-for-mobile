@@ -1,0 +1,10 @@
+
+@-moz-document domain("toy-people.com")
+{
+	@include site-init-here($domain);
+
+	.fullBG
+	{
+		@include adblock($domain);
+	}
+}
