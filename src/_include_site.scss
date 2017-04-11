@@ -1,13 +1,24 @@
 // this file is auto build, don't edit this
-/* sites: ck101.com, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com */
-/* site: _all */
-$domain_all: '_all.scss';
-$domain: '_all.scss';
-@import "site/_all.scss";
+/* sites: chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, pixnet.net, storm.mg, teepr.com, thenewslens.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* site: chinatimes.com */
+$domain: 'chinatimes.com.scss';
+@import "site/chinatimes.com.scss";
 
 /* site: ck101.com */
 $domain: 'ck101.com.scss';
 @import "site/ck101.com.scss";
+
+/* site: cocomy.net */
+$domain: 'cocomy.net.scss';
+@import "site/content_farm/cocomy.net.scss";
+
+/* site: life.tw */
+$domain: 'life.tw.scss';
+@import "site/content_farm/life.tw.scss";
+
+/* site: twgreatdaily.com */
+$domain: 'twgreatdaily.com.scss';
+@import "site/content_farm/twgreatdaily.com.scss";
 
 /* site: pixnet.net */
 $domain: 'pixnet.net.scss';
