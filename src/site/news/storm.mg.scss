@@ -14,15 +14,15 @@
 			}
 		}
 
-		@include global_ad()
-		{
-			@include adblock($domain);
-		}
-
 		div[id*='div-gpt-ad-'], div[id*='google_ads_iframe']
 		{
 			@include adblock($domain);
 		}
+	}
+
+	@include global_ad(1)
+	{
+		@include adblock($domain);
 	}
 
 	._popIn_recommend_article_ad
