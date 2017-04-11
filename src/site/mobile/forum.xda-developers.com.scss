@@ -1,0 +1,15 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("forum.xda-developers.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.purchad
+	{
+		@include adblock($domain);
+	}
+}
