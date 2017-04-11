@@ -1,0 +1,15 @@
+
+@-moz-document domain("thenewslens.com")
+{
+	@include site-init-here($domain);
+
+	.ad-container-2, .ad-container, .div-onead-ad
+	{
+		@include adblock($domain);
+	}
+
+	body > .ad-btm
+	{
+		@include adblock($domain);
+	}
+}
