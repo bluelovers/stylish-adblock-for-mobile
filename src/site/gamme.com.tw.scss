@@ -1,0 +1,19 @@
+@-moz-document domain("gamme.com.tw")
+{
+	@include site-init-here($domain);
+
+	#followme_bg, .followme.fixedbg
+	{
+		@include adblock($domain);
+	}
+
+	.ad_down
+	{
+		@include adblock($domain);
+	}
+
+	.article_area1
+	{
+		margin-bottom: auto;
+	}
+}
