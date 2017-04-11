@@ -1,0 +1,36 @@
+
+@-moz-document domain("cocomy.net")
+{
+	@include site-init-here($domain);
+
+	#adModal, .promote-box, .gm-module-iframe1, .post-top-ad
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	@include media-desktop()
+	{
+		.post-html p, .post-html span
+		{
+			@include font-family-reset();
+			@include font-size-article-important($fontSizeArticle);
+		}
+	}
+
+	@include media-mobile()
+	{
+		.post-html p, .post-html span
+		{
+			@include font-size-article-important();
+		}
+	}
+
+	.post-html
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+	}
+}
+

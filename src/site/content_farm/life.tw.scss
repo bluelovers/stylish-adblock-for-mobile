@@ -1,0 +1,49 @@
+@-moz-document domain("life.tw")
+{
+	@include site-init-here($domain);
+
+	#fullblock, #fbFixedAd
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	.adnwMRectRoot
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	div[data-placementid]
+	{
+		@include adblock($domain);
+	}
+
+	@include media-desktop()
+	{
+		#content
+		{
+			@include font-family-reset();
+			@include font-size-article($fontSizeArticle);
+		}
+	}
+
+	@include media-mobile()
+	{
+		#content
+		{
+			@include font-size-article-important();
+		}
+	}
+
+	body, :root
+	{
+		overflow: auto !important;
+	}
+
+	#content
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+	}
+}
