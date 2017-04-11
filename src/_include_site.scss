@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: kocpc.com.tw, pixnet.net, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: kocpc.com.tw, pixnet.net, bnext.com.tw, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: kocpc.com.tw */
 $domain: 'kocpc.com.tw.scss';
 @import "site/blog/kocpc.com.tw.scss";
@@ -7,6 +7,10 @@ $domain: 'kocpc.com.tw.scss';
 /* site: pixnet.net */
 $domain: 'pixnet.net.scss';
 @import "site/blog/pixnet.net.scss";
+
+/* site: bnext.com.tw */
+$domain: 'bnext.com.tw.scss';
+@import "site/bnext.com.tw.scss";
 
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
