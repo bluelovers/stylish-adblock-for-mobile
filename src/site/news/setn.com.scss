@@ -1,0 +1,33 @@
+
+@-moz-document domain("setn.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad(99)
+	{
+		@include adblock($domain);
+	}
+
+	#float_ad, #newsTextAD
+	{
+		@include adblock($domain);
+	}
+
+	frame[src*='banner-mtb.dspcdn.com'], div[id*='compass-fit-'], div[visibility=true]
+	{
+		@include adblock($domain);
+	}
+
+	.bigdata-now-area, .RelateNews-now-area
+	{
+		> div
+		{
+			display: none;
+		}
+
+		> .news-area
+		{
+			display: flex;
+		}
+	}
+}

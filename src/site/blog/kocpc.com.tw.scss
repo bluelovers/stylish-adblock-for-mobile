@@ -1,0 +1,15 @@
+
+@-moz-document domain("kocpc.com.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.pi-Ad-mb-stick, .adsbyso, .author-adbox, .pi-ad-mobile-tag-outer, .pi-Ad-mb-stick
+	{
+		@include adblock($domain);
+	}
+}

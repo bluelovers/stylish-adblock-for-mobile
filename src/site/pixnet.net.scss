@@ -14,7 +14,7 @@
 		@include adblock($domain);
 	}
 
-	.pixnet-ad
+	.pixnet-ad, [data-source='ad_mobile_2']
 	{
 		@include adblock($domain);
 	}
