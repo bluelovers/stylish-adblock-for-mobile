@@ -1,8 +1,12 @@
 // this file is auto build, don't edit this
-/* sites: kocpc.com.tw, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, pixnet.net, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: kocpc.com.tw, pixnet.net, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
 /* site: kocpc.com.tw */
 $domain: 'kocpc.com.tw.scss';
 @import "site/blog/kocpc.com.tw.scss";
+
+/* site: pixnet.net */
+$domain: 'pixnet.net.scss';
+@import "site/blog/pixnet.net.scss";
 
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
@@ -39,10 +43,6 @@ $domain: 'setn.com.scss';
 /* site: storm.mg */
 $domain: 'storm.mg.scss';
 @import "site/news/storm.mg.scss";
-
-/* site: pixnet.net */
-$domain: 'pixnet.net.scss';
-@import "site/pixnet.net.scss";
 
 /* site: teepr.com */
 $domain: 'teepr.com.scss';
