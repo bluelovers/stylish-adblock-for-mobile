@@ -1,0 +1,36 @@
+
+@-moz-document domain("mobi.yahoo.com")
+{
+
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.big-ad-banner
+	{
+		@include adblock($domain);
+	}
+
+	#atomic .Fz\(2rem\)
+	{
+		font-size: 1.5rem;
+	}
+
+	// https://tw.mobi.yahoo.com/movies
+	#Stream
+	{
+		> .Bd-b, > .Bxz\(bb\), > .Bgc\(#fffae8\)
+		{
+			@include adblock($domain);
+		}
+	}
+
+	#pencil-ad
+	{
+		@include adblock($domain);
+	}
+
+}

@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("m.dmzj.com")
+{
+	@include site-init-here($domain);
+
+	#divAD
+	{
+		@include adblock($domain);
+	}
+}
