@@ -1,0 +1,66 @@
+// 內容農場專用暴力樣式
+@-moz-document
+	domain("twgreatdaily.com")
+{
+
+	@include site-init-here($domain);
+
+	#fbModel, .modal-backdrop
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	.adsDiv, .adsTipDiv, .adsTip
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	div[id*='ypaAdWrapper']
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	.snippet
+	{
+		&.gemini-loaded
+		{
+			@include adblock($domain_content_farm);
+		}
+	}
+
+	div.visible-xs
+	{
+		@include adblock($domain);
+	}
+
+	@include media-desktop()
+	{
+		#article-body
+		{
+			@include font-family-reset();
+			@include font-size-article($fontSizeArticle);
+		}
+	}
+
+	@include media-mobile()
+	{
+		#article-body
+		{
+			@include font-size-article-important();
+		}
+	}
+
+	#article-body
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+
+		#article-content
+		{
+			margin: 10px auto;
+		}
+	}
+
+}
