@@ -19,6 +19,9 @@
 //	@include site-elem-extend($domain, 'test');
 //}
 
+$domain_all: '_include_all.scss';
+$domain: '_include_all.scss';
+
 @include site-init-here($domain);
 
 article
