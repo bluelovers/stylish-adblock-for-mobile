@@ -25,6 +25,11 @@
 		}
 	}
 
+	._popIn_recommend_article_ad
+	{
+		@include adblock($domain);
+	}
+
 	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p
 	{
 		@include font-size-article();
