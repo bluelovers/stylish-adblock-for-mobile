@@ -1,0 +1,8 @@
+
+/* content_farm */
+$domain_content_farm: 'content_farm';
+$domain: 'content_farm';
+@-moz-document domain("cocomy.net"), domain("life.tw"), domain("twgreatdaily.com")
+{
+	@include content-farm-include($domain);
+}
