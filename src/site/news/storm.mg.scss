@@ -20,12 +20,12 @@
 		}
 	}
 
-	@include global_ad(1)
+	@include global_ad(6)
 	{
 		@include adblock($domain);
 	}
 
-	._popIn_recommend_article_ad
+	._popIn_recommend_article_ad, a[href*='ssp.tenmax.io']
 	{
 		@include adblock($domain);
 	}

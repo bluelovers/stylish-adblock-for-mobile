@@ -15,10 +15,10 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* content_farm */
 @-moz-document domain("cocomy.net"), domain("life.tw"), domain("twgreatdaily.com") {
 	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #fullblock, #fbFixedAd, .adnwMRectRoot, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #fullblock, #fbFixedAd, .adnwMRectRoot, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
 		display: none !important;
 	}
-	/* line 205, src/lib/lib.scss */
+	/* line 213, src/lib/lib.scss */
 	body, body.modal-open, .modal-open, .modal-open.modal-open {
 		overflow: auto !important;
 	}
@@ -170,7 +170,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* site: storm.mg */
 @-moz-document domain("storm.mg") {
 	/* line 8, src/lib/lib.scss */
-	.ad_article_block, .div-inread-ad, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, ._popIn_recommend_article_ad {
+	.ad_article_block, .div-inread-ad, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], .gemini-loaded, a[href*='ssp.tenmax.io'], ._popIn_recommend_article_ad {
 		display: none !important;
 	}
 	/* line 33, src/site/news/storm.mg.scss */
