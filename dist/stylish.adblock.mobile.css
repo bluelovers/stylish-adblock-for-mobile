@@ -8,27 +8,35 @@
 */
 /* i really want this to be global */
 /* line 8, src/lib/lib.scss */
-article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], article div[id*='gemini-ad-'], article div[id*='compass-fit-'][visibility] {
+article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], article div[id*='gemini-ad-'], article a[href*='beap.gemini.yahoo.com'], article div[id*='compass-fit-'][visibility] {
 	display: none !important;
 }
 
 /* content_farm */
 @-moz-document domain("cocomy.net"), domain("life.tw"), domain("twgreatdaily.com") {
 	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #fullblock, #fbFixedAd, .adnwMRectRoot, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe, #fullblock, #fbFixedAd, .adnwMRectRoot, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
 		display: none !important;
 	}
-	/* line 218, src/lib/lib.scss */
+	/* line 223, src/lib/lib.scss */
 	body, body.modal-open, .modal-open, .modal-open.modal-open {
 		overflow: auto !important;
 	}
 }
 
-/* sites: kocpc.com.tw, pixnet.net, bnext.com.tw, chinatimes.com, ck101.com, cocomy.net, life.tw, twgreatdaily.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, teepr.com, thenewslens.com, toy-people.com, udn.com, userstyles.org, wetalk.tw, yahoo.com ... and others.*/
+/* sites: touch.pixiv.net, kocpc.com.tw, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, cocomy.net, life.tw, twgreatdaily.com, gamme.com.tw, my-formosa.com, chinatimes.com, ettoday.net, mirrormedia.mg, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+/* site: touch.pixiv.net */
+@-moz-document domain("touch.pixiv.net") {
+	/* line 8, src/lib/lib.scss */
+	#geniee_overlay {
+		display: none !important;
+	}
+}
+
 /* site: kocpc.com.tw */
 @-moz-document domain("kocpc.com.tw") {
 	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .pi-Ad-mb-stick, .adsbyso, .author-adbox, .pi-ad-mobile-tag-outer {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .pi-Ad-mb-stick, .adsbyso, .author-adbox, .pi-ad-mobile-tag-outer {
 		display: none !important;
 	}
 }
@@ -36,7 +44,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* site: pixnet.net */
 @-moz-document domain("pixnet.net") {
 	/* line 8, src/lib/lib.scss */
-	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .pixnet-ad, [data-source='ad_mobile_2'], .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
+	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .pixnet-ad, [data-source='ad_mobile_2'], .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
 		display: none !important;
 	}
 	/* line 23, src/site/blog/pixnet.net.scss */
@@ -49,15 +57,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* site: bnext.com.tw */
 @-moz-document domain("bnext.com.tw") {
 	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .ad-pixfs, .ad_box, #oneadIRMIRTag, .is_ads {
-		display: none !important;
-	}
-}
-
-/* site: chinatimes.com */
-@-moz-document domain("chinatimes.com") {
-	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], div[id*='pagead'], .ad_rwd_dfp, div[class*='rwd_ad'] {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .ad-pixfs, .ad_box, #oneadIRMIRTag, .is_ads {
 		display: none !important;
 	}
 }
@@ -71,22 +71,46 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
+/* site: m.dm5.com */
+@-moz-document domain("m.dm5.com") {
+	/* line 8, src/lib/lib.scss */
+	.adform_1, .adform_2, div[class$='baseUrl'][id$='baseUrl'] {
+		display: none !important;
+	}
+}
+
+/* site: m.dmzj.com */
+@-moz-document domain("m.dmzj.com") {
+	/* line 8, src/lib/lib.scss */
+	#divAD {
+		display: none !important;
+	}
+}
+
 /* site: cocomy.net */
-@-moz-document domain("cocomy.net") {
+@-moz-document domain("cocomy.net"), domain("coco01.net") {
+	/* line 8, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe {
+		display: none !important;
+	}
+	/* line 223, src/lib/lib.scss */
+	body, body.modal-open, .modal-open, .modal-open.modal-open {
+		overflow: auto !important;
+	}
 	@media (min-width: 766px) and (orientation: landscape) {
-		/* line 13, src/site/content_farm/cocomy.net.scss */
+		/* line 16, src/site/content_farm/cocomy.net.scss */
 		.post-html p, .post-html span {
 			font-family: Helvetica, Arial, "LiHei Pro", "新細明體", PMingLiU, sans-serif;
 			font-size: 9pt !important;
 		}
 	}
 	@media (max-width: 766px), (orientation: portrait) {
-		/* line 22, src/site/content_farm/cocomy.net.scss */
+		/* line 25, src/site/content_farm/cocomy.net.scss */
 		.post-html p, .post-html span {
 			font-size: 12pt !important;
 		}
 	}
-	/* line 30, src/site/content_farm/cocomy.net.scss */
+	/* line 33, src/site/content_farm/cocomy.net.scss */
 	.post-html::after, .post-html::before {
 		content: "此網站是內容農場！\AThis site is a content farm!";
 		font-size: 16pt;
@@ -180,6 +204,34 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
+/* site: gamme.com.tw */
+@-moz-document domain("gamme.com.tw") {
+	/* line 8, src/lib/lib.scss */
+	#followme_bg, .followme.fixedbg, .ad_down {
+		display: none !important;
+	}
+	/* line 15, src/site/gamme.com.tw.scss */
+	.article_area1 {
+		margin-bottom: auto;
+	}
+}
+
+/* site: my-formosa.com */
+@-moz-document domain("my-formosa.com") {
+	/* line 8, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility] {
+		display: none !important;
+	}
+}
+
+/* site: chinatimes.com */
+@-moz-document domain("chinatimes.com") {
+	/* line 8, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], div[id*='pagead'], .ad_rwd_dfp, div[class*='rwd_ad'] {
+		display: none !important;
+	}
+}
+
 /* site: ettoday.net */
 @-moz-document domain("ettoday.net") {
 	/* line 8, src/lib/lib.scss */
@@ -199,7 +251,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* site: setn.com */
 @-moz-document domain("setn.com") {
 	/* line 8, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], #float_ad, #newsTextAD, frame[src*='banner-mtb.dspcdn.com'], div[id*='compass-fit-'], div[visibility=true] {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], #float_ad, #newsTextAD, frame[src*='banner-mtb.dspcdn.com'], div[id*='compass-fit-'], div[visibility=true] {
 		display: none !important;
 	}
 	/* line 23, src/site/news/setn.com.scss */
@@ -215,12 +267,54 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 /* site: storm.mg */
 @-moz-document domain("storm.mg") {
 	/* line 8, src/lib/lib.scss */
-	.ad_article_block, .div-inread-ad, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], ._popIn_recommend_article_ad {
+	.ad_article_block, .div-inread-ad, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .gemini-loaded, a[href*='ssp.tenmax.io'], ._popIn_recommend_article_ad {
 		display: none !important;
 	}
 	/* line 33, src/site/news/storm.mg.scss */
 	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p {
 		font-size: 12pt;
+	}
+}
+
+/* site: thenewslens.com */
+@-moz-document domain("thenewslens.com") {
+	/* line 8, src/lib/lib.scss */
+	.ad-container-2, .ad-container, .div-onead-ad, body > .ad-btm {
+		display: none !important;
+	}
+}
+
+/* site: udn.com */
+@-moz-document domain("udn.com") {
+	/* line 8, src/lib/lib.scss */
+	#mm-blocker, #threemin, .only_mobile, .only_web, #google_ad, #simplemodal-container, .simplemodal-overlay, .simplemodal-container {
+		display: none !important;
+	}
+	@media (min-width: 766px) and (orientation: landscape) {
+		/* line 26, src/site/news/udn.com.scss */
+		#story_body, html, body {
+			font-family: Helvetica, Arial, "LiHei Pro", "新細明體", PMingLiU, sans-serif;
+			font-size: 9pt;
+		}
+	}
+	@media (max-width: 766px), (orientation: portrait) {
+		/* line 16, src/lib/lib.scss */
+		#story_body, .subject_news .story, #summary, .subjcet_news .story, .subject_news .story p {
+			_: unset;
+			font-size: 12pt !important;
+		}
+	}
+}
+
+/* site: ourstarsky.com */
+@-moz-document domain("ourstarsky.com") {
+	/* line 8, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], #likeBox {
+		display: none !important;
+	}
+	/* line 17, src/site/ourstarsky.com.scss */
+	.fabox {
+		background: transparent;
 	}
 }
 
@@ -243,14 +337,6 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
-/* site: thenewslens.com */
-@-moz-document domain("thenewslens.com") {
-	/* line 8, src/lib/lib.scss */
-	.ad-container-2, .ad-container, .div-onead-ad, body > .ad-btm {
-		display: none !important;
-	}
-}
-
 /* site: toy-people.com */
 @-moz-document domain("toy-people.com") {
 	/* line 8, src/lib/lib.scss */
@@ -259,32 +345,10 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
-/* site: udn.com */
-@-moz-document domain("udn.com") {
-	/* line 8, src/lib/lib.scss */
-	#mm-blocker, #threemin, .only_mobile, .only_web, #google_ad, #simplemodal-container, .simplemodal-overlay, .simplemodal-container {
-		display: none !important;
-	}
-	@media (min-width: 766px) and (orientation: landscape) {
-		/* line 26, src/site/udn.com.scss */
-		#story_body, html, body {
-			font-family: Helvetica, Arial, "LiHei Pro", "新細明體", PMingLiU, sans-serif;
-			font-size: 9pt;
-		}
-	}
-	@media (max-width: 766px), (orientation: portrait) {
-		/* line 16, src/lib/lib.scss */
-		#story_body, .subject_news .story, #summary, .subjcet_news .story, .subject_news .story p {
-			_: unset;
-			font-size: 12pt !important;
-		}
-	}
-}
-
 /* site: userstyles.org */
 @-moz-document domain("userstyles.org") {
 	/* line 8, src/lib/lib.scss */
-	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon, #style-info div[id*='div-gpt-ad-'], #style-info div[id*='google_ads_iframe'], #style-info div[id*='gemini-ad-'], #style-info div[id*='compass-fit-'][visibility] {
+	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon, #style-info div[id*='div-gpt-ad-'], #style-info div[id*='google_ads_iframe'], #style-info div[id*='gemini-ad-'], #style-info a[href*='beap.gemini.yahoo.com'], #style-info div[id*='compass-fit-'][visibility] {
 		display: none !important;
 	}
 	/* line 14, src/site/userstyles.org.scss */
@@ -317,13 +381,21 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article div
 	}
 }
 
+/* site: answers.yahoo.com */
+@-moz-document domain("answers.yahoo.com") {
+	/* line 8, src/lib/lib.scss */
+	div[id^='dmRosAdWrapper-'] {
+		display: none !important;
+	}
+}
+
 /* site: yahoo.com */
 @-moz-document domain("mobi.yahoo.com") {
 	/* line 8, src/lib/lib.scss */
-	.big-ad-banner {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], div[id*='gemini-ad-'], a[href*='beap.gemini.yahoo.com'], div[id*='compass-fit-'][visibility], .big-ad-banner, #Stream > .Bd-b, #Stream > .Bxz\(bb\), #Stream > .Bgc\(#fffae8\), #pencil-ad {
 		display: none !important;
 	}
-	/* line 12, src/site/yahoo.com.scss */
+	/* line 17, src/site/yahoo/yahoo.com.scss */
 	#atomic .Fz\(2rem\) {
 		font-size: 1.5rem;
 	}
