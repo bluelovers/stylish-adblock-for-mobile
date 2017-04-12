@@ -130,29 +130,28 @@
 		@content;
 	}
 
-	div[id*='div-gpt-ad-'], div[id*='google_ads_iframe']
-	{
-		@content;
-	}
-
-	// yahoo gemini ad
-	div[id*='gemini-ad-']
-	{
-		@content;
-	}
-
 	a[href*='beap.gemini.yahoo.com']
 	{
 		@content;
 	}
 
-	div[id^='compass-fit-'][visibility]
+	div, li, ins, frame
 	{
-		@content;
-	}
+		&[id*='div-gpt-ad-'], &[id*='google_ads_iframe']
+		{
+			@content;
+		}
 
-	ins
-	{
+		&[id*='gemini-ad-']
+		{
+			@content;
+		}
+
+		&[id^='compass-fit-'][visibility]
+		{
+			@content;
+		}
+
 		&[id^='aswift_']
 		{
 			@content;
