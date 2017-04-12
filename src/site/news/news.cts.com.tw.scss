@@ -1,0 +1,12 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("news.cts.com.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad(1)
+	{
+		@include adblock($domain);
+	}
+
+
+}
