@@ -1,0 +1,15 @@
+// Created by USER on 2017/4/12.
+@-moz-document domain("m.ltn.com.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad(1)
+	{
+		@include adblock($domain);
+	}
+
+	#door-bottom, .mobile-inread
+	{
+		@include adblock($domain);
+	}
+}
