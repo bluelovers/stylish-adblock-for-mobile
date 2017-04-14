@@ -1,0 +1,9 @@
+/* _include_blog */
+$domain_include_blog: '_include_blog';
+$domain: '_include_blog';
+@-moz-document domain("kocpc.com.tw"), domain("pixnet.net")
+{
+	@include site-init-here($domain, $domain_include_blog);
+	
+	@import "../include/_include_blog.scss";
+}
