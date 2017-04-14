@@ -7,24 +7,24 @@
 
 	#fbModel, .modal-backdrop
 	{
-		@include adblock($domain_content_farm);
+		@include adblock($domain_include_content_farm);
 	}
 
 	.adsDiv, .adsTipDiv, .adsTip
 	{
-		@include adblock($domain_content_farm);
+		@include adblock($domain_include_content_farm);
 	}
 
 	div[id*='ypaAdWrapper']
 	{
-		@include adblock($domain_content_farm);
+		@include adblock($domain_include_content_farm);
 	}
 
 	.snippet
 	{
 		&.gemini-loaded
 		{
-			@include adblock($domain_content_farm);
+			@include adblock($domain_include_content_farm);
 		}
 	}
 
