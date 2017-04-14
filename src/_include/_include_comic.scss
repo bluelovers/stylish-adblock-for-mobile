@@ -1,0 +1,9 @@
+/* _include_comic */
+$domain_include_comic: '_include_comic';
+$domain: '_include_comic';
+@-moz-document domain("m.dm5.com"), domain("m.dmzj.com")
+{
+	@include site-init-here($domain, $domain_include_comic);
+	
+	@import "../include/_include_comic.scss";
+}
