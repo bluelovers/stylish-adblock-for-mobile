@@ -8,7 +8,7 @@
 	#adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe
 	{
 		@include adblock($domain);
-		@include adblock($domain_content_farm);
+		@include adblock($domain_include_content_farm);
 	}
 
 	@include media-desktop()

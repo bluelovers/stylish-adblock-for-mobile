@@ -1,133 +1,191 @@
 // this file is auto build, don't edit this
 /* sites: touch.pixiv.net, kocpc.com.tw, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, chinatimes.com, ettoday.net, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+$domain: '_alldomain';
+@import "_include/_alldomain.scss";
+
+$domain: '_include_art';
+@import "_include/_include_art.scss";
+
+$domain: '_include_blog';
+@import "_include/_include_blog.scss";
+
+$domain: '_include_comic';
+@import "_include/_include_comic.scss";
+
+$domain: '_include_content_farm';
+@import "_include/_include_content_farm.scss";
+
+$domain: '_include_mobile';
+@import "_include/_include_mobile.scss";
+
+$domain: '_include_news';
+@import "_include/_include_news.scss";
+
+$domain: '_include_yahoo';
+@import "_include/_include_yahoo.scss";
+
+
+/* dirkey: art */
 /* site: touch.pixiv.net */
 $domain: 'touch.pixiv.net.scss';
 @import "site/art/touch.pixiv.net.scss";
 
+/* dirkey: blog */
 /* site: kocpc.com.tw */
 $domain: 'kocpc.com.tw.scss';
 @import "site/blog/kocpc.com.tw.scss";
 
+/* dirkey: blog */
 /* site: pixnet.net */
 $domain: 'pixnet.net.scss';
 @import "site/blog/pixnet.net.scss";
 
+/* dirkey:  */
 /* site: bnext.com.tw */
 $domain: 'bnext.com.tw.scss';
 @import "site/bnext.com.tw.scss";
 
+/* dirkey:  */
 /* site: ck101.com */
 $domain: 'ck101.com.scss';
 @import "site/ck101.com.scss";
 
+/* dirkey: comic */
 /* site: m.dm5.com */
 $domain: 'm.dm5.com.scss';
 @import "site/comic/m.dm5.com.scss";
 
+/* dirkey: comic */
 /* site: m.dmzj.com */
 $domain: 'm.dmzj.com.scss';
 @import "site/comic/m.dmzj.com.scss";
 
+/* dirkey: content_farm */
 /* site: cocomy.net */
 $domain: 'cocomy.net.scss';
 @import "site/content_farm/cocomy.net.scss";
 
+/* dirkey: content_farm */
 /* site: ispot.news */
 $domain: 'ispot.news.scss';
 @import "site/content_farm/ispot.news.scss";
 
+/* dirkey: content_farm */
 /* site: life.tw */
 $domain: 'life.tw.scss';
 @import "site/content_farm/life.tw.scss";
 
+/* dirkey: content_farm */
 /* site: pixpo.net */
 $domain: 'pixpo.net.scss';
 @import "site/content_farm/pixpo.net.scss";
 
+/* dirkey: content_farm */
 /* site: twgreatdaily.com */
 $domain: 'twgreatdaily.com.scss';
 @import "site/content_farm/twgreatdaily.com.scss";
 
+/* dirkey:  */
 /* site: gamme.com.tw */
 $domain: 'gamme.com.tw.scss';
 @import "site/gamme.com.tw.scss";
 
+/* dirkey: mobile */
 /* site: apk.tw */
 $domain: 'apk.tw.scss';
 @import "site/mobile/apk.tw.scss";
 
+/* dirkey: mobile */
 /* site: forum.xda-developers.com */
 $domain: 'forum.xda-developers.com.scss';
 @import "site/mobile/forum.xda-developers.com.scss";
 
+/* dirkey:  */
 /* site: my-formosa.com */
 $domain: 'my-formosa.com.scss';
 @import "site/my-formosa.com.scss";
 
+/* dirkey: news */
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
 @import "site/news/chinatimes.com.scss";
 
+/* dirkey: news */
 /* site: ettoday.net */
 $domain: 'ettoday.net.scss';
 @import "site/news/ettoday.net.scss";
 
+/* dirkey: news */
 /* site: m.ltn.com.tw */
 $domain: 'm.ltn.com.tw.scss';
 @import "site/news/m.ltn.com.tw.scss";
 
+/* dirkey: news */
 /* site: mirrormedia.mg */
 $domain: 'mirrormedia.mg.scss';
 @import "site/news/mirrormedia.mg.scss";
 
+/* dirkey: news */
 /* site: news.cts.com.tw */
 $domain: 'news.cts.com.tw.scss';
 @import "site/news/news.cts.com.tw.scss";
 
+/* dirkey: news */
 /* site: news.sina.com.tw */
 $domain: 'news.sina.com.tw.scss';
 @import "site/news/news.sina.com.tw.scss";
 
+/* dirkey: news */
 /* site: setn.com */
 $domain: 'setn.com.scss';
 @import "site/news/setn.com.scss";
 
+/* dirkey: news */
 /* site: storm.mg */
 $domain: 'storm.mg.scss';
 @import "site/news/storm.mg.scss";
 
+/* dirkey: news */
 /* site: thenewslens.com */
 $domain: 'thenewslens.com.scss';
 @import "site/news/thenewslens.com.scss";
 
+/* dirkey: news */
 /* site: udn.com */
 $domain: 'udn.com.scss';
 @import "site/news/udn.com.scss";
 
+/* dirkey:  */
 /* site: ourstarsky.com */
 $domain: 'ourstarsky.com.scss';
 @import "site/ourstarsky.com.scss";
 
+/* dirkey:  */
 /* site: teepr.com */
 $domain: 'teepr.com.scss';
 @import "site/teepr.com.scss";
 
+/* dirkey:  */
 /* site: toy-people.com */
 $domain: 'toy-people.com.scss';
 @import "site/toy-people.com.scss";
 
+/* dirkey:  */
 /* site: userstyles.org */
 $domain: 'userstyles.org.scss';
 @import "site/userstyles.org.scss";
 
+/* dirkey:  */
 /* site: wetalk.tw */
 $domain: 'wetalk.tw.scss';
 @import "site/wetalk.tw.scss";
 
+/* dirkey: yahoo */
 /* site: answers.yahoo.com */
 $domain: 'answers.yahoo.com.scss';
 @import "site/yahoo/answers.yahoo.com.scss";
 
+/* dirkey: yahoo */
 /* site: yahoo.com */
 $domain: 'yahoo.com.scss';
 @import "site/yahoo/yahoo.com.scss";
