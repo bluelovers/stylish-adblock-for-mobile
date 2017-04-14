@@ -1,0 +1,18 @@
+// Created by USER on 2017/4/14.
+@-moz-document domain("ispot.news")
+{
+	@include site-init-here($domain);
+
+	.ui_adblock
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	#detailMain
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+	}
+}

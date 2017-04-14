@@ -1,0 +1,23 @@
+// Created by USER on 2017/4/14.
+@-moz-document domain("pixpo.net")
+{
+	@include site-init-here($domain);
+
+	.detail_fixedad, #win_like, #win_like_mask
+	{
+		@include adblock($domain_content_farm);
+	}
+
+	.dialog_mask
+	{
+		@include adblock($domain);
+	}
+
+	#detailMain
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+	}
+}
