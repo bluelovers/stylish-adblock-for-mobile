@@ -16,40 +16,42 @@
 	._5pbx span.text_exposed_link,
 	._1ht6, ._1htf, .__i_, ._4sp8, ._s15,
 	._36bx ._1mwp._17nh, ._30oa ._2mcl,
-	._5778 ._51cp {
+	._5778 ._51cp,
+	._5i6, ._14ws, ._1cp2, ._4h98,
+	._3q3r ._1twx, ._4-i0 ._52c9, ._1xmb {
 		font-size: 1rem;
 	}
-	/* line 44, src/stylish.facebook.scss */
+	/* line 48, src/stylish.facebook.scss */
 	html, body, :root {
 		font-size: 10pt;
 	}
-	/* line 49, src/stylish.facebook.scss */
+	/* line 53, src/stylish.facebook.scss */
 	._5v3q ._5pbx p {
 		margin: 0.75em 0 0;
 	}
-	/* line 54, src/stylish.facebook.scss */
+	/* line 58, src/stylish.facebook.scss */
 	._5v3q ._5pbx p, ._5v3q ._5pbx .text_exposed_show p:first-child, ._5v3q ._5pbx .text_exposed_root > p:last-of-type {
 		margin-top: 0.75em;
 	}
-	/* line 59, src/stylish.facebook.scss */
+	/* line 63, src/stylish.facebook.scss */
 	._5v3q ._5pbx > p:last-of-type, ._5v3q ._5pbx .text_exposed > p:first-child {
 		display: inline-block;
 	}
-	/* line 64, src/stylish.facebook.scss */
+	/* line 68, src/stylish.facebook.scss */
 	._5v3q ._5pbx .text_exposed_root > p:last-of-type {
 		display: block;
 	}
-	/* line 69, src/stylish.facebook.scss */
+	/* line 73, src/stylish.facebook.scss */
 	.fbxWelcomeBoxImg, ._rw, .UFIActorImage, ._55lt img, .tickerStoryImage, .webMessengerMessageGroup ._8o .img, .anchorContainer ._33h._8o.img, .anchorContainer ._12u1.img, img._54ru, ._8o .img {
 		border-radius: 100% !important;
 		-webkit-transition: border-radius .20s ease-in-out;
 		transition: border-radius .20s ease-in-out;
 	}
-	/* line 78, src/stylish.facebook.scss */
+	/* line 82, src/stylish.facebook.scss */
 	.fbxWelcomeBoxImg:hover, ._rw:hover, .ego_unit:hover ._rw, ._5x46:hover ._rw, .UFIActorImage:hover, ._55lt img:hover, .pvs:hover ._55lt img, .messagesContent:hover ._55lt img, .tickerStoryImage:hover, .webMessengerMessageGroup:hover ._8o .img, .UFIRow.UFIComment:hover .UFIActorImage, .tickerStoryBlock:hover .tickerStoryImage, .anchorContainer ._33h._8o.img:hover, .anchorContainer:hover ._33h._8o.img, .anchorContainer:hover ._12u1.img, ._5r69:hover img._54ru, ._8o:hover .img {
 		border-radius: 5% !important;
 	}
-	/* line 83, src/stylish.facebook.scss */
+	/* line 87, src/stylish.facebook.scss */
 	.fbxWelcomeBoxBlock:after, #blueBar:after, .UFIImageBlockImage:after, ._5v9u:after, ._4o04 {
 		display: none !important;
 	}
@@ -59,42 +61,42 @@
 		border: 0 !important;
 	}
 	*/
-	/* line 95, src/stylish.facebook.scss */
+	/* line 99, src/stylish.facebook.scss */
 	.uiScaledImageContainer, ._4-u3._2ph_ ._5ks5._3-9a {
 		border: 1px solid transparent;
 	}
-	/* line 100, src/stylish.facebook.scss */
+	/* line 104, src/stylish.facebook.scss */
 	._4-u2, .uiScaledImageContainer, ._2yq ._4-u2.mbm::before, ._4-u3._2ph_ ._5ks5._3-9a {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 	}
-	/* line 108, src/stylish.facebook.scss */
+	/* line 112, src/stylish.facebook.scss */
 	._4-u2:hover, ._2a2r:hover .uiScaledImageContainer, ._2yq ._4-u2.mbm:hover::before, ._4-u3._2ph_ ._5ks5._3-9a:hover {
 		border-color: #5782DA;
 	}
-	/* line 113, src/stylish.facebook.scss */
+	/* line 117, src/stylish.facebook.scss */
 	.uiScrollableArea.ticker_container {
 		height: 500px !important;
 	}
-	/* line 118, src/stylish.facebook.scss */
+	/* line 122, src/stylish.facebook.scss */
 	.fbChatSidebar #pagelet_ticker {
 		height: 75% !important;
 	}
-	/* line 123, src/stylish.facebook.scss */
+	/* line 127, src/stylish.facebook.scss */
 	.fbChatSidebar #pagelet_ticker .uiScrollableArea.ticker_container {
 		height: 100% !important;
 	}
-	/* line 128, src/stylish.facebook.scss */
+	/* line 132, src/stylish.facebook.scss */
 	._5bl2 .highlightNode {
 		background-color: rgba(42, 239, 231, 0.4);
 	}
-	/* line 133, src/stylish.facebook.scss */
+	/* line 137, src/stylish.facebook.scss */
 	.stageWrapper.lfloat #snowliftStageActions {
 		-webkit-transition: display .20s ease-in-out;
 		transition: display .20s ease-in-out;
 		display: none;
 	}
-	/* line 142, src/stylish.facebook.scss */
+	/* line 146, src/stylish.facebook.scss */
 	.stageWrapper.lfloat:hover #snowliftStageActions {
 		display: block;
 	}

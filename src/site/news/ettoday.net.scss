@@ -6,4 +6,9 @@
 	{
 		@include adblock($domain);
 	}
+
+	.adult-box
+	{
+		@include adblock($domain);
+	}
 }
