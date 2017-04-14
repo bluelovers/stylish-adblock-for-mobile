@@ -4,12 +4,12 @@
 
 	#fullblock, #fbFixedAd
 	{
-		@include adblock($domain_content_farm);
+		@include adblock($domain_include_content_farm);
 	}
 
 	.adnwMRectRoot
 	{
-		@include adblock($domain_content_farm);
+		@include adblock($domain_include_content_farm);
 	}
 
 	div[data-placementid]
