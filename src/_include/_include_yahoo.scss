@@ -1,0 +1,9 @@
+/* _include_yahoo */
+$domain_include_yahoo: '_include_yahoo';
+$domain: '_include_yahoo';
+@-moz-document domain("answers.yahoo.com"), domain("yahoo.com")
+{
+	@include site-init-here($domain, $domain_include_yahoo);
+	
+	@import "../include/_include_yahoo.scss";
+}
