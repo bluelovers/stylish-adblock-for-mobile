@@ -1,0 +1,9 @@
+/* _include_mobile */
+$domain_include_mobile: '_include_mobile';
+$domain: '_include_mobile';
+@-moz-document domain("apk.tw"), domain("forum.xda-developers.com")
+{
+	@include site-init-here($domain, $domain_include_mobile);
+	
+	@import "../include/_include_mobile.scss";
+}
