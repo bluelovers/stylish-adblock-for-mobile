@@ -3,11 +3,18 @@
 @import "var.scss";
 
 // mulit @media domain selector @extend, make it only @extend on its @media block
-@mixin site-init-here($domain)
+@mixin site-init-here($domain, $dirkey: '')
 {
-	%ad_#{$domain}
+	@if ($dirkey == '_include_content_farm')
 	{
-		@include display-important(none);
+		@include content-farm-include($dirkey);
+	}
+	@else
+	{
+		%ad_#{$domain}
+		{
+			@include display-important(none);
+		}
 	}
 }
 
