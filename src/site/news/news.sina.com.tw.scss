@@ -1,0 +1,20 @@
+// Created by USER on 2017/4/15.
+@-moz-document domain("news.sina.com.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad(99)
+	{
+		@include adblock($domain);
+	}
+
+	#ad_iframe_background, #ad_iframe_area, #fix_bottom
+	{
+		@include adblock($domain);
+	}
+
+	body, :root
+	{
+		overflow: auto !important;
+	}
+}
