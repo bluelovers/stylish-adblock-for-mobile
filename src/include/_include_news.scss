@@ -1,0 +1,4 @@
+@include global_ad(99)
+{
+	@include adblock($domain);
+}
