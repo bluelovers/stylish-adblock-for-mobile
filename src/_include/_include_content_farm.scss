@@ -1,7 +1,7 @@
 /* _include_content_farm */
 $domain_include_content_farm: '_include_content_farm';
 $domain: '_include_content_farm';
-@-moz-document domain("cocomy.net"), domain("ispot.news"), domain("life.tw"), domain("pixpo.net"), domain("twgreatdaily.com")
+@-moz-document domain("bee101.com"), domain("cocomy.net"), domain("ispot.news"), domain("life.tw"), domain("pixpo.net"), domain("twgreatdaily.com")
 {
 	@include site-init-here($domain, $domain_include_content_farm);
 	
