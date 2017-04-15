@@ -95,7 +95,7 @@ module.exports = (cb) =>
 \n`;
 		}
 
-		console.log(scache);
+		//console.log(scache);
 
 		let data2 = '';
 

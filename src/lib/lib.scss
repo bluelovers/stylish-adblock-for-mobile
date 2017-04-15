@@ -164,6 +164,11 @@
 			@content;
 		}
 
+		&[id^='ypaAdWrapper-']
+		{
+			@content;
+		}
+
 		.gemini-loaded
 		{
 			@content;
