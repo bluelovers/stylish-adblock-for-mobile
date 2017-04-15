@@ -1,0 +1,16 @@
+// Created by USER on 2017/4/15.
+@-moz-document domain("bee101.com")
+{
+	#popad, .ads_bottom, .ads, .ads_fixed, .pagead, #modal-likebox
+	{
+		@include adblock($domain_include_content_farm);
+	}
+
+	.mainContent
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+	}
+}
