@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: touch.pixiv.net, kocpc.com.tw, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, chinatimes.com, ettoday.net, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+/* sites: touch.pixiv.net, kocpc.com.tw, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, chinatimes.com, ettoday.net, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
 $domain: '_alldomain';
 @import "_include/_alldomain.scss";
 
@@ -109,6 +109,11 @@ $domain: 'forum.xda-developers.com.scss';
 /* site: my-formosa.com */
 $domain: 'my-formosa.com.scss';
 @import "site/my-formosa.com.scss";
+
+/* dirkey: news */
+/* site: appledaily.com.tw */
+$domain: 'appledaily.com.tw.scss';
+@import "site/news/appledaily.com.tw.scss";
 
 /* dirkey: news */
 /* site: chinatimes.com */
