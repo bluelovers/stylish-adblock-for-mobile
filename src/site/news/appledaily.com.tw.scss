@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/15.
+@-moz-document domain("appledaily.com.tw")
+{
+	@include site-init-here($domain);
+
+	.fancybox-wrap, .fancybox-overlay
+	{
+		@include adblock($domain);
+	}
+}
