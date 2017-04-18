@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/15.
+@-moz-document domain("kairos.news")
+{
+	@include site-init-here($domain);
+
+	#ppsPopupBgOverlay, .ppsPopupFbLikeShell
+	{
+		@include adblock($domain);
+	}
+}
