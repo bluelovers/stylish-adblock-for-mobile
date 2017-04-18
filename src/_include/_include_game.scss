@@ -1,0 +1,9 @@
+/* _include_game */
+$domain_include_game: '_include_game';
+$domain: '_include_game';
+@-moz-document domain("qoolquiz.com"), domain("vonvon.me")
+{
+	@include site-init-here($domain, $domain_include_game);
+	
+	@import "../include/_include_game.scss";
+}

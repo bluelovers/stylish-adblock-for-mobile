@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/15.
+@-moz-document domain("qoolquiz.com")
+{
+	@include site-init-here($domain);
+
+	#appAdCenterBottom, #appAdCenter, #ad1, #appAdCenterTop, div[id^='appAdCenter']
+	{
+		@include adblock($domain);
+	}
+}
