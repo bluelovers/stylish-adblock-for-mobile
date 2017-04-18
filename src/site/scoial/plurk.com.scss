@@ -1,0 +1,15 @@
+// Created by USER on 2017/4/18.
+@-moz-document domain("plurk.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	.sitemaji_inters, .mobile-ads, .native-ads
+	{
+		@include adblock($domain);
+	}
+}
