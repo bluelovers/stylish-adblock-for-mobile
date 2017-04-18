@@ -3,7 +3,7 @@
 {
 	@include site-init-here($domain);
 
-	.fancybox-wrap, .fancybox-overlay
+	.fancybox-wrap, .fancybox-overlay, #Cover, .splash, #recommendedAd
 	{
 		@include adblock($domain);
 	}

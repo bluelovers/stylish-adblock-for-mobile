@@ -1,0 +1,9 @@
+/* _include_scoial */
+$domain_include_scoial: '_include_scoial';
+$domain: '_include_scoial';
+@-moz-document domain("plurk.com")
+{
+	@include site-init-here($domain, $domain_include_scoial);
+	
+	@import "../include/_include_scoial.scss";
+}

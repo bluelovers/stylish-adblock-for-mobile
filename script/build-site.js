@@ -14,7 +14,7 @@ const cwd = path.resolve(__dirname, dir);
 
 module.exports = (cb) =>
 {
-	return glob("site/**/*.scss", {
+	glob("site/**/*.scss", {
 		cwd: cwd,
 	}, function (err, files) {
 

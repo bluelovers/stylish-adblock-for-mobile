@@ -1,7 +1,7 @@
 /* _include_news */
 $domain_include_news: '_include_news';
 $domain: '_include_news';
-@-moz-document domain("appledaily.com.tw"), domain("chinatimes.com"), domain("ettoday.net"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com")
+@-moz-document domain("appledaily.com.tw"), domain("buzzorange.com"), domain("chinatimes.com"), domain("ettoday.net"), domain("kairos.news"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("nownews.com"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com")
 {
 	@include site-init-here($domain, $domain_include_news);
 	

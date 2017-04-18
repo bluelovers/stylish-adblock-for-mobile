@@ -1,0 +1,44 @@
+// Created by USER on 2017/4/18.
+@-moz-document domain("m.xuite.net")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	#rmiad
+	{
+		@include adblock($domain);
+	}
+
+	#adBanner, #gmads
+	{
+		@include adblock($domain);
+	}
+
+	iframe
+	{
+		&[rmax-data-template^='Bannersize-Native']
+		{
+			@include adblock($domain);
+		}
+
+		&[data-original*='.hinet.net']
+		{
+			@include adblock($domain);
+		}
+	}
+
+	#blog-article
+	{
+		.article-content
+		{
+			span, p
+			{
+				@include font-size-article-important();
+			}
+		}
+	}
+}

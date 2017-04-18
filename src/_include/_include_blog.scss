@@ -1,7 +1,7 @@
 /* _include_blog */
 $domain_include_blog: '_include_blog';
 $domain: '_include_blog';
-@-moz-document domain("kocpc.com.tw"), domain("pixnet.net")
+@-moz-document domain("kocpc.com.tw"), domain("m.xuite.net"), domain("pixnet.net")
 {
 	@include site-init-here($domain, $domain_include_blog);
 	

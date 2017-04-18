@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/16.
+@-moz-document domain("bomb01.com")
+{
+	@include site-init-here($domain);
+
+	#modal
+	{
+		@include adblock($domain);
+	}
+}

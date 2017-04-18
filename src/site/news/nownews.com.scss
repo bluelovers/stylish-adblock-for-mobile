@@ -1,0 +1,23 @@
+// Created by USER on 2017/4/17.
+@-moz-document domain("nownews.com")
+{
+	@include site-init-here($domain);
+
+	.ads-block, .ads-cover
+	{
+		@include adblock($domain);
+	}
+
+	.mui--overflow-hidden, body.mui-body--scroll-lock
+	{
+		overflow: auto !important;
+	}
+
+	.one-news
+	{
+		a[href*='ad1.nownews.com'], a[href*='adclick.php']
+		{
+			@include adblock($domain);
+		}
+	}
+}
