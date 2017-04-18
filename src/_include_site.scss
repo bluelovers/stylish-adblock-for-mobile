@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: touch.pixiv.net, kocpc.com.tw, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, chinatimes.com, ettoday.net, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+/* sites: touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, qoolquiz.com, vonvon.me, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, plurk.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
 $domain: '_alldomain';
 @import "_include/_alldomain.scss";
 
@@ -15,11 +15,17 @@ $domain: '_include_comic';
 $domain: '_include_content_farm';
 @import "_include/_include_content_farm.scss";
 
+$domain: '_include_game';
+@import "_include/_include_game.scss";
+
 $domain: '_include_mobile';
 @import "_include/_include_mobile.scss";
 
 $domain: '_include_news';
 @import "_include/_include_news.scss";
+
+$domain: '_include_scoial';
+@import "_include/_include_scoial.scss";
 
 $domain: '_include_yahoo';
 @import "_include/_include_yahoo.scss";
@@ -34,6 +40,11 @@ $domain: 'touch.pixiv.net.scss';
 /* site: kocpc.com.tw */
 $domain: 'kocpc.com.tw.scss';
 @import "site/blog/kocpc.com.tw.scss";
+
+/* dirkey: blog */
+/* site: m.xuite.net */
+$domain: 'm.xuite.net.scss';
+@import "site/blog/m.xuite.net.scss";
 
 /* dirkey: blog */
 /* site: pixnet.net */
@@ -66,6 +77,11 @@ $domain: 'bee101.com.scss';
 @import "site/content_farm/bee101.com.scss";
 
 /* dirkey: content_farm */
+/* site: bomb01.com */
+$domain: 'bomb01.com.scss';
+@import "site/content_farm/bomb01.com.scss";
+
+/* dirkey: content_farm */
 /* site: cocomy.net */
 $domain: 'cocomy.net.scss';
 @import "site/content_farm/cocomy.net.scss";
@@ -89,6 +105,16 @@ $domain: 'pixpo.net.scss';
 /* site: twgreatdaily.com */
 $domain: 'twgreatdaily.com.scss';
 @import "site/content_farm/twgreatdaily.com.scss";
+
+/* dirkey: game */
+/* site: qoolquiz.com */
+$domain: 'qoolquiz.com.scss';
+@import "site/game/qoolquiz.com.scss";
+
+/* dirkey: game */
+/* site: vonvon.me */
+$domain: 'vonvon.me.scss';
+@import "site/game/vonvon.me.scss";
 
 /* dirkey:  */
 /* site: gamme.com.tw */
@@ -116,6 +142,11 @@ $domain: 'appledaily.com.tw.scss';
 @import "site/news/appledaily.com.tw.scss";
 
 /* dirkey: news */
+/* site: buzzorange.com */
+$domain: 'buzzorange.com.scss';
+@import "site/news/buzzorange.com.scss";
+
+/* dirkey: news */
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
 @import "site/news/chinatimes.com.scss";
@@ -124,6 +155,11 @@ $domain: 'chinatimes.com.scss';
 /* site: ettoday.net */
 $domain: 'ettoday.net.scss';
 @import "site/news/ettoday.net.scss";
+
+/* dirkey: news */
+/* site: kairos.news */
+$domain: 'kairos.news.scss';
+@import "site/news/kairos.news.scss";
 
 /* dirkey: news */
 /* site: m.ltn.com.tw */
@@ -144,6 +180,11 @@ $domain: 'news.cts.com.tw.scss';
 /* site: news.sina.com.tw */
 $domain: 'news.sina.com.tw.scss';
 @import "site/news/news.sina.com.tw.scss";
+
+/* dirkey: news */
+/* site: nownews.com */
+$domain: 'nownews.com.scss';
+@import "site/news/nownews.com.scss";
 
 /* dirkey: news */
 /* site: setn.com */
@@ -169,6 +210,11 @@ $domain: 'udn.com.scss';
 /* site: ourstarsky.com */
 $domain: 'ourstarsky.com.scss';
 @import "site/ourstarsky.com.scss";
+
+/* dirkey: scoial */
+/* site: plurk.com */
+$domain: 'plurk.com.scss';
+@import "site/scoial/plurk.com.scss";
 
 /* dirkey:  */
 /* site: teepr.com */
