@@ -1,0 +1,15 @@
+// Created by USER on 2017/4/15.
+@-moz-document domain("vonvon.me")
+{
+	@include site-init-here($domain);
+
+	.adbanner
+	{
+		@include adblock($domain);
+	}
+
+	div[ng-if='quizShowAd'], ng-transclude
+	{
+		@include adblock($domain);
+	}
+}
