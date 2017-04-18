@@ -10,11 +10,17 @@
 /* line 14, src/lib/lib.scss */
 article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[href*='beap.gemini.yahoo.com'], article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], article li[id*='div-gpt-ad-'], article li[id*='google_ads_iframe'], article ins[id*='div-gpt-ad-'], article ins[id*='google_ads_iframe'], article frame[id*='div-gpt-ad-'], article frame[id*='google_ads_iframe'], article div[id*='gemini-ad-'], article li[id*='gemini-ad-'], article ins[id*='gemini-ad-'], article frame[id*='gemini-ad-'], article div[id^='compass-fit-'][visibility], article li[id^='compass-fit-'][visibility], article ins[id^='compass-fit-'][visibility], article frame[id^='compass-fit-'][visibility], article div[id^='aswift_'], article li[id^='aswift_'], article ins[id^='aswift_'], article frame[id^='aswift_'], article div[id^='ypaAdWrapper-'], article li[id^='ypaAdWrapper-'], article ins[id^='ypaAdWrapper-'], article frame[id^='ypaAdWrapper-'], article div .gemini-loaded, article li .gemini-loaded, article ins .gemini-loaded, article frame .gemini-loaded {
 	display: none !important;
+	opacity: 0 !important;
+	width: 1px !important;
+	height: 1px !important;
+	overflow: hidden !important;
+	visibility: hidden !important;
+	z-index: 0 !important;
 }
 
-/* sites: touch.pixiv.net, kocpc.com.tw, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, chinatimes.com, ettoday.net, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+/* sites: touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, qoolquiz.com, vonvon.me, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, plurk.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
 /* _alldomain */
-@-moz-document domain("touch.pixiv.net"), domain("kocpc.com.tw"), domain("pixnet.net"), domain("bnext.com.tw"), domain("ck101.com"), domain("m.dm5.com"), domain("m.dmzj.com"), domain("bee101.com"), domain("cocomy.net"), domain("ispot.news"), domain("life.tw"), domain("pixpo.net"), domain("twgreatdaily.com"), domain("gamme.com.tw"), domain("apk.tw"), domain("forum.xda-developers.com"), domain("my-formosa.com"), domain("appledaily.com.tw"), domain("chinatimes.com"), domain("ettoday.net"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com"), domain("ourstarsky.com"), domain("teepr.com"), domain("toy-people.com"), domain("userstyles.org"), domain("wetalk.tw"), domain("answers.yahoo.com"), domain("yahoo.com") {
+@-moz-document domain("touch.pixiv.net"), domain("kocpc.com.tw"), domain("m.xuite.net"), domain("pixnet.net"), domain("bnext.com.tw"), domain("ck101.com"), domain("m.dm5.com"), domain("m.dmzj.com"), domain("bee101.com"), domain("bomb01.com"), domain("cocomy.net"), domain("ispot.news"), domain("life.tw"), domain("pixpo.net"), domain("twgreatdaily.com"), domain("qoolquiz.com"), domain("vonvon.me"), domain("gamme.com.tw"), domain("apk.tw"), domain("forum.xda-developers.com"), domain("my-formosa.com"), domain("appledaily.com.tw"), domain("buzzorange.com"), domain("chinatimes.com"), domain("ettoday.net"), domain("kairos.news"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("nownews.com"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com"), domain("ourstarsky.com"), domain("plurk.com"), domain("teepr.com"), domain("toy-people.com"), domain("userstyles.org"), domain("wetalk.tw"), domain("answers.yahoo.com"), domain("yahoo.com") {
 }
 
 /* _include_art */
@@ -22,7 +28,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 }
 
 /* _include_blog */
-@-moz-document domain("kocpc.com.tw"), domain("pixnet.net") {
+@-moz-document domain("kocpc.com.tw"), domain("m.xuite.net"), domain("pixnet.net") {
 }
 
 /* _include_comic */
@@ -30,19 +36,39 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 }
 
 /* _include_content_farm */
-@-moz-document domain("bee101.com"), domain("cocomy.net"), domain("ispot.news"), domain("life.tw"), domain("pixpo.net"), domain("twgreatdaily.com") {
+@-moz-document domain("bee101.com"), domain("bomb01.com"), domain("cocomy.net"), domain("ispot.news"), domain("life.tw"), domain("pixpo.net"), domain("twgreatdaily.com") {
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #popad, .ads_bottom, .ads, .ads_fixed, .pagead, #modal-likebox, #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe, .ui_adblock, #fullblock, #fbFixedAd, .adnwMRectRoot, .detail_fixedad, #win_like, #win_like_mask, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
-	/* line 247, src/lib/lib.scss */
+	/* line 257, src/lib/lib.scss */
 	body, body.modal-open, .modal-open, .modal-open.modal-open {
 		overflow: auto !important;
 	}
-	/* line 253, src/lib/lib.scss */
+	/* line 263, src/lib/lib.scss */
 	* {
 		-moz-user-select: auto !important;
 		     user-select: auto !important;
+	}
+}
+
+/* _include_game */
+@-moz-document domain("qoolquiz.com"), domain("vonvon.me") {
+	/* line 14, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'] {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -51,11 +77,21 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 }
 
 /* _include_news */
-@-moz-document domain("appledaily.com.tw"), domain("chinatimes.com"), domain("ettoday.net"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com") {
+@-moz-document domain("appledaily.com.tw"), domain("buzzorange.com"), domain("chinatimes.com"), domain("ettoday.net"), domain("kairos.news"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("nownews.com"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com") {
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'] {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
+}
+
+/* _include_scoial */
+@-moz-document domain("plurk.com") {
 }
 
 /* _include_yahoo */
@@ -68,6 +104,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	#geniee_overlay {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -77,6 +119,31 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .pi-Ad-mb-stick, .adsbyso, .author-adbox, .pi-ad-mobile-tag-outer {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+}
+
+/* dirkey: blog */
+/* site: m.xuite.net */
+@-moz-document domain("m.xuite.net") {
+	/* line 14, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, #rmiad, #adBanner, #gmads, iframe[rmax-data-template^='Bannersize-Native'], iframe[data-original*='.hinet.net'] {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+	/* line 38, src/site/blog/m.xuite.net.scss */
+	#blog-article .article-content span, #blog-article .article-content p {
+		font-size: 12pt !important;
 	}
 }
 
@@ -86,6 +153,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.pop-ad-cover, .header-ad, .adsbyfalcon, .ad-related-post, ins.adsbygoogle, .adsbygoogle, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .pixnet-ad, [data-source='ad_mobile_2'], .article-body .readmore-btn-container, .article-body.show-summary .readmore-btn-container {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 23, src/site/blog/pixnet.net.scss */
 	.article-body, .article-body.show-summary {
@@ -100,6 +173,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .ad-pixfs, .ad_box, #oneadIRMIRTag, .is_ads {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -110,6 +189,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	.pi-DK-AdOnBottom-MaxWidth,
 	.adfixWp {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -119,6 +204,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.adform_1, .adform_2, div[class$='baseUrl'][id$='baseUrl'] {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -128,13 +219,19 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	#divAD {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
 /* dirkey: content_farm */
 /* site: bee101.com */
 @-moz-document domain("bee101.com") {
-	/* line 11, src/site/content_farm/bee101.com.scss */
+	/* line 13, src/site/content_farm/bee101.com.scss */
 	.mainContent::after, .mainContent::before {
 		content: "此網站是內容農場！\AThis site is a content farm!";
 		font-size: 16pt;
@@ -151,17 +248,38 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 }
 
 /* dirkey: content_farm */
+/* site: bomb01.com */
+@-moz-document domain("bomb01.com") {
+	/* line 14, src/lib/lib.scss */
+	#modal {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+}
+
+/* dirkey: content_farm */
 /* site: cocomy.net */
 @-moz-document domain("cocomy.net"), domain("coco01.net") {
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
-	/* line 247, src/lib/lib.scss */
+	/* line 257, src/lib/lib.scss */
 	body, body.modal-open, .modal-open, .modal-open.modal-open {
 		overflow: auto !important;
 	}
-	/* line 253, src/lib/lib.scss */
+	/* line 263, src/lib/lib.scss */
 	* {
 		-moz-user-select: auto !important;
 		     user-select: auto !important;
@@ -220,6 +338,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	div[data-placementid] {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	@media (min-width: 766px) and (orientation: landscape) {
 		/* line 22, src/site/content_farm/life.tw.scss */
@@ -260,6 +384,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.dialog_mask {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 18, src/site/content_farm/pixpo.net.scss */
 	#detailMain::after, #detailMain::before {
@@ -283,6 +413,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	div.visible-xs {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	@media (min-width: 766px) and (orientation: landscape) {
 		/* line 38, src/site/content_farm/twgreatdaily.com.scss */
@@ -317,12 +453,48 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	}
 }
 
+/* dirkey: game */
+/* site: qoolquiz.com */
+@-moz-document domain("qoolquiz.com") {
+	/* line 14, src/lib/lib.scss */
+	#appAdCenterBottom, #appAdCenter, #ad1, #appAdCenterTop, div[id^='appAdCenter'] {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+}
+
+/* dirkey: game */
+/* site: vonvon.me */
+@-moz-document domain("vonvon.me") {
+	/* line 14, src/lib/lib.scss */
+	.adbanner, div[ng-if='quizShowAd'], ng-transclude {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+}
+
 /* dirkey:  */
 /* site: gamme.com.tw */
 @-moz-document domain("gamme.com.tw") {
 	/* line 14, src/lib/lib.scss */
 	#followme_bg, .followme.fixedbg, .ad_down {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 15, src/site/gamme.com.tw.scss */
 	.article_area1 {
@@ -336,6 +508,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .fullbg01, .dialog01 {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -345,6 +523,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .purchad {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -354,6 +538,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -361,8 +551,29 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 /* site: appledaily.com.tw */
 @-moz-document domain("appledaily.com.tw") {
 	/* line 14, src/lib/lib.scss */
-	.fancybox-wrap, .fancybox-overlay {
+	.fancybox-wrap, .fancybox-overlay, #Cover, .splash, #recommendedAd {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+}
+
+/* dirkey: news */
+/* site: buzzorange.com */
+@-moz-document domain("buzzorange.com") {
+	/* line 14, src/lib/lib.scss */
+	.ui-widget-overlay, #divAD, .ui-dialog {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -372,6 +583,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, div[id*='pagead'], .ad_rwd_dfp, div[class*='rwd_ad'] {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -381,6 +598,27 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.adM01, .banner_970, .adult-box {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+}
+
+/* dirkey: news */
+/* site: kairos.news */
+@-moz-document domain("kairos.news") {
+	/* line 14, src/lib/lib.scss */
+	#ppsPopupBgOverlay, .ppsPopupFbLikeShell {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -390,6 +628,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, #door-bottom, .mobile-inread {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -399,6 +643,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.dfp-cover, .ad-container, .dfpad-set {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -408,6 +658,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -417,9 +673,34 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], #ad_iframe_background, #ad_iframe_area, #fix_bottom {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 16, src/site/news/news.sina.com.tw.scss */
 	body, :root {
+		overflow: auto !important;
+	}
+}
+
+/* dirkey: news */
+/* site: nownews.com */
+@-moz-document domain("nownews.com") {
+	/* line 14, src/lib/lib.scss */
+	.ads-block, .ads-cover, .one-news a[href*='ad1.nownews.com'], .one-news a[href*='adclick.php'] {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
+	}
+	/* line 11, src/site/news/nownews.com.scss */
+	.mui--overflow-hidden, body.mui-body--scroll-lock {
 		overflow: auto !important;
 	}
 }
@@ -430,6 +711,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], #float_ad, #newsTextAD, frame[src*='banner-mtb.dspcdn.com'], div[id*='compass-fit-'], div[visibility=true] {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 23, src/site/news/setn.com.scss */
 	.bigdata-now-area > div, .RelateNews-now-area > div {
@@ -447,6 +734,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.ad_article_block, .div-inread-ad, article div[id*='div-gpt-ad-'], article div[id*='google_ads_iframe'], ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .gemini-loaded, a[href*='ssp.tenmax.io'], ._popIn_recommend_article_ad {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 33, src/site/news/storm.mg.scss */
 	.section_article_show .content-wrapper .content-main .content-float .article-wrapper article p, .section_life_show .content-wrapper .content-main .content-float .article-wrapper article p {
@@ -460,6 +753,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.ad-container-2, .ad-container, .div-onead-ad, body > .ad-btm {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -469,6 +768,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	#mm-blocker, #threemin, .only_mobile, .only_web, #google_ad, #simplemodal-container, .simplemodal-overlay, .simplemodal-container {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	@media (min-width: 766px) and (orientation: landscape) {
 		/* line 26, src/site/news/udn.com.scss */
@@ -478,7 +783,7 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 		}
 	}
 	@media (max-width: 766px), (orientation: portrait) {
-		/* line 23, src/lib/lib.scss */
+		/* line 33, src/lib/lib.scss */
 		#story_body, .subject_news .story, #summary, .subjcet_news .story, .subject_news .story p {
 			_: unset;
 			font-size: 12pt !important;
@@ -492,10 +797,31 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, #likeBox {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 17, src/site/ourstarsky.com.scss */
 	.fabox {
 		background: transparent;
+	}
+}
+
+/* dirkey: scoial */
+/* site: plurk.com */
+@-moz-document domain("plurk.com") {
+	/* line 14, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .sitemaji_inters, .mobile-ads, .native-ads {
+		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -505,6 +831,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.adsbygoogle, .below-title-ad-wrapper, .mid-post-ad, .popmake[data-popmake*='ad-popup'], .popmake-overlay, .remodal-is-opened.remodal-overlay, .remodal-is-opened.remodal-wrapper, .bot-sticky-ad {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 7, src/site/teepr.com.scss */
 	body, :root {
@@ -525,6 +857,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.fullBG {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -534,6 +872,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	#style-info ins.adsbygoogle, #style-info .adsbygoogle, #style-info .adsbyfalcon, #style-info a[href*='beap.gemini.yahoo.com'], #style-info div[id*='div-gpt-ad-'], #style-info div[id*='google_ads_iframe'], #style-info li[id*='div-gpt-ad-'], #style-info li[id*='google_ads_iframe'], #style-info ins[id*='div-gpt-ad-'], #style-info ins[id*='google_ads_iframe'], #style-info frame[id*='div-gpt-ad-'], #style-info frame[id*='google_ads_iframe'], #style-info div[id*='gemini-ad-'], #style-info li[id*='gemini-ad-'], #style-info ins[id*='gemini-ad-'], #style-info frame[id*='gemini-ad-'], #style-info div[id^='compass-fit-'][visibility], #style-info li[id^='compass-fit-'][visibility], #style-info ins[id^='compass-fit-'][visibility], #style-info frame[id^='compass-fit-'][visibility], #style-info div[id^='aswift_'], #style-info li[id^='aswift_'], #style-info ins[id^='aswift_'], #style-info frame[id^='aswift_'], #style-info div[id^='ypaAdWrapper-'], #style-info li[id^='ypaAdWrapper-'], #style-info ins[id^='ypaAdWrapper-'], #style-info frame[id^='ypaAdWrapper-'], #style-info div .gemini-loaded, #style-info li .gemini-loaded, #style-info ins .gemini-loaded, #style-info frame .gemini-loaded {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 14, src/site/userstyles.org.scss */
 	#additional-info-text {
@@ -547,6 +891,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	.adsbygoogle, .in.modal-backdrop, .in#mobileModal, .adblock, .postmessage > div[style*='background-color'][style*='width:320px;height:300px;'] > span:first-child {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 25, src/site/wetalk.tw.scss */
 	.modal-open {
@@ -572,6 +922,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	div[id^='dmRosAdWrapper-'] {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 }
 
@@ -581,6 +937,12 @@ article ins.adsbygoogle, article .adsbygoogle, article .adsbyfalcon, article a[h
 	/* line 14, src/lib/lib.scss */
 	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], div .gemini-loaded, li .gemini-loaded, ins .gemini-loaded, frame .gemini-loaded, .big-ad-banner, #Stream > .Bd-b, #Stream > .Bxz\(bb\), #Stream > .Bgc\(#fffae8\), #pencil-ad {
 		display: none !important;
+		opacity: 0 !important;
+		width: 1px !important;
+		height: 1px !important;
+		overflow: hidden !important;
+		visibility: hidden !important;
+		z-index: 0 !important;
 	}
 	/* line 17, src/site/yahoo/yahoo.com.scss */
 	#atomic .Fz\(2rem\) {
