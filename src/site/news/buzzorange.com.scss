@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/17.
+@-moz-document domain("buzzorange.com")
+{
+	@include site-init-here($domain);
+
+	.ui-widget-overlay, #divAD, .ui-dialog
+	{
+		@include adblock($domain);
+	}
+}
