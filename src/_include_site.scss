@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, cocomy.net, ispot.news, life.tw, pixpo.net, twgreatdaily.com, qoolquiz.com, vonvon.me, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, ourstarsky.com, plurk.com, teepr.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+/* sites: adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, gleenow.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
 $domain: '_alldomain';
 @import "_include/_alldomain.scss";
 
@@ -30,6 +30,11 @@ $domain: '_include_scoial';
 $domain: '_include_yahoo';
 @import "_include/_include_yahoo.scss";
 
+
+/* dirkey:  */
+/* site: adaymag.com */
+$domain: 'adaymag.com.scss';
+@import "site/adaymag.com.scss";
 
 /* dirkey: art */
 /* site: touch.pixiv.net */
@@ -82,9 +87,24 @@ $domain: 'bomb01.com.scss';
 @import "site/content_farm/bomb01.com.scss";
 
 /* dirkey: content_farm */
+/* site: clickme.net */
+$domain: 'clickme.net.scss';
+@import "site/content_farm/clickme.net.scss";
+
+/* dirkey: content_farm */
+/* site: cmoney.tw */
+$domain: 'cmoney.tw.scss';
+@import "site/content_farm/cmoney.tw.scss";
+
+/* dirkey: content_farm */
 /* site: cocomy.net */
 $domain: 'cocomy.net.scss';
 @import "site/content_farm/cocomy.net.scss";
+
+/* dirkey: content_farm */
+/* site: gleenow.com */
+$domain: 'gleenow.com.scss';
+@import "site/content_farm/gleenow.com.scss";
 
 /* dirkey: content_farm */
 /* site: ispot.news */
@@ -97,14 +117,34 @@ $domain: 'life.tw.scss';
 @import "site/content_farm/life.tw.scss";
 
 /* dirkey: content_farm */
+/* site: m.ipetgroup.com */
+$domain: 'm.ipetgroup.com.scss';
+@import "site/content_farm/m.ipetgroup.com.scss";
+
+/* dirkey: content_farm */
 /* site: pixpo.net */
 $domain: 'pixpo.net.scss';
 @import "site/content_farm/pixpo.net.scss";
 
 /* dirkey: content_farm */
+/* site: read01.com */
+$domain: 'read01.com.scss';
+@import "site/content_farm/read01.com.scss";
+
+/* dirkey: content_farm */
+/* site: teepr.com */
+$domain: 'teepr.com.scss';
+@import "site/content_farm/teepr.com.scss";
+
+/* dirkey: content_farm */
 /* site: twgreatdaily.com */
 $domain: 'twgreatdaily.com.scss';
 @import "site/content_farm/twgreatdaily.com.scss";
+
+/* dirkey:  */
+/* site: cool3c.com */
+$domain: 'cool3c.com.scss';
+@import "site/cool3c.com.scss";
 
 /* dirkey: game */
 /* site: qoolquiz.com */
@@ -150,6 +190,16 @@ $domain: 'buzzorange.com.scss';
 /* site: chinatimes.com */
 $domain: 'chinatimes.com.scss';
 @import "site/news/chinatimes.com.scss";
+
+/* dirkey: news */
+/* site: cna.com.tw */
+$domain: 'cna.com.tw.scss';
+@import "site/news/cna.com.tw.scss";
+
+/* dirkey: news */
+/* site: ctee.com.tw */
+$domain: 'ctee.com.tw.scss';
+@import "site/news/ctee.com.tw.scss";
 
 /* dirkey: news */
 /* site: ettoday.net */
@@ -206,6 +256,11 @@ $domain: 'thenewslens.com.scss';
 $domain: 'udn.com.scss';
 @import "site/news/udn.com.scss";
 
+/* dirkey: news */
+/* site: upmedia.mg */
+$domain: 'upmedia.mg.scss';
+@import "site/news/upmedia.mg.scss";
+
 /* dirkey:  */
 /* site: ourstarsky.com */
 $domain: 'ourstarsky.com.scss';
@@ -215,11 +270,6 @@ $domain: 'ourstarsky.com.scss';
 /* site: plurk.com */
 $domain: 'plurk.com.scss';
 @import "site/scoial/plurk.com.scss";
-
-/* dirkey:  */
-/* site: teepr.com */
-$domain: 'teepr.com.scss';
-@import "site/teepr.com.scss";
 
 /* dirkey:  */
 /* site: toy-people.com */
