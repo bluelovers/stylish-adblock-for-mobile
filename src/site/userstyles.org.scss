@@ -11,6 +11,11 @@
 		}
 	}
 
+	.adContainer
+	{
+		@include adblock($domain);
+	}
+
 	#additional-info-text
 	{
 		max-height: 35em;
