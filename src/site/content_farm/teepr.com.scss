@@ -33,7 +33,6 @@
 		}
 	}
 
-
 	.bot-sticky-share
 	{
 		// tweak .bot-sticky-ad
@@ -48,4 +47,8 @@
 		}
 	}
 
+	iframe[src*='shop-widget']
+	{
+		@include adblock($domain);
+	}
 }
