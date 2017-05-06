@@ -1,0 +1,21 @@
+@-moz-document domain("discordapp.com") {
+	/* line 4, src/stylish.discordapp.scss */
+	.chat, .username, .code {
+		-moz-user-select: text;
+		     user-select: text;
+	}
+	/* line 13, src/stylish.discordapp.scss */
+	.message-text, .message-group .comment .markup, .chat .welcome-message p {
+		font-size: 10pt;
+	}
+	/* line 18, src/stylish.discordapp.scss */
+	.chat .divider > span {
+		font-size: 12px;
+	}
+	/* line 23, src/stylish.discordapp.scss */
+	.message-group {
+		padding: 10px 0px;
+	}
+}
+
+/*# sourceMappingURL=stylish.discordapp.css.map */
