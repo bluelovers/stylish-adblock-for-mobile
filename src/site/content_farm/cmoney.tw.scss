@@ -1,0 +1,18 @@
+// Created by USER on 2017/5/7.
+@-moz-document domain("cmoney.tw")
+{
+	@include site-init-here($domain);
+
+	#ArticleTopAds, .ad-320x100
+	{
+		@include adblock($domain);
+	}
+
+	@include ad_elem_tag()
+	{
+		&[data-kind="cmoneyad"]
+		{
+			@include adblock($domain);
+		}
+	}
+}
