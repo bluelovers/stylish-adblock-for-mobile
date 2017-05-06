@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/20.
+@-moz-document domain("ctee.com.tw")
+{
+	@include site-init-here($domain);
+
+	#scupio_interstitialad, #topAds, ._popIn_recommend_article_ad
+	{
+		@include adblock($domain);
+	}
+}

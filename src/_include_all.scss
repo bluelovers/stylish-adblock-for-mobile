@@ -1,6 +1,6 @@
 
 // @see https://github.com/stylish-userstyles/stylish/wiki/Applying-styles-to-specific-sites
-/* i really want this to be global */
+@include stylish-userstyles-global(false);
 
 ._1
 {
@@ -22,12 +22,15 @@
 $domain_all: '_include_all.scss';
 $domain: '_include_all.scss';
 
-@include site-init-here($domain);
-
-article
+@-moz-document url-prefix(http:), url-prefix(https:)
 {
-	@include global_ad()
+	@include site-init-here($domain);
+
+	article
 	{
-		@include adblock($domain);
+		@include global_ad()
+		{
+			@include adblock($domain);
+		}
 	}
 }

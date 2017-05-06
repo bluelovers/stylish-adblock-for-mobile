@@ -1,0 +1,10 @@
+// Created by USER on 2017/4/19.
+@-moz-document domain("m.ipetgroup.com")
+{
+	@include site-init-here($domain);
+
+	#fbFixedAd, .adnwMRectRoot, .fbAdChoices, #ad5
+	{
+		@include adblock($domain_include_content_farm);
+	}
+}

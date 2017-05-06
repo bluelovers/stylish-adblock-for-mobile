@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/4.
+@-moz-document domain("upmedia.mg")
+{
+	@include site-init-here($domain);
+
+	#Adgeek_bottomAd, #bottom-adcode
+	{
+		@include adblock($domain);
+	}
+}

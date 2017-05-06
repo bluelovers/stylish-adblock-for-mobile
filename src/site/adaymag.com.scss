@@ -1,0 +1,18 @@
+// Created by USER on 2017/4/23.
+@-moz-document domain("adaymag.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	div
+	{
+		&[id^='innity_adslot_']
+		{
+			@include adblock($domain);
+		}
+	}
+}

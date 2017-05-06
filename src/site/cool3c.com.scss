@@ -1,0 +1,18 @@
+// Created by USER on 2017/4/25.
+@-moz-document domain("cool3c.com")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+
+	@include ad_elem_tag()
+	{
+		&[class*='MobileAD'], &[id*='MobileAD']
+		{
+			@include adblock($domain);
+		}
+	}
+}

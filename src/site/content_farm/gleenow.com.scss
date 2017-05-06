@@ -1,0 +1,18 @@
+// Created by USER on 2017/4/20.
+@-moz-document domain("gleenow.com")
+{
+	@include site-init-here($domain);
+
+	.ads_content, .ads_mid, .ads_word, .ads_div
+	{
+		@include adblock($domain_include_content_farm);
+	}
+
+	.div_object_desc
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+	}
+}

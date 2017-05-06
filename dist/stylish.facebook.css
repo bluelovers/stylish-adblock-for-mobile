@@ -18,40 +18,43 @@
 	._36bx ._1mwp._17nh, ._30oa ._2mcl,
 	._5778 ._51cp,
 	._5i6, ._14ws, ._1cp2, ._4h98,
-	._3q3r ._1twx, ._4-i0 ._52c9, ._1xmb {
+	._3q3r ._1twx, ._4-i0 ._52c9, ._1xmb,
+	._4jq5, ._5vx2 ._45hd ._45hc,
+	._40n8,
+	._50f5, ._3v6c span._38my, ._io, ._z6x, ._4kac, ._3uh4, ._4ka9, ._5dwl, ._4kaa, ._25ih, ._59u_, ._4qzj, ._4kad, ._1o5-, ._d9-, ._4ee_ ._4ef1, ._4ee_ ._4ef2, ._4ee_ ._3nb9 input, ._aos .uiMentionsInput .input, ._aos .uiMentionsInput .highlighterContent {
 		font-size: 1rem;
 	}
-	/* line 48, src/stylish.facebook.scss */
+	/* line 74, src/stylish.facebook.scss */
 	html, body, :root {
 		font-size: 10pt;
 	}
-	/* line 53, src/stylish.facebook.scss */
+	/* line 79, src/stylish.facebook.scss */
 	._5v3q ._5pbx p {
 		margin: 0.75em 0 0;
 	}
-	/* line 58, src/stylish.facebook.scss */
+	/* line 84, src/stylish.facebook.scss */
 	._5v3q ._5pbx p, ._5v3q ._5pbx .text_exposed_show p:first-child, ._5v3q ._5pbx .text_exposed_root > p:last-of-type {
 		margin-top: 0.75em;
 	}
-	/* line 63, src/stylish.facebook.scss */
+	/* line 89, src/stylish.facebook.scss */
 	._5v3q ._5pbx > p:last-of-type, ._5v3q ._5pbx .text_exposed > p:first-child {
 		display: inline-block;
 	}
-	/* line 68, src/stylish.facebook.scss */
+	/* line 94, src/stylish.facebook.scss */
 	._5v3q ._5pbx .text_exposed_root > p:last-of-type {
 		display: block;
 	}
-	/* line 73, src/stylish.facebook.scss */
+	/* line 99, src/stylish.facebook.scss */
 	.fbxWelcomeBoxImg, ._rw, .UFIActorImage, ._55lt img, .tickerStoryImage, .webMessengerMessageGroup ._8o .img, .anchorContainer ._33h._8o.img, .anchorContainer ._12u1.img, img._54ru, ._8o .img {
 		border-radius: 100% !important;
 		-webkit-transition: border-radius .20s ease-in-out;
 		transition: border-radius .20s ease-in-out;
 	}
-	/* line 82, src/stylish.facebook.scss */
+	/* line 108, src/stylish.facebook.scss */
 	.fbxWelcomeBoxImg:hover, ._rw:hover, .ego_unit:hover ._rw, ._5x46:hover ._rw, .UFIActorImage:hover, ._55lt img:hover, .pvs:hover ._55lt img, .messagesContent:hover ._55lt img, .tickerStoryImage:hover, .webMessengerMessageGroup:hover ._8o .img, .UFIRow.UFIComment:hover .UFIActorImage, .tickerStoryBlock:hover .tickerStoryImage, .anchorContainer ._33h._8o.img:hover, .anchorContainer:hover ._33h._8o.img, .anchorContainer:hover ._12u1.img, ._5r69:hover img._54ru, ._8o:hover .img {
 		border-radius: 5% !important;
 	}
-	/* line 87, src/stylish.facebook.scss */
+	/* line 113, src/stylish.facebook.scss */
 	.fbxWelcomeBoxBlock:after, #blueBar:after, .UFIImageBlockImage:after, ._5v9u:after, ._4o04 {
 		display: none !important;
 	}
@@ -61,44 +64,106 @@
 		border: 0 !important;
 	}
 	*/
-	/* line 99, src/stylish.facebook.scss */
+	/* line 125, src/stylish.facebook.scss */
 	.uiScaledImageContainer, ._4-u3._2ph_ ._5ks5._3-9a {
 		border: 1px solid transparent;
 	}
-	/* line 104, src/stylish.facebook.scss */
+	/* line 130, src/stylish.facebook.scss */
 	._4-u2, .uiScaledImageContainer, ._2yq ._4-u2.mbm::before, ._4-u3._2ph_ ._5ks5._3-9a {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 	}
-	/* line 112, src/stylish.facebook.scss */
+	/* line 138, src/stylish.facebook.scss */
 	._4-u2:hover, ._2a2r:hover .uiScaledImageContainer, ._2yq ._4-u2.mbm:hover::before, ._4-u3._2ph_ ._5ks5._3-9a:hover {
 		border-color: #5782DA;
 	}
-	/* line 117, src/stylish.facebook.scss */
+	/* line 143, src/stylish.facebook.scss */
 	.uiScrollableArea.ticker_container {
 		height: 500px !important;
 	}
-	/* line 122, src/stylish.facebook.scss */
+	/* line 148, src/stylish.facebook.scss */
 	.fbChatSidebar #pagelet_ticker {
 		height: 75% !important;
 	}
-	/* line 127, src/stylish.facebook.scss */
+	/* line 153, src/stylish.facebook.scss */
 	.fbChatSidebar #pagelet_ticker .uiScrollableArea.ticker_container {
 		height: 100% !important;
 	}
-	/* line 132, src/stylish.facebook.scss */
+	/* line 158, src/stylish.facebook.scss */
 	._5bl2 .highlightNode {
 		background-color: rgba(42, 239, 231, 0.4);
 	}
-	/* line 137, src/stylish.facebook.scss */
+	/* line 163, src/stylish.facebook.scss */
 	.stageWrapper.lfloat #snowliftStageActions {
 		-webkit-transition: display .20s ease-in-out;
 		transition: display .20s ease-in-out;
 		display: none;
 	}
-	/* line 146, src/stylish.facebook.scss */
+	/* line 172, src/stylish.facebook.scss */
 	.stageWrapper.lfloat:hover #snowliftStageActions {
 		display: block;
+	}
+}
+
+@-moz-document domain("m.facebook.com") {
+	/* line 33, src/lib/lib.scss */
+	body, tr, input, textarea, .g, .f, .m .n, .b .m, .b .cg, .touch, .touch tr, .touch input, .touch textarea, .touch .mfsm, .do, ._2tbu, ._1c5c, ._5qc3 {
+		_: unset;
+		font-size: small;
+	}
+	/* line 256, src/stylish.facebook.scss */
+	.fk .fo > .bm.fd.fq {
+		-webkit-transition: border-color .20s ease-in-out;
+		transition: border-color .20s ease-in-out;
+		border-radius: 5px;
+	}
+	/* line 261, src/stylish.facebook.scss */
+	.fk .fo > .bm.fd.fq:hover {
+		border-color: #5782DA;
+	}
+	/* line 271, src/stylish.facebook.scss */
+	#m_newsfeed_stream .dy > div[role="article"], #m_newsfeed_stream .dz > div[role="article"] {
+		-webkit-transition: border-color .20s ease-in-out;
+		transition: border-color .20s ease-in-out;
+		border-radius: 5px;
+	}
+	/* line 276, src/stylish.facebook.scss */
+	#m_newsfeed_stream .dy > div[role="article"]:hover, #m_newsfeed_stream .dz > div[role="article"]:hover {
+		border-color: #5782DA;
+	}
+	/* line 33, src/lib/lib.scss */
+	#m_group_stories_container article > div[data-sigil="m-feed-story-attachments-element"] .img.profpic, .feedRevamp > div article > div[data-sigil="m-feed-story-attachments-element"] .img.profpic, #m_group_stories_container article footer ._4g33 ._5xu4 .img.profpic, .feedRevamp > div article footer ._4g33 ._5xu4 .img.profpic, .scrollArea ._4g33 .img.profpic, .scrollArea ._rzh ._4g33 .img.profpic, .flyout .acw .img.profpic, #friends_center_main .bs .bt img.bu, .ct .v img.s, .ct .w img.s, .cw .v img.s, .cw .w img.s {
+		_: unset;
+		border-radius: 100%;
+		-webkit-transition: border-radius .20s ease-in-out;
+		transition: border-radius .20s ease-in-out;
+	}
+	/* line 33, src/lib/lib.scss */
+	#m_group_stories_container article > div[data-sigil="m-feed-story-attachments-element"]:hover .img.profpic, .feedRevamp > div article > div[data-sigil="m-feed-story-attachments-element"]:hover .img.profpic, #m_group_stories_container article footer ._4g33:hover ._5xu4 .img.profpic, .feedRevamp > div article footer ._4g33:hover ._5xu4 .img.profpic, .scrollArea ._4g33:hover .img.profpic, .scrollArea ._rzh ._4g33:hover .img.profpic, .flyout .acw:hover .img.profpic, #friends_center_main .bs .bt:hover img.bu, .ct .v:hover img.s, .ct .w:hover img.s, .cw .v:hover img.s, .cw .w:hover img.s {
+		_: unset;
+		border-radius: 5%;
+	}
+	/* line 425, src/stylish.facebook.scss */
+	.eq .es.et img.s, .eq .ej.ek img.s, .eg .es.et img.s, .eg .ej.ek img.s {
+		border: 1px solid transparent;
+		-webkit-transition: border-color .20s ease-in-out;
+		transition: border-color .20s ease-in-out;
+	}
+	/* line 430, src/stylish.facebook.scss */
+	.eq .es.et img.s:hover, .eq .ej.ek img.s:hover, .eg .es.et img.s:hover, .eg .ej.ek img.s:hover {
+		border-color: #5782DA;
+	}
+}
+
+@-moz-document domain("developers.facebook.com") {
+	/* line 442, src/stylish.facebook.scss */
+	._4l0x, ._1z0j a,
+	._1na, a._1z0k label, a._1z0k span {
+		font-size: 1rem;
+	}
+	/* line 447, src/stylish.facebook.scss */
+	html, body, :root {
+		font-size: 10pt;
 	}
 }
 

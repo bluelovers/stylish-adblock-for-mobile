@@ -36,11 +36,37 @@
 	._5i6, ._14ws, ._1cp2, ._4h98._4h98,
 
 	._3q3r ._1twx, ._4-i0 ._52c9, ._1xmb,
+
+	// https://www.facebook.com/groups/
+	._4jq5, ._5vx2 ._45hd ._45hc,
+
+	._40n8,
+
+	._50f5, ._3v6c span._38my,
 	{
 		@extend .userContent;
 	}
 
 	._5p3y
+	{
+		@extend .userContent;
+	}
+
+	// https://www.facebook.com/help/www/217854714899185?pnref=story
+	._io, ._z6x, ._4kac, ._3uh4, ._4ka9, ._5dwl, ._4kaa, ._25ih, ._59u_, ._4qzj, ._4kad, ._1o5-, ._d9-
+	{
+		@extend .userContent;
+	}
+
+	._4ee_
+	{
+		._4ef1, ._4ef2, ._3nb9 input
+		{
+			@extend .userContent;
+		}
+	}
+
+	._aos .uiMentionsInput .input, ._aos .uiMentionsInput .highlighterContent
 	{
 		@extend .userContent;
 	}
@@ -178,4 +204,268 @@
 		}
 	}
 
+}
+
+$domain: 'm.facebook.com';
+@-moz-document domain("m.facebook.com")
+{
+
+	@include site-init-here($domain);
+
+	@include site-elem-here($domain, 'root')
+	{
+		font-size: small;
+	}
+
+	body, tr, input, textarea, .g
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+	body, tr, input, textarea, .f
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+	.m .n, .b .m
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+	.b .cg
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+	.touch, .touch tr, .touch input, .touch textarea, .touch .mfsm
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+	.do, ._2tbu, ._1c5c, ._5qc3._5qc3
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+	._5qc3._5qc3
+	{
+		@include site-elem-extend($domain, 'root');
+	}
+
+
+	.fk .fo > .bm.fd.fq
+	{
+		transition: border-color .20s ease-in-out;
+		border-radius: 5px;
+
+		&:hover
+		{
+			border-color: $hovercolor;
+		}
+	}
+
+	#m_newsfeed_stream
+	{
+		.dy, .dz
+		{
+			> div[role="article"]
+			{
+				transition: border-color .20s ease-in-out;
+				border-radius: 5px;
+
+				&:hover
+				{
+					border-color: $hovercolor;
+				}
+			}
+		}
+	}
+
+	@include site-elem-here($domain, 'avatar')
+	{
+		border-radius: 100%;
+		transition: border-radius .20s ease-in-out;
+	}
+
+	@include site-elem-here($domain, 'avatar_hover')
+	{
+		border-radius: 5%;
+	}
+
+	@include site-elem-here($domain, 'avatar2')
+	{
+		border-radius: 100%;
+		transition: border-radius .20s ease-in-out;
+	}
+
+	#m_group_stories_container, .feedRevamp > div
+	{
+		article
+		{
+			> div[data-sigil="m-feed-story-attachments-element"]
+			{
+				.img.profpic
+				{
+					@include site-elem-extend($domain, 'avatar');
+				}
+
+				&:hover
+				{
+					.img.profpic
+					{
+						@include site-elem-extend($domain, 'avatar_hover');
+					}
+				}
+			}
+
+			footer
+			{
+				._4g33
+				{
+					._5xu4 .img.profpic
+					{
+						@include site-elem-extend($domain, 'avatar');
+					}
+
+					&:hover
+					{
+						._5xu4 .img.profpic
+						{
+							@include site-elem-extend($domain, 'avatar_hover');
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.scrollArea
+	{
+		._4g33, ._rzh ._4g33
+		{
+			.img.profpic
+			{
+				@include site-elem-extend($domain, 'avatar');
+			}
+
+			&:hover
+			{
+				.img.profpic
+				{
+					@include site-elem-extend($domain, 'avatar_hover');
+				}
+			}
+		}
+	}
+
+	.flyout
+	{
+		.acw
+		{
+			.img.profpic
+			{
+				@include site-elem-extend($domain, 'avatar');
+			}
+
+			&:hover
+			{
+				.img.profpic
+				{
+					@include site-elem-extend($domain, 'avatar_hover');
+				}
+			}
+		}
+	}
+
+	#friends_center_main
+	{
+		.bs
+		{
+			.bt
+			{
+				img.bu
+				{
+					@include site-elem-extend($domain, 'avatar');
+				}
+
+				&:hover
+				{
+					img.bu
+					{
+						@include site-elem-extend($domain, 'avatar_hover');
+					}
+				}
+			}
+		}
+	}
+
+	.ct, .cw
+	{
+		.v, .w
+		{
+			img.s
+			{
+				@include site-elem-extend($domain, 'avatar');
+			}
+
+			&:hover
+			{
+				img.s
+				{
+					@include site-elem-extend($domain, 'avatar_hover');
+				}
+			}
+		}
+	}
+
+	.eq, .eg
+	{
+		.es.et, .ej.ek
+		{
+			img.s
+			{
+				border: 1px solid transparent;
+				transition: border-color .20s ease-in-out;
+
+				&:hover
+				{
+					border-color: $hovercolor;
+				}
+			}
+		}
+	}
+}
+
+$domain: 'developers.facebook.com';
+@-moz-document domain("developers.facebook.com")
+{
+	%root
+	{
+		font-size: 1rem;
+	}
+
+	html, body, :root
+	{
+		font-size: $fontSize;
+	}
+
+	// https://developers.facebook.com/docs/
+	._4l0x, ._1z0j a,
+
+	// https://developers.facebook.com/tools-and-support/
+	._1na,
+	{
+		@extend %root;
+	}
+
+	a
+	{
+		&._1z0k
+		{
+			label, span
+			{
+				@extend %root;
+			}
+		}
+	}
 }

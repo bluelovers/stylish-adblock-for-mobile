@@ -135,6 +135,14 @@
 	}
 }
 
+@mixin ad_elem_tag()
+{
+	div, li, ins, frame, iframe
+	{
+		@content;
+	}
+}
+
 @mixin global_ad($mode: 0)
 {
 	ins.adsbygoogle, .adsbygoogle
@@ -152,7 +160,7 @@
 		@content;
 	}
 
-	div, li, ins, frame
+	@include ad_elem_tag()
 	{
 		&[id*='div-gpt-ad-'], &[id*='google_ads_iframe']
 		{
@@ -179,7 +187,12 @@
 			@content;
 		}
 
-		.gemini-loaded
+		&.gemini-loaded
+		{
+			@content;
+		}
+
+		&[id^='innity_adslot_']
 		{
 			@content;
 		}
@@ -271,5 +284,13 @@
 	&[href*="cocomy.net"]
 	{
 		@content;
+	}
+}
+
+@mixin stylish-userstyles-global($enable: false)
+{
+	@if ($enable)
+	{
+		/* i really want this to be global */
 	}
 }

@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/4.
+@-moz-document domain("cna.com.tw")
+{
+	@include site-init-here($domain);
+
+	.fancybox-mobile, .fancybox-opened, .fancybox-overlay, .ad_300
+	{
+		@include adblock($domain);
+	}
+}
