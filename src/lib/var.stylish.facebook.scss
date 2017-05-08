@@ -1,13 +1,18 @@
 
 @import "lib.scss";
 
+//$is-stylish: false !default;
+//
+//@if ($is-stylish == true)
+//{
+//	// FIXME need support Style settings
+//	$fontSize: '/*[[size]]*/' !default;
+//	$plineheight: '/*[[plineheight]]*/' !default;
+//	$hovercolor: '/*[[hovercolor]]*/' !default;
+//	$scrollablearea: '/*[[scrollablearea]]*/' !default;
+//}
+
 $fontSize: 10pt !default;
 $plineheight: 0.75em !default;
 $hovercolor: #5782DA !default;
 $scrollablearea: 500px !default;
-
-// FIXME need support Style settings
-//$fontSize: /*[[size]]*/ !default;
-//$plineheight: /*[[plineheight]]*/ !default;
-//$hovercolor: /*[[hovercolor]]*/ !default;
-//$scrollablearea: /*[[scrollablearea]]*/ !default;
