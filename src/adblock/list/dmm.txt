@@ -1,0 +1,8 @@
+
+||dmm.co.jp/_js/*
+||adclr.jp^
+||trac.i3.dmm.com/analytics/*
+
+||dmm.co.jp/_js/*
+||adclr.jp^
+||trac.i3.dmm.com/analytics/*

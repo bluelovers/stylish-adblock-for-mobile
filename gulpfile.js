@@ -49,3 +49,45 @@ gulp.task('build-site', function (done)
 {
 	require('./script/build-site.js')(done);
 });
+
+gulp.task('leechblock', function (done)
+{
+	require('./script/leechblock.js')(done);
+});
+
+gulp.task('adaway', ['leechblock'], function (done)
+{
+	require('./script/adaway.gulp.task.js')(done);
+});
+
+gulp.task('noscript.untrusted', ['leechblock'], function (done)
+{
+	require('./script/noscript.untrusted.gulp.task.js')(done);
+});
+
+gulp.task('adblockpopups', ['leechblock'], function (done)
+{
+	require('./script/adblockpopups.gulp.task.js')(done);
+});
+
+gulp.task('adblock', ['leechblock', 'adblockpopups'], function (done)
+{
+	require('./script/adblock.gulp.task.js')(done);
+});
+
+gulp.task('all', [
+
+	'leechblock',
+
+	'adaway',
+	'noscript.untrusted',
+
+	'adblockpopups',
+	'adblock',
+
+	'sass',
+
+], function (done)
+{
+	done();
+});
