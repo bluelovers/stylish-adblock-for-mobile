@@ -48,7 +48,7 @@ module.exports = async (done) =>
 ! Expires: 1 days
 !
 ! [Adblock LazyList SC]
-!`;
+! ------------------------------------------`;
 
 	fs.writeFileSync(path.resolve(dist_dir, 'adblock.ini'), `${header}\n${data}\n!\n! [others]\n!\n`);
 
