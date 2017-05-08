@@ -1,7 +1,11 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @import "lib/var.stylish.facebook.scss";
+@import "lib/stylish.scss";
 
+$is-stylish: true;
+
+$domain: 'www.facebook.com';
 @-moz-document domain("www.facebook.com") {
 
 	.userContent
@@ -73,17 +77,18 @@
 
 	html, body, :root
 	{
-		font-size: $fontSize;
+		//font-size: $fontSize;
+		font-size: stylish-var($fontSize, '/*[[size]]*/');
 	}
 
 	._5v3q ._5pbx p
 	{
-		margin: $plineheight 0 0;
+		margin: stylish-var($plineheight, '/*[[plineheight]]*/') 0 0;
 	}
 
 	._5v3q ._5pbx p, ._5v3q ._5pbx .text_exposed_show p:first-child, ._5v3q ._5pbx .text_exposed_root > p:last-of-type
 	{
-		margin-top: $plineheight;
+		margin-top: stylish-var($plineheight, '/*[[plineheight]]*/');
 	}
 
 	._5v3q ._5pbx > p:last-of-type, ._5v3q ._5pbx .text_exposed > p:first-child
@@ -96,18 +101,48 @@
 		display: block;
 	}
 
+	@include site-elem-here($domain, 'avatar')
+	{
+		border-radius: 100%;
+		transition: border-radius .20s ease-in-out;
+	}
+
+	@include site-elem-here($domain, 'avatar_hover')
+	{
+		border-radius: 5%;
+	}
+
 	.fbxWelcomeBoxImg, ._rw, .UFIActorImage, ._55lt img, .tickerStoryImage, .webMessengerMessageGroup ._8o .img, .anchorContainer ._33h._8o.img, .anchorContainer ._12u1.img, img._54ru, ._8o .img
 	{
-		border-radius: 100% !important;
-		//-o-transition: border-radius .20s ease-in-out;
-		//-webkit-transition: border-radius .20s ease-in-out;
-		//-moz-transition: border-radius .20s ease-in-out;
-		transition: border-radius .20s ease-in-out;
+		//border-radius: 100% !important;
+		////-o-transition: border-radius .20s ease-in-out;
+		////-webkit-transition: border-radius .20s ease-in-out;
+		////-moz-transition: border-radius .20s ease-in-out;
+		//transition: border-radius .20s ease-in-out;
+
+		@include site-elem-extend($domain, 'avatar');
 	}
 
 	.fbxWelcomeBoxImg:hover, ._rw:hover, .ego_unit:hover ._rw, ._5x46:hover ._rw, .UFIActorImage:hover, ._55lt img:hover, .pvs:hover ._55lt img, .messagesContent:hover ._55lt img, .tickerStoryImage:hover, .webMessengerMessageGroup:hover ._8o .img, .UFIRow.UFIComment:hover .UFIActorImage, .tickerStoryBlock:hover .tickerStoryImage, .anchorContainer ._33h._8o.img:hover, .anchorContainer:hover ._33h._8o.img, .anchorContainer:hover ._12u1.img, ._5r69:hover img._54ru, ._8o:hover .img
 	{
-		border-radius: 5% !important;
+		//border-radius: 5% !important;
+		@include site-elem-extend($domain, 'avatar_hover');
+	}
+
+	.anchorContainer
+	{
+		._ohe.lfloat > .img
+		{
+			@include site-elem-extend($domain, 'avatar');
+		}
+
+		&:hover
+		{
+			._ohe.lfloat > .img
+			{
+				@include site-elem-extend($domain, 'avatar_hover');
+			}
+		}
 	}
 
 	.fbxWelcomeBoxBlock:after, #blueBar:after, .UFIImageBlockImage:after, ._5v9u:after, ._4o04
@@ -137,12 +172,12 @@
 
 	._4-u2:hover, ._2a2r:hover .uiScaledImageContainer, ._2yq ._4-u2.mbm:hover::before, ._4-u3._2ph_ ._5ks5._3-9a:hover
 	{
-		border-color: $hovercolor;
+		border-color: stylish-var($hovercolor, '/*[[hovercolor]]*/');
 	}
 
 	.uiScrollableArea.ticker_container
 	{
-		height: $scrollablearea !important;
+		height: stylish-var($scrollablearea, '/*[[scrollablearea]]*/') !important;
 	}
 
 	.fbChatSidebar #pagelet_ticker
@@ -446,7 +481,8 @@ $domain: 'developers.facebook.com';
 
 	html, body, :root
 	{
-		font-size: $fontSize;
+		//font-size: $fontSize;
+		font-size: stylish-var($fontSize, '/*[[size]]*/');
 	}
 
 	// https://developers.facebook.com/docs/
