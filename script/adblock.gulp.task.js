@@ -40,11 +40,11 @@ module.exports = async (done) =>
 
 	//console.log(data.toString());
 
-	let header = `[Adblock Plus 2.8]
+	let header = `[Adblock Plus 2.0]
 !
 ! Title: Adblock LazyList SC
-! Homepage: 
-! Install: 
+! Homepage: https://github.com/bluelovers/stylish-adblock-for-mobile/blob/master/dist/adblock.ini
+! Install: https://github.com/bluelovers/stylish-adblock-for-mobile/raw/master/dist/adblock.ini
 ! Expires: 1 days
 !
 ! [Adblock LazyList SC]
