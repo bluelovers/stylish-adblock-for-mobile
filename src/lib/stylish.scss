@@ -1,0 +1,15 @@
+// Created by USER on 2017/5/8.
+
+$is-stylish: false !default;
+
+@function stylish-var($value, $varname)
+{
+	@if ($is-stylish == true)
+	{
+		@return #{$varname};
+	}
+	@else
+	{
+		@return #{$value};
+	}
+}
