@@ -3,7 +3,7 @@
 {
 	@include site-init-here($domain);
 
-	#style-info
+	#style-info, #style_info
 	{
 		@include global_ad()
 		{

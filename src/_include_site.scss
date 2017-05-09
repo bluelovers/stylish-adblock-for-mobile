@@ -1,7 +1,10 @@
 // this file is auto build, don't edit this
-/* sites: adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, gleenow.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, yahoo.com ... and others.*/
+/* sites: 4gamers.com.tw, adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, gjoyz.co, gleenow.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, news.yahoo.com, yahoo.com ... and others.*/
 $domain: '_alldomain';
 @import "_include/_alldomain.scss";
+
+$domain: '_include_acg';
+@import "_include/_include_acg.scss";
 
 $domain: '_include_art';
 @import "_include/_include_art.scss";
@@ -30,6 +33,11 @@ $domain: '_include_scoial';
 $domain: '_include_yahoo';
 @import "_include/_include_yahoo.scss";
 
+
+/* dirkey: acg */
+/* site: 4gamers.com.tw */
+$domain: '4gamers.com.tw.scss';
+@import "site/acg/4gamers.com.tw.scss";
 
 /* dirkey:  */
 /* site: adaymag.com */
@@ -100,6 +108,11 @@ $domain: 'cmoney.tw.scss';
 /* site: cocomy.net */
 $domain: 'cocomy.net.scss';
 @import "site/content_farm/cocomy.net.scss";
+
+/* dirkey: content_farm */
+/* site: gjoyz.co */
+$domain: 'gjoyz.co.scss';
+@import "site/content_farm/gjoyz.co.scss";
 
 /* dirkey: content_farm */
 /* site: gleenow.com */
@@ -290,6 +303,11 @@ $domain: 'wetalk.tw.scss';
 /* site: answers.yahoo.com */
 $domain: 'answers.yahoo.com.scss';
 @import "site/yahoo/answers.yahoo.com.scss";
+
+/* dirkey: yahoo */
+/* site: news.yahoo.com */
+$domain: 'news.yahoo.com.scss';
+@import "site/yahoo/news.yahoo.com.scss";
 
 /* dirkey: yahoo */
 /* site: yahoo.com */

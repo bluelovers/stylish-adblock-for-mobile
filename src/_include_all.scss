@@ -26,7 +26,7 @@ $domain: '_include_all.scss';
 {
 	@include site-init-here($domain);
 
-	article
+	article, .article-content, .article
 	{
 		@include global_ad()
 		{

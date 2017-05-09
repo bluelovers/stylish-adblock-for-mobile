@@ -1,0 +1,9 @@
+/* _include_acg */
+$domain_include_acg: '_include_acg';
+$domain: '_include_acg';
+@-moz-document domain("4gamers.com.tw")
+{
+	@include site-init-here($domain, $domain_include_acg);
+	
+	@import "../include/_include_acg.scss";
+}

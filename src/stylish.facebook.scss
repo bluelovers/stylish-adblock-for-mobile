@@ -51,7 +51,7 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
-	._5p3y
+	._5p3y, ._4a8c ._36bx ._1mwp._17nh, ._4a8c ._36bx ._1mwp._17nh
 	{
 		@extend .userContent;
 	}
@@ -73,6 +73,46 @@ $domain: 'www.facebook.com';
 	._aos .uiMentionsInput .input, ._aos .uiMentionsInput .highlighterContent
 	{
 		@extend .userContent;
+	}
+
+	._1hx ._480e, #composer_text_input_box, textarea, ._559p, ._1hx ._480e, ._1hx ._3en1
+	{
+		@extend .userContent;
+	}
+
+	._2n69, ._2tyk ._3653, ._36ic ._1tqi, ._17w2, ._5iwm ._58al, ._364g, ._225b, ._5u15, ._36ic ._1tqi, ._3blk, ._3blk, ._2ogt, ._5i_d .__6l, ._1lj0, ._2i-c ._54nf ._54nh
+	{
+		@extend .userContent;
+	}
+
+	._5778 ._577b, ._5778 ._28o3, ._5n7j, ._1jlx ._94t a, ._4h98._4h98, input
+	{
+		@extend .userContent;
+	}
+
+	._40n5, ._38u4, ._9ud, ._1z7g, ._4bl9, ._4h98._4h98, ._4h98, #facebook ._-kb textarea
+	{
+		@extend .userContent;
+	}
+
+	input:-moz-read-write, textarea:-moz-read-write, ._3dc, ._6-6
+	{
+		@extend .userContent;
+	}
+
+	// https://www.facebook.com/deepwhiteII/posts/1445894665432259
+	// kkbox music
+	.fsl, .fsm, body ._3-_v
+	{
+		@extend .userContent;
+	}
+
+	@include css3-placeholder()
+	{
+		@at-root &, textarea#{&}, input#{&}
+		{
+			font-size: 1em !important;
+		}
 	}
 
 	html, body, :root
@@ -129,6 +169,32 @@ $domain: 'www.facebook.com';
 		@include site-elem-extend($domain, 'avatar_hover');
 	}
 
+	._5x46, ._5r69, .fbPhotoSnowliftAuthorInfo, .uiGrid ._51m-
+	{
+		._8o .img
+		{
+			@include site-elem-extend($domain, 'avatar');
+		}
+
+		._38vo:after, ._35za
+		{
+			@include site-elem-extend($domain, 'avatar');
+		}
+
+		&:hover
+		{
+			._8o .img
+			{
+				@include site-elem-extend($domain, 'avatar_hover');
+			}
+
+			._38vo:after, ._35za
+			{
+				@include site-elem-extend($domain, 'avatar_hover');
+			}
+		}
+	}
+
 	.anchorContainer
 	{
 		._ohe.lfloat > .img
@@ -139,6 +205,48 @@ $domain: 'www.facebook.com';
 		&:hover
 		{
 			._ohe.lfloat > .img
+			{
+				@include site-elem-extend($domain, 'avatar_hover');
+			}
+		}
+	}
+
+	#pagelet_composer #js_u ._3hvt, ._3s6w, .link, .objectListItem
+	{
+		.img
+		{
+			@include site-elem-extend($domain, 'avatar');
+		}
+
+		&:hover
+		{
+			.img
+			{
+				@include site-elem-extend($domain, 'avatar_hover');
+			}
+		}
+	}
+
+	._2cpc
+	{
+		.img
+		{
+			@include site-elem-extend($domain, 'avatar');
+		}
+
+		&::after
+		{
+			@include site-elem-extend($domain, 'avatar');
+		}
+
+		&:hover
+		{
+			.img
+			{
+				@include site-elem-extend($domain, 'avatar_hover');
+			}
+
+			&::after
 			{
 				@include site-elem-extend($domain, 'avatar_hover');
 			}
