@@ -38,7 +38,7 @@ module.exports = async (done) =>
 		return data;
 	});
 
-	//console.log(data.toString());
+	//console.log(data.toArray());
 
 	let header = `[Adblock Plus 2.0]
 !
