@@ -35,4 +35,9 @@
 		@include font-size-article();
 	}
 
+	.vex.vex-theme-plain
+	{
+		@include adblock($domain);
+	}
+
 }
