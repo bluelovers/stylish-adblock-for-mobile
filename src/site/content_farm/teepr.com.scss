@@ -51,4 +51,14 @@
 	{
 		@include adblock($domain);
 	}
+
+	.custombox-content, .custombox-overlay
+	{
+		@include adblock($domain);
+	}
+
+	#topAdBlock, .scupioadslot, .teepr-follow
+	{
+		@include adblock($domain);
+	}
 }
