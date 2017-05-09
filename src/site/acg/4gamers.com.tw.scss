@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/9.
+@-moz-document domain("4gamers.com.tw")
+{
+	@include site-init-here($domain);
+
+	@include global_ad()
+	{
+		@include adblock($domain);
+	}
+}
