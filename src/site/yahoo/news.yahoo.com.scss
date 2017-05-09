@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/9.
+@-moz-document domain("news.yahoo.com")
+{
+	@include site-init-here($domain);
+
+	.js-stream-content > .controller.Feedback
+	{
+		@include adblock($domain);
+	}
+}
