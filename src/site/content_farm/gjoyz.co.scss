@@ -1,0 +1,15 @@
+// Created by USER on 2017/5/9.
+@-moz-document domain("gjoyz.co")
+{
+	@include site-init-here($domain);
+
+	.ads_content_border, .ads_content, .ads_content_border
+	{
+		@include adblock($domain_include_content_farm);
+	}
+
+	#gaTop, #gaTopFlag, #gaExtra1, #gaMid1, #taboola-below-article-thumbnails, #gaRight1, .FIOnDemandWrapper
+	{
+		@include adblock($domain);
+	}
+}
