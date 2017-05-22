@@ -1,0 +1,4 @@
+#ping出來的ip
+#208.117.234.89 a.rtmp.youtube.com
+#網站查的ip
+#74.125.106.167 a.rtmp.youtube.com
