@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/10.
+@-moz-document domain("cnews.com.tw")
+{
+	@include site-init-here($domain);
+
+	._backdrop, #popupLike
+	{
+		@include adblock($domain);
+	}
+}
