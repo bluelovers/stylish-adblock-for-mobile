@@ -80,6 +80,10 @@
 
 0.0.0.0 bet365.com
 
+# [btxoeiisonxh.com]
+
+0.0.0.0 btxoeiisonxh.com
+
 # [bittorrent.com]
 
 0.0.0.0 bundles.bittorrent.com
