@@ -1,7 +1,7 @@
 // Created by USER on 2017/5/7.
 @-moz-document domain("cmoney.tw")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	#ArticleTopAds, .ad-320x100
 	{
