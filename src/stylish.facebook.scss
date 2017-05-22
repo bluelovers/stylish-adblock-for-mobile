@@ -14,6 +14,11 @@ $domain: 'www.facebook.com';
 		font-size: 1rem !important;
 	}
 
+	@include site-elem-here($domain, 'userContent2')
+	{
+		font-size: $fontSize2 !important;
+	}
+
 	.userContent
 	{
 		@include site-elem-extend($domain, 'userContent');
@@ -163,7 +168,7 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
-	._5kus, ._5kur
+	._5kus, ._5kur, ._56q9, ._4uyl ._5yk2, ._4uyl ._1u9t, ._1l- .uiToken
 	{
 		@extend .userContent;
 	}
