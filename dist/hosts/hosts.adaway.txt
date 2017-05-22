@@ -72,6 +72,10 @@
 0.0.0.0 az361816.vo.msecnd.net
 0.0.0.0 az512334.vo.msecnd.net
 
+# [azxsd.pro]
+
+0.0.0.0 azxsd.pro
+
 # [bet365.com]
 
 0.0.0.0 bet365.com
