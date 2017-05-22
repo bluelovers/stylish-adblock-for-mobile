@@ -1,7 +1,7 @@
 // Created by USER on 2017/4/14.
 @-moz-document domain("pixpo.net")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	.detail_fixedad, #win_like, #win_like_mask
 	{
