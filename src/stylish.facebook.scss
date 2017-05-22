@@ -6,11 +6,42 @@
 $is-stylish: true;
 
 $domain: 'www.facebook.com';
-@-moz-document domain("www.facebook.com") {
+@-moz-document domain("www.facebook.com")
+{
+
+	@include site-elem-here($domain, 'userContent')
+	{
+		font-size: 1rem !important;
+	}
 
 	.userContent
 	{
-		font-size: 1rem;
+		@include site-elem-extend($domain, 'userContent');
+	}
+
+	@include site-elem-here($domain, 'root')
+	{
+		font-size: stylish-var($fontSize, '/*[[size]]*/');
+
+		&[lang="ja"]
+		{
+			font-size: stylish-var($fontSize, '/*[[size]]*/');
+		}
+	}
+
+	@include site-elem-here($domain, 'fontSize')
+	{
+		font-size: stylish-var($fontSize, '/*[[size]]*/');
+	}
+
+	@include site-elem-here($domain, 'fontSize2')
+	{
+		font-size: $fontSize2;
+	}
+
+	@include site-elem-here($domain, 'fontSize3')
+	{
+		font-size: $fontSize3;
 	}
 
 	._wk, #fbPhotoSnowliftCaption, #fbPhotoSnowliftTagList, #fbPhotoSnowliftCaption .text_exposed_link, ._5k3v, ._5p3y ._5pbw, ._5p3y ._5pbx, ._5p3y ._5pbx span.text_exposed_link, ._4_j6, ._5k3v, ._6dh ._2yg .input, ._6dh ._2yg .uiMentionsInput .highlighterContent, .fbPhotoAlbumHeader .fbPhotoCaption, ._5p3y, ._5p3y button, ._5p3y input, ._5p3y label, ._5p3y select, ._5p3y td, ._5p3y textarea, ._5p3y .uiMentionsInput .highlighter, ._5p3y .uiButtonText, ._5p3y .uiButton input, ._5p3y .uiLinkButton input, ._5p3y button.as_link, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, html ._1llv ._2yg .input, html ._1llv ._2yg .uiMentionsInput .highlighterContent, ._36, .webMessengerMessageGroup ._38, .__wu ._539-.roundedBox .uiSearchInput .inputtext, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, #globalContainer .editNotePage .editNoteTitleInput, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nl, ._6nm, ._50f4, ._5elm ._5eln, ._5elm ._5elo .photoAlbumDescInput, ._5elm ._5elo .highlighterContent, ._5elm ._5elp .placeTypeaheadInput, ._5elm ._5elp .placeholder, ._l52, ._2yg .input, .UIFeedFormStory_Prompt textarea, html ._2yg .uiMentionsInput .highlighter,
@@ -102,7 +133,37 @@ $domain: 'www.facebook.com';
 
 	// https://www.facebook.com/deepwhiteII/posts/1445894665432259
 	// kkbox music
-	.fsl, .fsm, body ._3-_v
+	.fsl, .fsm, body ._3-_v, ._79s, ._79r, ._2ava, ._3v6c ._5u7u, ._5dw8 a, ._2-sm._xa9, ._1c03, ._2wmb, ._4jy0
+	{
+		@extend .userContent;
+	}
+
+	button, input, label, select, td, textarea
+	{
+		@extend .userContent;
+	}
+
+	._5a_ td._5l5, ._5a_ td._5l6, ._5a_ td._5l6 a[role="button"], .uiButtonLarge, .uiButtonLarge .uiButtonText, .uiButtonLarge input, ._4qd h3
+	{
+		@extend .userContent;
+	}
+
+	._31rf, ._31q_, ._2-sm._2ias, ._35v5, ._5pbw, ._5pbx, ._2wmb, ._50f4, ._1hib, ._2-sm._xa9, ._4jq5, ._5vx2 ._45hd ._45hc
+	{
+		@extend .userContent;
+	}
+
+	._1c03, ._3v6c span._38my, ._3v6c ._5u7u, ._2ava, ._79s, ._34x4 ._34x7, ._2m80
+	{
+		@extend .userContent;
+	}
+
+	._34x_, ._50f4, ._4g6e, ._4xrx, ._20y ._210, ._20y .uiTokenizer
+	{
+		@extend .userContent;
+	}
+
+	._5kus, ._5kur
 	{
 		@extend .userContent;
 	}
@@ -118,7 +179,9 @@ $domain: 'www.facebook.com';
 	html, body, :root
 	{
 		//font-size: $fontSize;
-		font-size: stylish-var($fontSize, '/*[[size]]*/');
+		//font-size: stylish-var($fontSize, '/*[[size]]*/');
+
+		@include site-elem-extend($domain, 'root');
 	}
 
 	._5v3q ._5pbx p
@@ -211,7 +274,7 @@ $domain: 'www.facebook.com';
 		}
 	}
 
-	#pagelet_composer #js_u ._3hvt, ._3s6w, .link, .objectListItem
+	#pagelet_composer #js_u ._3hvt, ._3s6w, .link, .objectListItem, ._34xx, ._2pin
 	{
 		.img
 		{
@@ -347,6 +410,47 @@ $domain: 'www.facebook.com';
 		}
 	}
 
+	._20i8 ._20i9 ._2pxf
+	{
+		// 粉絲頁 PO文 按鈕
+		._306z
+		{
+			position: relative;
+
+			._3074
+			{
+				display: block;
+				text-align: center;
+
+				font-weight: bold;
+				text-align: center;
+				text-shadow: 0 1px rgba(0,0,0,.5);
+
+				height: 70px;
+				width: 110px;
+
+				top: 0;
+				position: absolute;
+				line-height: 70px;
+
+				background-color: rgba(0, 0, 0, 0.5);
+				color: #fff;
+
+				&:hover
+				{
+					background-color: rgba(0, 0, 0, 0);
+
+					._4qba
+					{
+						background-color: rgba(0, 0, 0, 0.25);
+						width: 100%;
+						display: inline-block;
+						line-height: 2em;
+					}
+				}
+			}
+		}
+	}
 }
 
 $domain: 'm.facebook.com';

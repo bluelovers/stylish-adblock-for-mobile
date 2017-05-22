@@ -1,7 +1,7 @@
 // Created by USER on 2017/4/14.
 @-moz-document domain("ispot.news")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	.ui_adblock
 	{

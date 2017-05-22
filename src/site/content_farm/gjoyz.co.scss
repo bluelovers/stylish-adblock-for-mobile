@@ -1,7 +1,7 @@
 // Created by USER on 2017/5/9.
 @-moz-document domain("gjoyz.co")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	.ads_content_border, .ads_content, .ads_content_border
 	{

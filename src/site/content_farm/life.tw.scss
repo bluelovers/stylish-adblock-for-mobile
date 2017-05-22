@@ -1,6 +1,6 @@
 @-moz-document domain("life.tw")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	#fullblock, #fbFixedAd
 	{

@@ -1,8 +1,7 @@
 
 @-moz-document domain("teepr.com")
 {
-
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	body, :root
 	{

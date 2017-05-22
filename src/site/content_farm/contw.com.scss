@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/10.
+@-moz-document domain("contw.com")
+{
+	@include content-farm-include($domain);
+
+	.ads_mid, .ads_content
+	{
+		@include adblock($domain_include_content_farm);
+	}
+}

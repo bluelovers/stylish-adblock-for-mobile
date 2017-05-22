@@ -1,7 +1,7 @@
 // Created by USER on 2017/5/6.
 @-moz-document domain("read01.com")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	.axslot
 	{

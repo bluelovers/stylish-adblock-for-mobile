@@ -75,6 +75,11 @@ gulp.task('adblock', ['leechblock', 'adblockpopups'], function (done)
 	require('./script/adblock.gulp.task.js')(done);
 });
 
+gulp.task('hosts', ['adaway'], function (done)
+{
+	require('./script/hosts.gulp.task.js')(done);
+});
+
 gulp.task('all', [
 
 	'leechblock',
@@ -84,6 +89,8 @@ gulp.task('all', [
 
 	'adblockpopups',
 	'adblock',
+
+	'hosts',
 
 	'sass',
 

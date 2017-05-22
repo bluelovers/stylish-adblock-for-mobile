@@ -1,9 +1,8 @@
 // 內容農場專用暴力樣式
-@-moz-document
-	domain("twgreatdaily.com")
+@-moz-document domain("twgreatdaily.com")
 {
 
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	#fbModel, .modal-backdrop
 	{
