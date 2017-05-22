@@ -1,0 +1,8 @@
+#180.76.3.18 tieba.baidu.com
+#220.181.38.80 tieba.baidu.com
+#103.235.46.139 tieba.baidu.com
+
+# baidu
+
+#180.76.2.35 passport.n.shifen.com
+#180.149.132.99 pan.baidu.com
