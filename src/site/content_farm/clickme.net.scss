@@ -1,7 +1,7 @@
 // Created by USER on 2017/4/21.
 @-moz-document domain("clickme.net")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	#Shadow, .ADs
 	{
