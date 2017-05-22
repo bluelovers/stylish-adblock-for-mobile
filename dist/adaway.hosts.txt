@@ -1,45 +1,298 @@
-# AdAway blocklist
+# ======== AdAway Lazy blocklist ========
+# =================================
 
-# [Lazy]
-127.0.0.1 ads.raidtalk.com.tw
-127.0.0.1 app.mobileai.net
-127.0.0.1 asdfg.pro
-127.0.0.1 bet365.com
-127.0.0.1 clicksgear.com
-127.0.0.1 detect.fepi.gdn
-127.0.0.1 expedia.com.tw
-127.0.0.1 fepi.gdn
-127.0.0.1 forultimateandbest2updatepc.bid
-127.0.0.1 game168.com.tw
-127.0.0.1 goldinst.com
-127.0.0.1 imgblank.com
-127.0.0.1 jiuwo.xunlei.com
-127.0.0.1 love4single.com
-127.0.0.1 mmofreegames.online
-127.0.0.1 mobrdrmsmt.com
-127.0.0.1 muvflix.com
-127.0.0.1 mysagagame.com
-127.0.0.1 mysuperapps.online
-127.0.0.1 neocoregames.com
-127.0.0.1 nutaku.net
-127.0.0.1 offerland.mobi
-127.0.0.1 passinst.com
-127.0.0.1 performanceadexchange.com
-127.0.0.1 popcash.net
-127.0.0.1 porngames.adult
-127.0.0.1 prestoris.com
-127.0.0.1 qqhaohua.com
-127.0.0.1 r18.com
-127.0.0.1 reimageplus.com
-127.0.0.1 serve.popads.net
-127.0.0.1 sn9zz.detect.fepi.gdn
-127.0.0.1 srvr.work
-127.0.0.1 taiwan-prizes.com
-127.0.0.1 taiwanmethod.net
-127.0.0.1 topoffersss.com
-127.0.0.1 trackmedia101.com
-127.0.0.1 watchmygf.net
-127.0.0.1 wethk.com
-127.0.0.1 youlucky2014.com
-127.0.0.1 youmustcheckthisout.com
-127.0.0.1 zh.reimageplus.com
+# [a-msedge.net]
+
+0.0.0.0 a-0001.a-msedge.net
+
+# [msn.com]
+
+0.0.0.0 a.ads1.msn.com
+0.0.0.0 a.ads2.msn.com
+0.0.0.0 ads.msn.com
+0.0.0.0 ads1.msn.com
+0.0.0.0 msnbot-207-46-194-33.search.msn.com
+0.0.0.0 preview.msn.com
+0.0.0.0 rad.msn.com
+
+# [doubleclick.net]
+
+0.0.0.0 ad.doubleclick.net
+
+# [adnexus.net]
+
+0.0.0.0 adnexus.net
+
+# [adnxs.com]
+
+0.0.0.0 adnxs.com
+
+# [com.tw]
+
+0.0.0.0 ads.raidtalk.com.tw
+0.0.0.0 expedia.com.tw
+0.0.0.0 game168.com.tw
+
+# [msads.net]
+
+0.0.0.0 ads1.msads.net
+
+# [mobileai.net]
+
+0.0.0.0 app.mobileai.net
+
+# [asdfg.pro]
+
+0.0.0.0 asdfg.pro
+
+# [msecnd.net]
+
+0.0.0.0 az361816.vo.msecnd.net
+0.0.0.0 az512334.vo.msecnd.net
+
+# [bet365.com]
+
+0.0.0.0 bet365.com
+
+# [bittorrent.com]
+
+0.0.0.0 bundles.bittorrent.com
+0.0.0.0 cdn.ap.bittorrent.com
+
+# [microsoft.com]
+
+0.0.0.0 ca.telemetry.microsoft.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
+0.0.0.0 df.telemetry.microsoft.com
+0.0.0.0 diagnostics.support.microsoft.com
+0.0.0.0 feedback.search.microsoft.com
+0.0.0.0 i1.services.social.microsoft.com
+0.0.0.0 oca.telemetry.microsoft.com
+0.0.0.0 redir.metaservices.microsoft.com
+0.0.0.0 reports.wes.df.telemetry.microsoft.com
+0.0.0.0 services.wes.df.telemetry.microsoft.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
+0.0.0.0 spynet2.microsoft.com
+0.0.0.0 spynetalt.microsoft.com
+0.0.0.0 sqm.df.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.ws.microsoft.com
+0.0.0.0 survey.watson.microsoft.com
+0.0.0.0 telecommand.telemetry.microsoft.com
+0.0.0.0 telemetry.microsoft.com
+0.0.0.0 telemetry.urs.microsoft.com
+0.0.0.0 v10.vortex-win.data.microsoft.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
+0.0.0.0 vortex-win.data.microsoft.com
+0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 watson.microsoft.com
+0.0.0.0 watson.ppe.telemetry.microsoft.com
+0.0.0.0 watson.telemetry.microsoft.com
+0.0.0.0 wes.df.telemetry.microsoft.com
+0.0.0.0 win10.ipv6.microsoft.com
+
+# [windows.com]
+
+0.0.0.0 cache.datamart.windows.com
+0.0.0.0 db3wns2011111.wns.windows.com
+0.0.0.0 feedback.windows.com
+
+# [nsatc.net]
+
+0.0.0.0 choice.microsoft.com.nsatc.net
+0.0.0.0 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
+0.0.0.0 i1.services.social.microsoft.com.nsatc.net
+0.0.0.0 oca.telemetry.microsoft.com.nsatc.net
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
+0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
+0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
+
+# [clicksgear.com]
+
+0.0.0.0 clicksgear.com
+
+# [cloudapp.net]
+
+0.0.0.0 compatexchange.cloudapp.net
+
+# [v0cdn.net]
+
+0.0.0.0 cs1.wpc.v0cdn.net
+
+# [fepi.gdn]
+
+0.0.0.0 detect.fepi.gdn
+0.0.0.0 fepi.gdn
+0.0.0.0 sn9zz.detect.fepi.gdn
+
+# [akadns.net]
+
+0.0.0.0 fe2.update.microsoft.com.akadns.net
+0.0.0.0 sls.update.microsoft.com.akadns.net
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
+
+# [microsoft-hohm.com]
+
+0.0.0.0 feedback.microsoft-hohm.com
+
+# [forultimateandbest2updatepc.bid]
+
+0.0.0.0 forultimateandbest2updatepc.bid
+
+# [goldinst.com]
+
+0.0.0.0 goldinst.com
+
+# [imgblank.com]
+
+0.0.0.0 imgblank.com
+
+# [xunlei.com]
+
+0.0.0.0 jiuwo.xunlei.com
+
+# [love4single.com]
+
+0.0.0.0 love4single.com
+
+# [mmofreegames.online]
+
+0.0.0.0 mmofreegames.online
+
+# [mobrdrmsmt.com]
+
+0.0.0.0 mobrdrmsmt.com
+
+# [muvflix.com]
+
+0.0.0.0 muvflix.com
+
+# [mysagagame.com]
+
+0.0.0.0 mysagagame.com
+
+# [mysuperapps.online]
+
+0.0.0.0 mysuperapps.online
+
+# [neocoregames.com]
+
+0.0.0.0 neocoregames.com
+
+# [nutaku.net]
+
+0.0.0.0 nutaku.net
+
+# [offerland.mobi]
+
+0.0.0.0 offerland.mobi
+
+# [passinst.com]
+
+0.0.0.0 passinst.com
+
+# [performanceadexchange.com]
+
+0.0.0.0 performanceadexchange.com
+
+# [popcash.net]
+
+0.0.0.0 popcash.net
+
+# [porngames.adult]
+
+0.0.0.0 porngames.adult
+
+# [footprintpredict.com]
+
+0.0.0.0 pre.footprintpredict.com
+
+# [prestoris.com]
+
+0.0.0.0 prestoris.com
+
+# [qqhaohua.com]
+
+0.0.0.0 qqhaohua.com
+
+# [r18.com]
+
+0.0.0.0 r18.com
+
+# [reimageplus.com]
+
+0.0.0.0 reimageplus.com
+0.0.0.0 zh.reimageplus.com
+
+# [2mdn.net]
+
+0.0.0.0 s0.2mdn.net
+
+# [popads.net]
+
+0.0.0.0 serve.popads.net
+
+# [microsof.com]
+
+0.0.0.0 settings.data.microsof.com
+
+# [srvr.work]
+
+0.0.0.0 srvr.work
+
+# [live.com]
+
+0.0.0.0 ssw.live.com
+0.0.0.0 watson.live.com
+
+# [taiwan-prizes.com]
+
+0.0.0.0 taiwan-prizes.com
+
+# [taiwanmethod.net]
+
+0.0.0.0 taiwanmethod.net
+
+# [nsat-c.net]
+
+0.0.0.0 telecommand.telemetry.microsoft.com.nsat-c.net
+
+# [bing.net]
+
+0.0.0.0 telemetry.appex.bing.net
+
+# [topoffersss.com]
+
+0.0.0.0 topoffersss.com
+
+# [trackmedia101.com]
+
+0.0.0.0 trackmedia101.com
+
+# [utorrent.com]
+
+0.0.0.0 utclient.utorrent.com
+
+# [atdmt.com]
+
+0.0.0.0 view.atdmt.com
+
+# [watchmygf.net]
+
+0.0.0.0 watchmygf.net
+
+# [wethk.com]
+
+0.0.0.0 wethk.com
+
+# [youlucky2014.com]
+
+0.0.0.0 youlucky2014.com
+
+# [youmustcheckthisout.com]
+
+0.0.0.0 youmustcheckthisout.com
