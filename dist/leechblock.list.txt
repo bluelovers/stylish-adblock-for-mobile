@@ -12,6 +12,7 @@ app.mobileai.net
 asdfg.pro
 az361816.vo.msecnd.net
 az512334.vo.msecnd.net
+azxsd.pro
 bet365.com
 bundles.bittorrent.com
 ca.telemetry.microsoft.com
