@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("www.facebook.com") {
-	/* line 11, src/stylish.facebook.scss */
+	/* line 33, src/lib/lib.scss */
 	.userContent, ._wk, #fbPhotoSnowliftCaption, #fbPhotoSnowliftTagList, #fbPhotoSnowliftCaption .text_exposed_link, ._5k3v, ._5p3y ._5pbw, ._5p3y ._5pbx, ._5p3y ._5pbx span.text_exposed_link, ._4_j6, ._6dh ._2yg .input, ._6dh ._2yg .uiMentionsInput .highlighterContent, .fbPhotoAlbumHeader .fbPhotoCaption, ._5p3y, ._5p3y button, ._5p3y input, ._5p3y label, ._5p3y select, ._5p3y td, ._5p3y textarea, ._5p3y .uiMentionsInput .highlighter, ._5p3y .uiButtonText, ._5p3y .uiButton input, ._5p3y .uiLinkButton input, ._5p3y button.as_link, ._5t_y ._2yg .input, ._5t_y ._2yg .uiMentionsInput .highlighterContent, html ._1llv ._2yg .input, html ._1llv ._2yg .uiMentionsInput .highlighterContent, ._36, .webMessengerMessageGroup ._38, .__wu ._539-.roundedBox .uiSearchInput .inputtext, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3o9, ._cf_ #globalContainer .timelineUnitContainer ._3gr ._3oa .highlighter, ._6nw._cf_ #globalContainer ._3gr ._3o9, ._6nw._cf_ #globalContainer ._3gr ._3oa .highlighter, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3o9, .uiStreamRedesign .uiStreamMessage .messageBody ._3gr ._3oa .highlighter, ._5pcr ._3gr ._3o9, ._5pcr ._3gr ._3oa .highlighter, .timelineUnitContainer ._3gr ._3o9, .timelineUnitContainer ._3gr ._3oa .highlighter, #globalContainer .editNotePage .editNoteTitleInput, ._6nl, ._6nm, ._50f4, ._5elm ._5eln, ._5elm ._5elo .photoAlbumDescInput, ._5elm ._5elo .highlighterContent, ._5elm ._5elp .placeTypeaheadInput, ._5elm ._5elp .placeholder, ._l52, ._2yg .input, .UIFeedFormStory_Prompt textarea, html ._2yg .uiMentionsInput .highlighter,
 	._5p3y .fsl, ._9fi .uiSearchInput input, ._5h_u ._3_tq,
 	.fbPhotoSnowlift.fbxPhoto .fbPhotoContributorName, ._4fzb ._1nb_, ._5p3y ._4fzb ._5pco, ._u77 #fbPhotoSnowliftCaption, ._u77 #fbPhotoSnowliftTagList, ._u77 #fbPhotoSnowliftCaption .text_exposed_link, ._36bx ._1mwp, ._2kml,
@@ -21,62 +21,64 @@
 	._3q3r ._1twx, ._4-i0 ._52c9, ._1xmb,
 	._4jq5, ._5vx2 ._45hd ._45hc,
 	._40n8,
-	._50f5, ._3v6c span._38my, ._4a8c ._36bx ._1mwp._17nh, ._io, ._z6x, ._4kac, ._3uh4, ._4ka9, ._5dwl, ._4kaa, ._25ih, ._59u_, ._4qzj, ._4kad, ._1o5-, ._d9-, ._4ee_ ._4ef1, ._4ee_ ._4ef2, ._4ee_ ._3nb9 input, ._aos .uiMentionsInput .input, ._aos .uiMentionsInput .highlighterContent, ._1hx ._480e, #composer_text_input_box, textarea, ._559p, ._1hx ._3en1, ._2n69, ._2tyk ._3653, ._36ic ._1tqi, ._17w2, ._5iwm ._58al, ._364g, ._225b, ._5u15, ._3blk, ._2ogt, ._5i_d .__6l, ._1lj0, ._2i-c ._54nf ._54nh, ._5778 ._577b, ._5778 ._28o3, ._5n7j, ._1jlx ._94t a, input, ._40n5, ._38u4, ._9ud, ._1z7g, ._4bl9, #facebook ._-kb textarea, input:-moz-read-write, textarea:-moz-read-write, ._3dc, ._6-6, .fsl, .fsm, body ._3-_v {
-		font-size: 1rem;
+	._50f5, ._3v6c span._38my, ._4a8c ._36bx ._1mwp._17nh, ._io, ._z6x, ._4kac, ._3uh4, ._4ka9, ._5dwl, ._4kaa, ._25ih, ._59u_, ._4qzj, ._4kad, ._1o5-, ._d9-, ._4ee_ ._4ef1, ._4ee_ ._4ef2, ._4ee_ ._3nb9 input, ._aos .uiMentionsInput .input, ._aos .uiMentionsInput .highlighterContent, ._1hx ._480e, #composer_text_input_box, textarea, ._559p, ._1hx ._3en1, ._2n69, ._2tyk ._3653, ._36ic ._1tqi, ._17w2, ._5iwm ._58al, ._364g, ._225b, ._5u15, ._3blk, ._2ogt, ._5i_d .__6l, ._1lj0, ._2i-c ._54nf ._54nh, ._5778 ._577b, ._5778 ._28o3, ._5n7j, ._1jlx ._94t a, input, ._40n5, ._38u4, ._9ud, ._1z7g, ._4bl9, #facebook ._-kb textarea, input:-moz-read-write, textarea:-moz-read-write, ._3dc, ._6-6, .fsl, .fsm, body ._3-_v, ._79s, ._79r, ._2ava, ._3v6c ._5u7u, ._5dw8 a, ._2-sm._xa9, ._1c03, ._2wmb, ._4jy0, button, label, select, td, ._5a_ td._5l5, ._5a_ td._5l6, ._5a_ td._5l6 a[role="button"], .uiButtonLarge, .uiButtonLarge .uiButtonText, .uiButtonLarge input, ._4qd h3, ._31rf, ._31q_, ._2-sm._2ias, ._35v5, ._1hib, ._34x4 ._34x7, ._2m80, ._34x_, ._4g6e, ._4xrx, ._20y ._210, ._20y .uiTokenizer {
+		font-size: 1rem !important;
 	}
-	/* line 112, src/stylish.facebook.scss */
-	::placeholder, textarea::placeholder, input::placeholder {
-		font-size: 1em !important;
-	}
-	/* line 112, src/stylish.facebook.scss */
-	::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
-		font-size: 1em !important;
-	}
-	/* line 112, src/stylish.facebook.scss */
-	::-moz-placeholder, textarea::-moz-placeholder, input::-moz-placeholder {
-		font-size: 1em !important;
-	}
-	/* line 112, src/stylish.facebook.scss */
-	:-ms-input-placeholder, textarea:-ms-input-placeholder, input:-ms-input-placeholder {
-		font-size: 1em !important;
-	}
-	/* line 112, src/stylish.facebook.scss */
-	:-moz-placeholder, textarea:-moz-placeholder, input:-moz-placeholder {
-		font-size: 1em !important;
-	}
-	/* line 118, src/stylish.facebook.scss */
+	/* line 33, src/lib/lib.scss */
 	html, body, :root {
 		font-size: /*[[size]]*/;
 	}
-	/* line 124, src/stylish.facebook.scss */
+	/* line 26, src/stylish.facebook.scss */
+	html[lang="ja"], body[lang="ja"], [lang="ja"]:root {
+		font-size: /*[[size]]*/;
+	}
+	/* line 168, src/stylish.facebook.scss */
+	::placeholder, textarea::placeholder, input::placeholder {
+		font-size: 1em !important;
+	}
+	/* line 168, src/stylish.facebook.scss */
+	::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+		font-size: 1em !important;
+	}
+	/* line 168, src/stylish.facebook.scss */
+	::-moz-placeholder, textarea::-moz-placeholder, input::-moz-placeholder {
+		font-size: 1em !important;
+	}
+	/* line 168, src/stylish.facebook.scss */
+	:-ms-input-placeholder, textarea:-ms-input-placeholder, input:-ms-input-placeholder {
+		font-size: 1em !important;
+	}
+	/* line 168, src/stylish.facebook.scss */
+	:-moz-placeholder, textarea:-moz-placeholder, input:-moz-placeholder {
+		font-size: 1em !important;
+	}
+	/* line 182, src/stylish.facebook.scss */
 	._5v3q ._5pbx p {
 		margin: /*[[plineheight]]*/ 0 0;
 	}
-	/* line 129, src/stylish.facebook.scss */
+	/* line 187, src/stylish.facebook.scss */
 	._5v3q ._5pbx p, ._5v3q ._5pbx .text_exposed_show p:first-child, ._5v3q ._5pbx .text_exposed_root > p:last-of-type {
 		margin-top: /*[[plineheight]]*/;
 	}
-	/* line 134, src/stylish.facebook.scss */
+	/* line 192, src/stylish.facebook.scss */
 	._5v3q ._5pbx > p:last-of-type, ._5v3q ._5pbx .text_exposed > p:first-child {
 		display: inline-block;
 	}
-	/* line 139, src/stylish.facebook.scss */
+	/* line 197, src/stylish.facebook.scss */
 	._5v3q ._5pbx .text_exposed_root > p:last-of-type {
 		display: block;
 	}
 	/* line 33, src/lib/lib.scss */
-	.fbxWelcomeBoxImg, ._rw, .UFIActorImage, ._55lt img, .tickerStoryImage, .webMessengerMessageGroup ._8o .img, .anchorContainer ._33h._8o.img, .anchorContainer ._12u1.img, img._54ru, ._8o .img, ._5x46 ._8o .img, ._5r69 ._8o .img, .fbPhotoSnowliftAuthorInfo ._8o .img, .uiGrid ._51m- ._8o .img, ._5x46 ._38vo:after, ._5x46 ._35za, ._5r69 ._38vo:after, ._5r69 ._35za, .fbPhotoSnowliftAuthorInfo ._38vo:after, .fbPhotoSnowliftAuthorInfo ._35za, .uiGrid ._51m- ._38vo:after, .uiGrid ._51m- ._35za, .anchorContainer ._ohe.lfloat > .img, #pagelet_composer #js_u ._3hvt .img, ._3s6w .img, .link .img, .objectListItem .img, ._2cpc .img, ._2cpc::after {
-		_: unset;
+	.fbxWelcomeBoxImg, ._rw, .UFIActorImage, ._55lt img, .tickerStoryImage, .webMessengerMessageGroup ._8o .img, .anchorContainer ._33h._8o.img, .anchorContainer ._12u1.img, img._54ru, ._8o .img, ._5x46 ._8o .img, ._5r69 ._8o .img, .fbPhotoSnowliftAuthorInfo ._8o .img, .uiGrid ._51m- ._8o .img, ._5x46 ._38vo:after, ._5x46 ._35za, ._5r69 ._38vo:after, ._5r69 ._35za, .fbPhotoSnowliftAuthorInfo ._38vo:after, .fbPhotoSnowliftAuthorInfo ._35za, .uiGrid ._51m- ._38vo:after, .uiGrid ._51m- ._35za, .anchorContainer ._ohe.lfloat > .img, #pagelet_composer #js_u ._3hvt .img, ._3s6w .img, .link .img, .objectListItem .img, ._34xx .img, ._2pin .img, ._2cpc .img, ._2cpc::after {
 		border-radius: 100%;
 		-webkit-transition: border-radius .20s ease-in-out;
 		transition: border-radius .20s ease-in-out;
 	}
 	/* line 33, src/lib/lib.scss */
-	.fbxWelcomeBoxImg:hover, ._rw:hover, .ego_unit:hover ._rw, ._5x46:hover ._rw, .UFIActorImage:hover, ._55lt img:hover, .pvs:hover ._55lt img, .messagesContent:hover ._55lt img, .tickerStoryImage:hover, .webMessengerMessageGroup:hover ._8o .img, .UFIRow.UFIComment:hover .UFIActorImage, .tickerStoryBlock:hover .tickerStoryImage, .anchorContainer ._33h._8o.img:hover, .anchorContainer:hover ._33h._8o.img, .anchorContainer:hover ._12u1.img, ._5r69:hover img._54ru, ._8o:hover .img, ._5x46:hover ._8o .img, ._5r69:hover ._8o .img, .fbPhotoSnowliftAuthorInfo:hover ._8o .img, .uiGrid ._51m-:hover ._8o .img, ._5x46:hover ._38vo:after, ._5x46:hover ._35za, ._5r69:hover ._38vo:after, ._5r69:hover ._35za, .fbPhotoSnowliftAuthorInfo:hover ._38vo:after, .fbPhotoSnowliftAuthorInfo:hover ._35za, .uiGrid ._51m-:hover ._38vo:after, .uiGrid ._51m-:hover ._35za, .anchorContainer:hover ._ohe.lfloat > .img, #pagelet_composer #js_u ._3hvt:hover .img, ._3s6w:hover .img, .link:hover .img, .objectListItem:hover .img, ._2cpc:hover .img, ._2cpc:hover::after {
-		_: unset;
+	.fbxWelcomeBoxImg:hover, ._rw:hover, .ego_unit:hover ._rw, ._5x46:hover ._rw, .UFIActorImage:hover, ._55lt img:hover, .pvs:hover ._55lt img, .messagesContent:hover ._55lt img, .tickerStoryImage:hover, .webMessengerMessageGroup:hover ._8o .img, .UFIRow.UFIComment:hover .UFIActorImage, .tickerStoryBlock:hover .tickerStoryImage, .anchorContainer ._33h._8o.img:hover, .anchorContainer:hover ._33h._8o.img, .anchorContainer:hover ._12u1.img, ._5r69:hover img._54ru, ._8o:hover .img, ._5x46:hover ._8o .img, ._5r69:hover ._8o .img, .fbPhotoSnowliftAuthorInfo:hover ._8o .img, .uiGrid ._51m-:hover ._8o .img, ._5x46:hover ._38vo:after, ._5x46:hover ._35za, ._5r69:hover ._38vo:after, ._5r69:hover ._35za, .fbPhotoSnowliftAuthorInfo:hover ._38vo:after, .fbPhotoSnowliftAuthorInfo:hover ._35za, .uiGrid ._51m-:hover ._38vo:after, .uiGrid ._51m-:hover ._35za, .anchorContainer:hover ._ohe.lfloat > .img, #pagelet_composer #js_u ._3hvt:hover .img, ._3s6w:hover .img, .link:hover .img, .objectListItem:hover .img, ._34xx:hover .img, ._2pin:hover .img, ._2cpc:hover .img, ._2cpc:hover::after {
 		border-radius: 5%;
 	}
-	/* line 256, src/stylish.facebook.scss */
+	/* line 314, src/stylish.facebook.scss */
 	.fbxWelcomeBoxBlock:after, #blueBar:after, .UFIImageBlockImage:after, ._5v9u:after, ._4o04 {
 		display: none !important;
 	}
@@ -86,104 +88,131 @@
 		border: 0 !important;
 	}
 	*/
-	/* line 268, src/stylish.facebook.scss */
+	/* line 326, src/stylish.facebook.scss */
 	.uiScaledImageContainer, ._4-u3._2ph_ ._5ks5._3-9a {
 		border: 1px solid transparent;
 	}
-	/* line 273, src/stylish.facebook.scss */
+	/* line 331, src/stylish.facebook.scss */
 	._4-u2, .uiScaledImageContainer, ._2yq ._4-u2.mbm::before, ._4-u3._2ph_ ._5ks5._3-9a {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 	}
-	/* line 281, src/stylish.facebook.scss */
+	/* line 339, src/stylish.facebook.scss */
 	._4-u2:hover, ._2a2r:hover .uiScaledImageContainer, ._2yq ._4-u2.mbm:hover::before, ._4-u3._2ph_ ._5ks5._3-9a:hover {
 		border-color: /*[[hovercolor]]*/;
 	}
-	/* line 286, src/stylish.facebook.scss */
+	/* line 344, src/stylish.facebook.scss */
 	.uiScrollableArea.ticker_container {
 		height: /*[[scrollablearea]]*/ !important;
 	}
-	/* line 291, src/stylish.facebook.scss */
+	/* line 349, src/stylish.facebook.scss */
 	.fbChatSidebar #pagelet_ticker {
 		height: 75% !important;
 	}
-	/* line 296, src/stylish.facebook.scss */
+	/* line 354, src/stylish.facebook.scss */
 	.fbChatSidebar #pagelet_ticker .uiScrollableArea.ticker_container {
 		height: 100% !important;
 	}
-	/* line 301, src/stylish.facebook.scss */
+	/* line 359, src/stylish.facebook.scss */
 	._5bl2 .highlightNode {
 		background-color: rgba(42, 239, 231, 0.4);
 	}
-	/* line 306, src/stylish.facebook.scss */
+	/* line 364, src/stylish.facebook.scss */
 	.stageWrapper.lfloat #snowliftStageActions {
 		-webkit-transition: display .20s ease-in-out;
 		transition: display .20s ease-in-out;
 		display: none;
 	}
-	/* line 315, src/stylish.facebook.scss */
+	/* line 373, src/stylish.facebook.scss */
 	.stageWrapper.lfloat:hover #snowliftStageActions {
 		display: block;
+	}
+	/* line 411, src/stylish.facebook.scss */
+	._20i8 ._20i9 ._2pxf ._306z {
+		position: relative;
+	}
+	/* line 415, src/stylish.facebook.scss */
+	._20i8 ._20i9 ._2pxf ._306z ._3074 {
+		display: block;
+		text-align: center;
+		font-weight: bold;
+		text-align: center;
+		text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+		height: 70px;
+		width: 110px;
+		top: 0;
+		position: absolute;
+		line-height: 70px;
+		background-color: rgba(0, 0, 0, 0.5);
+		color: #fff;
+	}
+	/* line 434, src/stylish.facebook.scss */
+	._20i8 ._20i9 ._2pxf ._306z ._3074:hover {
+		background-color: transparent;
+	}
+	/* line 438, src/stylish.facebook.scss */
+	._20i8 ._20i9 ._2pxf ._306z ._3074:hover ._4qba {
+		background-color: rgba(0, 0, 0, 0.25);
+		width: 100%;
+		display: inline-block;
+		line-height: 2em;
 	}
 }
 
 @-moz-document domain("m.facebook.com") {
 	/* line 33, src/lib/lib.scss */
 	body, tr, input, textarea, .g, .f, .m .n, .b .m, .b .cg, .touch, .touch tr, .touch input, .touch textarea, .touch .mfsm, .do, ._2tbu, ._1c5c, ._5qc3 {
-		_: unset;
 		font-size: small;
 	}
-	/* line 399, src/stylish.facebook.scss */
+	/* line 498, src/stylish.facebook.scss */
 	.fk .fo > .bm.fd.fq {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 		border-radius: 5px;
 	}
-	/* line 404, src/stylish.facebook.scss */
+	/* line 503, src/stylish.facebook.scss */
 	.fk .fo > .bm.fd.fq:hover {
 		border-color: #5782DA;
 	}
-	/* line 414, src/stylish.facebook.scss */
+	/* line 513, src/stylish.facebook.scss */
 	#m_newsfeed_stream .dy > div[role="article"], #m_newsfeed_stream .dz > div[role="article"] {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 		border-radius: 5px;
 	}
-	/* line 419, src/stylish.facebook.scss */
+	/* line 518, src/stylish.facebook.scss */
 	#m_newsfeed_stream .dy > div[role="article"]:hover, #m_newsfeed_stream .dz > div[role="article"]:hover {
 		border-color: #5782DA;
 	}
 	/* line 33, src/lib/lib.scss */
 	#m_group_stories_container article > div[data-sigil="m-feed-story-attachments-element"] .img.profpic, .feedRevamp > div article > div[data-sigil="m-feed-story-attachments-element"] .img.profpic, #m_group_stories_container article footer ._4g33 ._5xu4 .img.profpic, .feedRevamp > div article footer ._4g33 ._5xu4 .img.profpic, .scrollArea ._4g33 .img.profpic, .scrollArea ._rzh ._4g33 .img.profpic, .flyout .acw .img.profpic, #friends_center_main .bs .bt img.bu, .ct .v img.s, .ct .w img.s, .cw .v img.s, .cw .w img.s {
-		_: unset;
 		border-radius: 100%;
 		-webkit-transition: border-radius .20s ease-in-out;
 		transition: border-radius .20s ease-in-out;
 	}
 	/* line 33, src/lib/lib.scss */
 	#m_group_stories_container article > div[data-sigil="m-feed-story-attachments-element"]:hover .img.profpic, .feedRevamp > div article > div[data-sigil="m-feed-story-attachments-element"]:hover .img.profpic, #m_group_stories_container article footer ._4g33:hover ._5xu4 .img.profpic, .feedRevamp > div article footer ._4g33:hover ._5xu4 .img.profpic, .scrollArea ._4g33:hover .img.profpic, .scrollArea ._rzh ._4g33:hover .img.profpic, .flyout .acw:hover .img.profpic, #friends_center_main .bs .bt:hover img.bu, .ct .v:hover img.s, .ct .w:hover img.s, .cw .v:hover img.s, .cw .w:hover img.s {
-		_: unset;
 		border-radius: 5%;
 	}
-	/* line 568, src/stylish.facebook.scss */
+	/* line 667, src/stylish.facebook.scss */
 	.eq .es.et img.s, .eq .ej.ek img.s, .eg .es.et img.s, .eg .ej.ek img.s {
 		border: 1px solid transparent;
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 	}
-	/* line 573, src/stylish.facebook.scss */
+	/* line 672, src/stylish.facebook.scss */
 	.eq .es.et img.s:hover, .eq .ej.ek img.s:hover, .eg .es.et img.s:hover, .eg .ej.ek img.s:hover {
 		border-color: #5782DA;
 	}
 }
 
 @-moz-document domain("developers.facebook.com") {
-	/* line 585, src/stylish.facebook.scss */
+	/* line 684, src/stylish.facebook.scss */
 	._4l0x, ._1z0j a,
 	._1na, a._1z0k label, a._1z0k span {
 		font-size: 1rem;
 	}
-	/* line 590, src/stylish.facebook.scss */
+	/* line 689, src/stylish.facebook.scss */
 	html, body, :root {
 		font-size: /*[[size]]*/;
 	}
