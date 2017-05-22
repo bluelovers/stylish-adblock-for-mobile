@@ -1,7 +1,7 @@
 // Created by USER on 2017/4/15.
 @-moz-document domain("bee101.com")
 {
-	@include site-init-here($domain);
+	@include content-farm-include($domain);
 
 	#popad, .ads_bottom, .ads, .ads_fixed, .pagead, #modal-likebox
 	{
