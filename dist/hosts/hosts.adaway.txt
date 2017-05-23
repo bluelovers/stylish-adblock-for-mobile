@@ -159,6 +159,10 @@
 0.0.0.0 fepi.gdn
 0.0.0.0 sn9zz.detect.fepi.gdn
 
+# [fbboook.cf]
+
+0.0.0.0 fbboook.cf
+
 # [akadns.net]
 
 0.0.0.0 fe2.update.microsoft.com.akadns.net
@@ -209,6 +213,10 @@
 
 0.0.0.0 mysuperapps.online
 
+# [duckdns.org]
+
+0.0.0.0 namchankh.duckdns.org
+
 # [neocoregames.com]
 
 0.0.0.0 neocoregames.com
@@ -228,6 +236,11 @@
 # [performanceadexchange.com]
 
 0.0.0.0 performanceadexchange.com
+
+# [popads.net]
+
+0.0.0.0 popads.net
+0.0.0.0 serve.popads.net
 
 # [popcash.net]
 
@@ -261,10 +274,6 @@
 # [2mdn.net]
 
 0.0.0.0 s0.2mdn.net
-
-# [popads.net]
-
-0.0.0.0 serve.popads.net
 
 # [microsof.com]
 
