@@ -31,6 +31,7 @@ detect.fepi.gdn
 df.telemetry.microsoft.com
 diagnostics.support.microsoft.com
 expedia.com.tw
+fbboook.cf
 fe2.update.microsoft.com.akadns.net
 fe3.delivery.dsp.mp.microsoft.com.nsatc.net
 feedback.microsoft-hohm.com
@@ -51,6 +52,7 @@ msnbot-207-46-194-33.search.msn.com
 muvflix.com
 mysagagame.com
 mysuperapps.online
+namchankh.duckdns.org
 neocoregames.com
 nutaku.net
 oca.telemetry.microsoft.com
