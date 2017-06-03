@@ -59,6 +59,10 @@
 
 0.0.0.0 ads1.msads.net
 
+# [com.cn]
+
+0.0.0.0 adsresult.joywell.com.cn
+
 # [mobileai.net]
 
 0.0.0.0 app.mobileai.net
@@ -79,6 +83,13 @@
 # [bet365.com]
 
 0.0.0.0 bet365.com
+
+# [sandai.net]
+
+0.0.0.0 biz5.sandai.net
+0.0.0.0 float.sandai.net
+0.0.0.0 mcfg.sandai.net
+0.0.0.0 pubstat.sandai.net
 
 # [btxoeiisonxh.com]
 
@@ -141,6 +152,15 @@
 0.0.0.0 telecommand.telemetry.microsoft.com.nsatc.net
 0.0.0.0 watson.telemetry.microsoft.com.nsatc.net
 
+# [xunlei.com]
+
+0.0.0.0 cl.kankan.xunlei.com
+0.0.0.0 jiuwo.xunlei.com
+0.0.0.0 mtips.xunlei.com
+0.0.0.0 plugin.xl7.xunlei.com
+0.0.0.0 recommend.xunlei.com
+0.0.0.0 search.daquan.xunlei.com
+
 # [clicksgear.com]
 
 0.0.0.0 clicksgear.com
@@ -184,10 +204,6 @@
 # [imgblank.com]
 
 0.0.0.0 imgblank.com
-
-# [xunlei.com]
-
-0.0.0.0 jiuwo.xunlei.com
 
 # [love4single.com]
 
@@ -307,6 +323,10 @@
 # [topoffersss.com]
 
 0.0.0.0 topoffersss.com
+
+# [trnox.com]
+
+0.0.0.0 tracking.trnox.com
 
 # [trackmedia101.com]
 
