@@ -29,7 +29,7 @@ module.exports = async (done) =>
 		cwd: cwd,
 	});
 
-	let r = /^\s*(?:([^\s+]+)\s+)?(?:[^\s]*\.)?([^\.]+(?:\.(?:co|com|org|net|edu|gov|mil|nom|[^\.\d]{1,2}))?\.[^\.]+)$/;
+	let r = /^\s*(?:([^\s+]+)\s+)?((?:[^\s]*\.)?([^\.]+(?:\.(?:co|com|org|net|edu|gov|mil|nom|cn|tw|[^\.\d]{1,2}))?\.[^\.]+))$/;
 	//let r = /^\s*(?:([^\s+]+)\s+)?((?:[^\s]*\.)?[^\.]+(?:\.(?:co|com|org|net|edu|gov|mil|nom|[^\.\d]{1,2}))?\.[^\.]+)$/;
 
 	let data = [];
@@ -51,12 +51,13 @@ module.exports = async (done) =>
 			{
 				let m = line.match(r);
 				let ip;
-				let domain;
+				let domain, host;
 
 				if (m)
 				{
 					ip = m[1];
-					domain = m[2];
+					host = m[2];
+					domain = m[3];
 				}
 
 				a[f] = a[f] || [];
@@ -67,6 +68,14 @@ module.exports = async (done) =>
 				{
 					line = `${blockip} ${line}`;
 				}
+				else if (ip == '127.0.0.1' || ip == '0.0.0.0')
+				{
+					ip = blockip;
+
+					line = `${ip} ${host}`;
+				}
+
+				console.log(m, line, ip, domain);
 
 				if (a[f].indexOf(line) == -1)
 				{
