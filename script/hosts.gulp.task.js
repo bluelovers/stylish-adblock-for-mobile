@@ -75,7 +75,7 @@ module.exports = async (done) =>
 					line = `${ip} ${host}`;
 				}
 
-				console.log(m, line, ip, domain);
+				//console.log(m, line, ip, domain);
 
 				if (a[f].indexOf(line) == -1)
 				{
