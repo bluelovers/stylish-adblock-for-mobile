@@ -1,3 +1,4 @@
+1.xtraffic.com
 a-0001.a-msedge.net
 a.ads1.msn.com
 a.ads2.msn.com
@@ -48,10 +49,12 @@ float.sandai.net
 forultimateandbest2updatepc.bid
 game168.com.tw
 goldinst.com
+guhtjoqtobac.com
 i1.services.social.microsoft.com
 i1.services.social.microsoft.com.nsatc.net
 imgblank.com
 jiuwo.xunlei.com
+juicypix.com
 love4single.com
 mcfg.sandai.net
 mmofreegames.online
@@ -131,6 +134,7 @@ wes.df.telemetry.microsoft.com
 wethk.com
 win10.ipv6.microsoft.com
 www.bet365.com
+www.r18.com
 youlucky2014.com
 youmustcheckthisout.com
 zh.reimageplus.com
