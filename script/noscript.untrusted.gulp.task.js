@@ -23,7 +23,29 @@ module.exports = (done) =>
 
 	domains = domains.toString().split(/\r\n|\r|\n/g);
 
-	fs.writeFileSync(path.resolve(dist_dir, 'noscript.untrusted.txt'), domains.join(' '));
+	{
+		let untrusted = fs.readFileSync(path.resolve(src_dir, 'noscript/noscript.untrusted.txt'));
+
+		untrusted = untrusted.toString().split(/\r\n|\r|\n|\s+/g);
+
+		domains = domains.concat(untrusted);
+
+		domains = array_unique(domains);
+
+		domains = domains.filter((v) => {
+			return !!v;
+		});
+	}
+
+	fs.writeFileSync(path.resolve(dist_dir, 'noscript.untrusted.txt'), domains.join(' ').trim());
 
 	done();
 };
+
+/**
+ * @see http://www.jstips.co/zh_tw/javascript/deduplicate-an-array/
+ */
+function array_unique(arr)
+{
+	return Array.from(new Set(arr));
+}
