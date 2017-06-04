@@ -1,0 +1,35 @@
+
+# https://wenku.baidu.com/view/cd01fe335a8102d276a22f62.html
+
+pubstat.sandai.net
+
+mcfg.sandai.net
+
+biz5.sandai.net
+
+float.sandai.net
+
+recommend.xunlei.com
+
+
+mtips.xunlei.com
+mtips.xunlei.com
+
+adsresult.joywell.com.cn
+
+# http://hosts.space/post/46.html
+pubstat.sandai.net
+
+mcfg.sandai.net
+
+biz5.sandai.net
+
+float.sandai.net
+
+recommend.xunlei.com
+
+cl.kankan.xunlei.com
+
+
+plugin.xl7.xunlei.com
+search.daquan.xunlei.com
