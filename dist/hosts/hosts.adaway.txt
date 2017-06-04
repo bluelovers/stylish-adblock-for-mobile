@@ -23,6 +23,10 @@
 # ======== AdAway Lazy blocklist ========
 # =================================
 
+# [xtraffic.com]
+
+0.0.0.0 1.xtraffic.com
+
 # [a-msedge.net]
 
 0.0.0.0 a-0001.a-msedge.net
@@ -71,6 +75,10 @@
 
 0.0.0.0 asdfg.pro
 
+# [avhd101.com]
+
+0.0.0.0 avhd101.com
+
 # [msecnd.net]
 
 0.0.0.0 az361816.vo.msecnd.net
@@ -83,6 +91,7 @@
 # [bet365.com]
 
 0.0.0.0 bet365.com
+0.0.0.0 www.bet365.com
 
 # [sandai.net]
 
@@ -90,6 +99,10 @@
 0.0.0.0 float.sandai.net
 0.0.0.0 mcfg.sandai.net
 0.0.0.0 pubstat.sandai.net
+
+# [bpprksdgogtw.com]
+
+0.0.0.0 bpprksdgogtw.com
 
 # [btxoeiisonxh.com]
 
@@ -141,6 +154,10 @@
 0.0.0.0 cache.datamart.windows.com
 0.0.0.0 db3wns2011111.wns.windows.com
 0.0.0.0 feedback.windows.com
+
+# [nifima.ml]
+
+0.0.0.0 cebitiz.nifima.ml
 
 # [nsatc.net]
 
@@ -201,9 +218,17 @@
 
 0.0.0.0 goldinst.com
 
+# [guhtjoqtobac.com]
+
+0.0.0.0 guhtjoqtobac.com
+
 # [imgblank.com]
 
 0.0.0.0 imgblank.com
+
+# [juicypix.com]
+
+0.0.0.0 juicypix.com
 
 # [love4single.com]
 
@@ -281,6 +306,7 @@
 # [r18.com]
 
 0.0.0.0 r18.com
+0.0.0.0 www.r18.com
 
 # [reimageplus.com]
 
