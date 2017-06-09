@@ -41,6 +41,10 @@
 0.0.0.0 preview.msn.com
 0.0.0.0 rad.msn.com
 
+# [pixnet.net]
+
+0.0.0.0 aa0974125125.pixnet.net
+
 # [doubleclick.net]
 
 0.0.0.0 ad.doubleclick.net
@@ -221,6 +225,10 @@
 # [guhtjoqtobac.com]
 
 0.0.0.0 guhtjoqtobac.com
+
+# [i8857.com]
+
+0.0.0.0 i8857.com
 
 # [imgblank.com]
 
