@@ -25,6 +25,8 @@ module.exports = (done) =>
 
 	let data1 = domains.map((v) => `${v};1;BLOCK;WINDOWS,TABS,ALERTS;0`);
 
+	let data2 = domains.map((v) => `!PAR: ${v}\$windows,tabs\n||${v}^\$popup`);
+
 	try
 	{
 		fs.mkdirSync(path.resolve(dist_dir, 'adblockpopups'));
@@ -33,6 +35,11 @@ module.exports = (done) =>
 	{}
 
 	fs.writeFileSync(path.resolve(dist_dir, 'adblockpopups/adblockpopups.ini'), `[Adblock Plus Pop-up Addon]\n${data1.join(LF)}\n`);
+
+	fs.writeFileSync(path.resolve(dist_dir, 'adblockpopups/adblock.ini'), `!
+! [Adblock Plus Pop-up Addon]
+!
+${data2.join(LF)}`);
 
 	done();
 };
