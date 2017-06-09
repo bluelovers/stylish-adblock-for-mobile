@@ -1,0 +1,9 @@
+/* _include_media */
+$domain_include_media: '_include_media';
+$domain: '_include_media';
+@-moz-document domain("chinaq.org")
+{
+	@include site-init-here($domain, $domain_include_media);
+	
+	@import "../include/_include_media.scss";
+}
