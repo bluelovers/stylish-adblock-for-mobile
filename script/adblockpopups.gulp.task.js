@@ -25,7 +25,7 @@ module.exports = (done) =>
 
 	let data1 = domains.map((v) => `${v};1;BLOCK;WINDOWS,TABS,ALERTS;0`);
 
-	let data2 = domains.map((v) => `!PAR: ${v}\$windows,tabs,popup,alert\n||${v}^\$popup`);
+	let data2 = domains.map((v) => `!PAR: ${v}\$windows,tabs\n||${v}^\$popup`);
 
 	try
 	{
