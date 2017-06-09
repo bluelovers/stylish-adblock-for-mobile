@@ -40,6 +40,10 @@ module.exports = async (done) =>
 
 	//console.log(data.toArray());
 
+	let adblockpopups = fs.readFileSync(path.resolve(dist_dir, 'adblockpopups/adblock.ini')) + `
+!
+! ------------------------------------------`;
+
 	let header = `[Adblock Plus 2.0]
 !
 ! Title: Adblock LazyList SC
@@ -50,7 +54,7 @@ module.exports = async (done) =>
 ! [Adblock LazyList SC]
 ! ------------------------------------------`;
 
-	fs.writeFileSync(path.resolve(dist_dir, 'adblock.ini'), `${header}\n${data}\n!\n! [others]\n!\n`);
+	fs.writeFileSync(path.resolve(dist_dir, 'adblock.ini'), `${header}\n${data}\n${adblockpopups}\n!\n! [others]\n!\n`);
 
 	done();
 };
