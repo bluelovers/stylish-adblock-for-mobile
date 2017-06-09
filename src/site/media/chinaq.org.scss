@@ -1,0 +1,10 @@
+// Created by USER on 2017/5/23.
+@-moz-document domain("chinaq.org")
+{
+	@include site-init-here($domain);
+
+	@include global_ad(99)
+	{
+		@include adblock($domain);
+	}
+}
