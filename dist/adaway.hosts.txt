@@ -360,6 +360,10 @@
 
 0.0.0.0 wethk.com
 
+# [18xcloud.com]
+
+0.0.0.0 www.18xcloud.com
+
 # [youlucky2014.com]
 
 0.0.0.0 youlucky2014.com

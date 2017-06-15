@@ -135,6 +135,7 @@ watson.telemetry.microsoft.com.nsatc.net
 wes.df.telemetry.microsoft.com
 wethk.com
 win10.ipv6.microsoft.com
+www.18xcloud.com
 www.bet365.com
 www.r18.com
 youlucky2014.com
