@@ -71,6 +71,10 @@
 
 0.0.0.0 adsresult.joywell.com.cn
 
+# [alxsite.com]
+
+0.0.0.0 alxsite.com
+
 # [mobileai.net]
 
 0.0.0.0 app.mobileai.net
@@ -238,9 +242,18 @@
 
 0.0.0.0 juicypix.com
 
+# [twwebgame.com]
+
+0.0.0.0 lcf.twwebgame.com
+0.0.0.0 twwebgame.com
+
 # [love4single.com]
 
 0.0.0.0 love4single.com
+
+# [m59ymediared.com]
+
+0.0.0.0 m59ymediared.com
 
 # [mmofreegames.online]
 
