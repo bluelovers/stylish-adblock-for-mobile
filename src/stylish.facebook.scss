@@ -11,12 +11,14 @@ $domain: 'www.facebook.com';
 
 	@include site-elem-here($domain, 'userContent')
 	{
-		font-size: 1rem !important;
+		//font-size: 1rem !important;
+		font-size: 1rem;
 	}
 
 	@include site-elem-here($domain, 'userContent2')
 	{
-		font-size: $fontSize2 !important;
+		//font-size: $fontSize2 !important;
+		font-size: $fontSize2;
 	}
 
 	.userContent
@@ -171,6 +173,16 @@ $domain: 'www.facebook.com';
 	._5kus, ._5kur, ._56q9, ._4uyl ._5yk2, ._4uyl ._1u9t, ._1l- .uiToken
 	{
 		@extend .userContent;
+	}
+
+	._5hug, ._4uq7, ._rio ._58z_, ._4r_2, ._mp-, ._3lj0, ._5-z2, ._1okw, ._4vi1, ._21x_ ._1j3g
+	{
+		@extend .userContent;
+	}
+
+	._a7s ._524d a
+	{
+		@include site-elem-extend($domain, 'fontSize2');
 	}
 
 	@include css3-placeholder()
@@ -454,6 +466,16 @@ $domain: 'www.facebook.com';
 					}
 				}
 			}
+		}
+	}
+
+	.uiToken
+	{
+		padding: 1px 3px;
+
+		.uiTokenText
+		{
+			@include site-elem-extend($domain, 'fontSize2');
 		}
 	}
 }
