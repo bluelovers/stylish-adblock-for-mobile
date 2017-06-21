@@ -11,6 +11,7 @@ ads.raidtalk.com.tw
 ads1.msads.net
 ads1.msn.com
 adsresult.joywell.com.cn
+alxsite.com
 app.mobileai.net
 asdfg.pro
 avhd101.com
@@ -57,7 +58,9 @@ i8857.com
 imgblank.com
 jiuwo.xunlei.com
 juicypix.com
+lcf.twwebgame.com
 love4single.com
+m59ymediared.com
 mcfg.sandai.net
 mmofreegames.online
 mobrdrmsmt.com
@@ -120,6 +123,7 @@ telemetry.urs.microsoft.com
 topoffersss.com
 tracking.trnox.com
 trackmedia101.com
+twwebgame.com
 utclient.utorrent.com
 v10.vortex-win.data.microsoft.com
 view.atdmt.com
