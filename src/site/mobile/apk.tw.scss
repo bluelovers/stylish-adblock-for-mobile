@@ -12,4 +12,12 @@
 	{
 		@include adblock($domain);
 	}
+
+	#downbtn, .downbtn, #confirmOverlay2
+	{
+		.adsbygoogle
+		{
+			@include display-important(initial);
+		}
+	}
 }
