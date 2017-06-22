@@ -180,6 +180,11 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
+	._7vs, ._266w, ._24ok, ._5_6e
+	{
+		@extend .userContent;
+	}
+
 	._a7s ._524d a
 	{
 		@include site-elem-extend($domain, 'fontSize2');
