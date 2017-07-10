@@ -35,6 +35,7 @@
 
 # [Process Lasso]
 
+0.0.0.0 activate.bitsum.com
 0.0.0.0 www.bitsumactivationserver.com
 
 # [ultraedit]

@@ -286,6 +286,7 @@
 # [nutaku.net]
 
 0.0.0.0 nutaku.net
+0.0.0.0 www.nutaku.net
 
 # [offerland.mobi]
 
@@ -444,6 +445,7 @@
 
 # [Process Lasso]
 
+0.0.0.0 activate.bitsum.com
 0.0.0.0 www.bitsumactivationserver.com
 
 # [ultraedit]
