@@ -264,6 +264,7 @@
 # [nutaku.net]
 
 0.0.0.0 nutaku.net
+0.0.0.0 www.nutaku.net
 
 # [offerland.mobi]
 
