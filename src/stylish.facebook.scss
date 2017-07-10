@@ -3,7 +3,7 @@
 @import "lib/var.stylish.facebook.scss";
 @import "lib/stylish.scss";
 
-$is-stylish: true;
+$is-stylish: false;
 
 $domain: 'www.facebook.com';
 @-moz-document domain("www.facebook.com")
@@ -181,6 +181,11 @@ $domain: 'www.facebook.com';
 	}
 
 	._7vs, ._266w, ._24ok, ._5_6e
+	{
+		@extend .userContent;
+	}
+
+	._4zq4
 	{
 		@extend .userContent;
 	}
