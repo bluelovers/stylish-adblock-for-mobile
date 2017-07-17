@@ -62,6 +62,7 @@
 0.0.0.0 ads.raidtalk.com.tw
 0.0.0.0 expedia.com.tw
 0.0.0.0 game168.com.tw
+0.0.0.0 www.expedia.com.tw
 
 # [msads.net]
 
@@ -380,9 +381,21 @@
 
 0.0.0.0 trackmedia101.com
 
+# [tummiarunzpf.com]
+
+0.0.0.0 tummiarunzpf.com
+
 # [utorrent.com]
 
 0.0.0.0 utclient.utorrent.com
+
+# [redirectvoluum.com]
+
+0.0.0.0 vfzfi.redirectvoluum.com
+
+# [voluumtrk.com]
+
+0.0.0.0 vfzfi.voluumtrk.com
 
 # [atdmt.com]
 
