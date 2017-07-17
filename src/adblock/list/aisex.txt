@@ -1,0 +1,1 @@
+aisex.com###main > :first-child > :first-child:last-child :first-child > :first-child IMG[src*="imgur.com"]
