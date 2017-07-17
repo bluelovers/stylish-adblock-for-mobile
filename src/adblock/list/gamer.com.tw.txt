@@ -1,0 +1,9 @@
+||i2.bahamut.com.tw/JS/ad/*
+@@||i2.bahamut.com.tw/JS/ad/*$domain=ani.gamer.com.tw
+gamer.com.tw###BH-ad_banner
+gamer.com.tw###BH-bigbanner
+forum.gamer.com.tw###flySalve
+acg.gamer.com.tw###flySalve
+www.gamer.com.tw###flyRightBox
+home.gamer.com.tw###flySalve
+||i2.bahamut.com.tw/js/ad.js*
