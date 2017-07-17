@@ -123,9 +123,12 @@ telemetry.urs.microsoft.com
 topoffersss.com
 tracking.trnox.com
 trackmedia101.com
+tummiarunzpf.com
 twwebgame.com
 utclient.utorrent.com
 v10.vortex-win.data.microsoft.com
+vfzfi.redirectvoluum.com
+vfzfi.voluumtrk.com
 view.atdmt.com
 vortex-sandbox.data.microsoft.com
 vortex-win.data.microsoft.com
@@ -141,6 +144,7 @@ wethk.com
 win10.ipv6.microsoft.com
 www.18xcloud.com
 www.bet365.com
+www.expedia.com.tw
 www.nutaku.net
 www.r18.com
 youlucky2014.com
