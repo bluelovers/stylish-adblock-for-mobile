@@ -15,7 +15,6 @@
 @@||account.poocg.com^$document
 @@||alensw.com^$document
 @@||alensw.com^$document
-@@||ani.gamer.com.tw^$document
 @@||anime.granbluefantasy.jp^$document
 @@||avast.com^$document
 @@||avast.com^$document
