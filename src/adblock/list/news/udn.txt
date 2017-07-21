@@ -1,2 +1,2 @@
 udn.com###ec
-||shopping.udn.com^$subdocument
+||shopping.udn.com/mall^$subdocument
