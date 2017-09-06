@@ -95,11 +95,6 @@
 
 0.0.0.0 btxoeiisonxh.com
 
-# [kuai8.com]
-
-0.0.0.0 buding.kuai8.com
-0.0.0.0 pc.kuai8.com
-
 # [bittorrent.com]
 
 0.0.0.0 bundles.bittorrent.com
@@ -275,6 +270,10 @@
 # [offerland.mobi]
 
 0.0.0.0 offerland.mobi
+
+# [d2kdi2ss.com]
+
+0.0.0.0 p.d2kdi2ss.com
 
 # [passinst.com]
 
