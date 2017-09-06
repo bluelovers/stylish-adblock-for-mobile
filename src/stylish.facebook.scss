@@ -185,12 +185,21 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
+	._5pcb._dp7 ._5vsj, ._5pcb._dp7 ._5vsj .fsm, ._5pcb._dp7 ._5vsi, ._5pcb._dp7 ._5v47, ._5pcb._4j3f .UFIAddCommentInput
+	, ._1k0o
+	{
+		@extend .userContent;
+	}
+
 	._4zq4
 	{
 		@extend .userContent;
 	}
 
 	._a7s ._524d a
+	, ._37uu ._610i ._4x9_, ._37uu ._610i._a7s ._524d a, ._37uu ._610i._a7s ._50u4, ._37uu ._610i ._1ysv
+	, ._2zam, ._2zam .fsm
+	, ._1k0o ._y-c
 	{
 		@include site-elem-extend($domain, 'fontSize2');
 	}
