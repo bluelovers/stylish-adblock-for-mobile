@@ -13,9 +13,9 @@
 	}
 }
 
-/* sites: 4gamers.com.tw, adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, contw.com, fun01.cc, gjoyz.co, gleenow.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, chinaq.org, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, cnews.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, news.yahoo.com, yahoo.com ... and others.*/
+/* sites: 4gamers.com.tw, adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, contw.com, fun01.cc, gjoyz.co, gleenow.com, ipetgroup.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, chinaq.org, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, cnews.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, news.yahoo.com, yahoo.com ... and others.*/
 /* _alldomain */
-@-moz-document domain("4gamers.com.tw"), domain("adaymag.com"), domain("touch.pixiv.net"), domain("kocpc.com.tw"), domain("m.xuite.net"), domain("pixnet.net"), domain("bnext.com.tw"), domain("ck101.com"), domain("m.dm5.com"), domain("m.dmzj.com"), domain("bee101.com"), domain("bomb01.com"), domain("clickme.net"), domain("cmoney.tw"), domain("cocomy.net"), domain("contw.com"), domain("fun01.cc"), domain("gjoyz.co"), domain("gleenow.com"), domain("ispot.news"), domain("life.tw"), domain("m.ipetgroup.com"), domain("pixpo.net"), domain("read01.com"), domain("teepr.com"), domain("twgreatdaily.com"), domain("cool3c.com"), domain("qoolquiz.com"), domain("vonvon.me"), domain("gamme.com.tw"), domain("chinaq.org"), domain("apk.tw"), domain("forum.xda-developers.com"), domain("my-formosa.com"), domain("appledaily.com.tw"), domain("buzzorange.com"), domain("chinatimes.com"), domain("cna.com.tw"), domain("cnews.com.tw"), domain("ctee.com.tw"), domain("ettoday.net"), domain("kairos.news"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("nownews.com"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com"), domain("upmedia.mg"), domain("ourstarsky.com"), domain("plurk.com"), domain("toy-people.com"), domain("userstyles.org"), domain("wetalk.tw"), domain("answers.yahoo.com"), domain("news.yahoo.com"), domain("yahoo.com") {
+@-moz-document domain("4gamers.com.tw"), domain("adaymag.com"), domain("touch.pixiv.net"), domain("kocpc.com.tw"), domain("m.xuite.net"), domain("pixnet.net"), domain("bnext.com.tw"), domain("ck101.com"), domain("m.dm5.com"), domain("m.dmzj.com"), domain("bee101.com"), domain("bomb01.com"), domain("clickme.net"), domain("cmoney.tw"), domain("cocomy.net"), domain("contw.com"), domain("fun01.cc"), domain("gjoyz.co"), domain("gleenow.com"), domain("ipetgroup.com"), domain("ispot.news"), domain("life.tw"), domain("m.ipetgroup.com"), domain("pixpo.net"), domain("read01.com"), domain("teepr.com"), domain("twgreatdaily.com"), domain("cool3c.com"), domain("qoolquiz.com"), domain("vonvon.me"), domain("gamme.com.tw"), domain("chinaq.org"), domain("apk.tw"), domain("forum.xda-developers.com"), domain("my-formosa.com"), domain("appledaily.com.tw"), domain("buzzorange.com"), domain("chinatimes.com"), domain("cna.com.tw"), domain("cnews.com.tw"), domain("ctee.com.tw"), domain("ettoday.net"), domain("kairos.news"), domain("m.ltn.com.tw"), domain("mirrormedia.mg"), domain("news.cts.com.tw"), domain("news.sina.com.tw"), domain("nownews.com"), domain("setn.com"), domain("storm.mg"), domain("thenewslens.com"), domain("udn.com"), domain("upmedia.mg"), domain("ourstarsky.com"), domain("plurk.com"), domain("toy-people.com"), domain("userstyles.org"), domain("wetalk.tw"), domain("answers.yahoo.com"), domain("news.yahoo.com"), domain("yahoo.com") {
 }
 
 /* _include_acg */
@@ -43,9 +43,9 @@
 }
 
 /* _include_content_farm */
-@-moz-document domain("bee101.com"), domain("bomb01.com"), domain("clickme.net"), domain("cmoney.tw"), domain("cocomy.net"), domain("contw.com"), domain("fun01.cc"), domain("gjoyz.co"), domain("gleenow.com"), domain("ispot.news"), domain("life.tw"), domain("m.ipetgroup.com"), domain("pixpo.net"), domain("read01.com"), domain("teepr.com"), domain("twgreatdaily.com") {
+@-moz-document domain("bee101.com"), domain("bomb01.com"), domain("clickme.net"), domain("cmoney.tw"), domain("cocomy.net"), domain("contw.com"), domain("fun01.cc"), domain("gjoyz.co"), domain("gleenow.com"), domain("ipetgroup.com"), domain("ispot.news"), domain("life.tw"), domain("m.ipetgroup.com"), domain("pixpo.net"), domain("read01.com"), domain("teepr.com"), domain("twgreatdaily.com") {
 	/* line 14, src/lib/lib.scss */
-	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], iframe[id*='div-gpt-ad-'], iframe[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], iframe[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], iframe[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], iframe[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], iframe[id^='ypaAdWrapper-'], div.gemini-loaded, li.gemini-loaded, ins.gemini-loaded, frame.gemini-loaded, iframe.gemini-loaded, div[id^='innity_adslot_'], li[id^='innity_adslot_'], ins[id^='innity_adslot_'], frame[id^='innity_adslot_'], iframe[id^='innity_adslot_'], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #popad, .ads_bottom, .ads, .ads_fixed, .pagead, #modal-likebox, #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe, .ads_mid, .ads_content, #modal-idle, .ads_content_border, .ads_word, .ads_div, .ui_adblock, #fullblock, #fbFixedAd, .adnwMRectRoot, .fbAdChoices, #ad5, .detail_fixedad, #win_like, #win_like_mask, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], iframe[id*='div-gpt-ad-'], iframe[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], iframe[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], iframe[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], iframe[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], iframe[id^='ypaAdWrapper-'], div.gemini-loaded, li.gemini-loaded, ins.gemini-loaded, frame.gemini-loaded, iframe.gemini-loaded, div[id^='innity_adslot_'], li[id^='innity_adslot_'], ins[id^='innity_adslot_'], frame[id^='innity_adslot_'], iframe[id^='innity_adslot_'], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'], #popad, .ads_bottom, .ads, .ads_fixed, .pagead, #modal-likebox, #adModal, .promote-box, .gm-module-iframe1, .post-top-ad, #ad2_iframe, #ad1_iframe, .ads_mid, .ads_content, #modal-idle, .ads_content_border, .ads_word, .ads_div, #gad728, .ui_adblock, #fullblock, #fbFixedAd, .adnwMRectRoot, .fbAdChoices, #ad5, .detail_fixedad, #win_like, #win_like_mask, #fbModel, .adsDiv, .adsTipDiv, .adsTip, div[id*='ypaAdWrapper'], .snippet.gemini-loaded {
 		display: none !important;
 	}
 	/* line 270, src/lib/lib.scss */
@@ -428,6 +428,43 @@
 		border-radius: 10px;
 		padding: 10px;
 		margin: 10px auto;
+	}
+}
+
+/* dirkey: content_farm */
+/* site: ipetgroup.com */
+@-moz-document domain("ipetgroup.com") {
+	/* line 14, src/lib/lib.scss */
+	ins.adsbygoogle, .adsbygoogle, .adsbyfalcon, a[href*='beap.gemini.yahoo.com'], div[id*='div-gpt-ad-'], div[id*='google_ads_iframe'], li[id*='div-gpt-ad-'], li[id*='google_ads_iframe'], ins[id*='div-gpt-ad-'], ins[id*='google_ads_iframe'], frame[id*='div-gpt-ad-'], frame[id*='google_ads_iframe'], iframe[id*='div-gpt-ad-'], iframe[id*='google_ads_iframe'], div[id*='gemini-ad-'], li[id*='gemini-ad-'], ins[id*='gemini-ad-'], frame[id*='gemini-ad-'], iframe[id*='gemini-ad-'], div[id^='compass-fit-'][visibility], li[id^='compass-fit-'][visibility], ins[id^='compass-fit-'][visibility], frame[id^='compass-fit-'][visibility], iframe[id^='compass-fit-'][visibility], div[id^='aswift_'], li[id^='aswift_'], ins[id^='aswift_'], frame[id^='aswift_'], iframe[id^='aswift_'], div[id^='ypaAdWrapper-'], li[id^='ypaAdWrapper-'], ins[id^='ypaAdWrapper-'], frame[id^='ypaAdWrapper-'], iframe[id^='ypaAdWrapper-'], div.gemini-loaded, li.gemini-loaded, ins.gemini-loaded, frame.gemini-loaded, iframe.gemini-loaded, div[id^='innity_adslot_'], li[id^='innity_adslot_'], ins[id^='innity_adslot_'], frame[id^='innity_adslot_'], iframe[id^='innity_adslot_'], .gemini-loaded, a[href*='ssp.tenmax.io'], div[class^='ad-'], .modal-backdrop, div[class*='ad-'] {
+		display: none !important;
+	}
+	/* line 270, src/lib/lib.scss */
+	body, body.modal-open, .modal-open, .modal-open.modal-open {
+		overflow: auto !important;
+	}
+	/* line 276, src/lib/lib.scss */
+	* {
+		-moz-user-select: auto !important;
+		     user-select: auto !important;
+	}
+	/* line 8, src/site/content_farm/ipetgroup.com.scss */
+	#contentWrap::after, #contentWrap::before {
+		content: "此網站是內容農場！\AThis site is a content farm!";
+		font-size: 16pt;
+		font-weight: bolder;
+		display: block !important;
+		text-align: center;
+		width: 80%;
+		color: white !important;
+		background-color: red !important;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 10px auto;
+	}
+	/* line 13, src/site/content_farm/ipetgroup.com.scss */
+	#contentWrap, #contentWrap p {
+		font-family: Helvetica, Arial, "LiHei Pro", "新細明體", PMingLiU, sans-serif;
+		font-size: 9pt;
 	}
 }
 
