@@ -1,5 +1,5 @@
 // this file is auto build, don't edit this
-/* sites: 4gamers.com.tw, adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, contw.com, fun01.cc, gjoyz.co, gleenow.com, ipetgroup.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, chinaq.org, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, cnews.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, news.yahoo.com, yahoo.com ... and others.*/
+/* sites: 4gamers.com.tw, adaymag.com, touch.pixiv.net, kocpc.com.tw, m.xuite.net, pixnet.net, bnext.com.tw, ck101.com, m.dm5.com, m.dmzj.com, bee101.com, bomb01.com, clickme.net, cmoney.tw, cocomy.net, contw.com, fun01.cc, gjoyz.co, gleenow.com, happytify.cc, ipetgroup.com, ispot.news, life.tw, m.ipetgroup.com, pixpo.net, read01.com, teepr.com, twgreatdaily.com, cool3c.com, qoolquiz.com, vonvon.me, gamme.com.tw, chinaq.org, apk.tw, forum.xda-developers.com, my-formosa.com, appledaily.com.tw, buzzorange.com, chinatimes.com, cna.com.tw, cnews.com.tw, ctee.com.tw, ettoday.net, kairos.news, m.ltn.com.tw, mirrormedia.mg, news.cts.com.tw, news.sina.com.tw, nownews.com, setn.com, storm.mg, thenewslens.com, udn.com, upmedia.mg, ourstarsky.com, plurk.com, toy-people.com, userstyles.org, wetalk.tw, answers.yahoo.com, news.yahoo.com, yahoo.com ... and others.*/
 $domain: '_alldomain';
 @import "_include/_alldomain.scss";
 
@@ -131,6 +131,11 @@ $domain: 'gjoyz.co.scss';
 /* site: gleenow.com */
 $domain: 'gleenow.com.scss';
 @import "site/content_farm/gleenow.com.scss";
+
+/* dirkey: content_farm */
+/* site: happytify.cc */
+$domain: 'happytify.cc.scss';
+@import "site/content_farm/happytify.cc.scss";
 
 /* dirkey: content_farm */
 /* site: ipetgroup.com */
