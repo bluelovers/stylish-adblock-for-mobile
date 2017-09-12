@@ -1,0 +1,34 @@
+// Created by USER on 2017/9/12/012.
+@-moz-document domain("happytify.cc")
+{
+	@include content-farm-include($domain);
+
+	.content
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+
+		&, & p
+		{
+			@include font-family-reset();
+			@include font-size-article($fontSizeArticle);
+		}
+	}
+
+	*
+	{
+		@include font-family-reset();
+	}
+
+	.fabox
+	{
+		@include adblock($domain);
+	}
+
+	#likeBox
+	{
+		@include adblock($domain_include_content_farm);
+	}
+}
