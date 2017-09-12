@@ -1,0 +1,15 @@
+// Created by USER on 2017/6/22.
+@-moz-document domain("fun01.cc")
+{
+	@include content-farm-include($domain);
+
+	.postDetail
+	{
+		user-select: initial !important;
+	}
+
+	#modal-idle
+	{
+		@include adblock($domain_include_content_farm);
+	}
+}
