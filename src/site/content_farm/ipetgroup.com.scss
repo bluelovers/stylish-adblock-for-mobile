@@ -1,0 +1,24 @@
+// Created by USER on 2017/9/12/012.
+@-moz-document domain("ipetgroup.com")
+{
+	@include content-farm-include($domain);
+
+	#contentWrap
+	{
+		&::after, &::before
+		{
+			@include content-farm-alert();
+		}
+
+		&, & p
+		{
+			@include font-family-reset();
+			@include font-size-article($fontSizeArticle);
+		}
+	}
+
+	#gad728
+	{
+		@include adblock($domain_include_content_farm);
+	}
+}
