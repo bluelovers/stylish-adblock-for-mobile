@@ -1,0 +1,25 @@
+@-moz-document regexp("http://(.*)\\-forum\\.guildwars2\\.com/.*") {
+	/* line 33, src/lib/lib.scss */
+	body {
+		font-size: 10pt;
+	}
+	/* line 33, src/lib/lib.scss */
+	.DataTable tbody .CategoryName h2 a, .DataTable tbody .CategoryName h3 a, .Item.Category .Title, .Section-DiscussionList .DiscussionsTable .DiscussionName a.Title, .subtitle-style, .DataList .Meta, .DataList .Meta a, .DataList .MetaItem a, .DataList .MItem, .item-smaller-text, .Item .Block .Meta a, .Item .Block .MItem a, .Item .ChildCategories, a.BlockTitle, a.UserLink, .message-style, .Preview, .Section-Discussion .Content .Item .Item-BodyWrap .Message {
+		font-size: 1rem;
+	}
+	/* line 33, src/lib/lib.scss */
+	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .CommentDate time, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.LastUser .CommentDate time {
+		font-size: 11px;
+	}
+	/* line 33, src/lib/lib.scss */
+	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .CommentDate time, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.LastUser .CommentDate time {
+		font-family: Cronos Pro Regular,Helvetica,Arial,sans-serif;
+		font-weight: 400;
+	}
+	/* line 67, src/stylish.gw2.scss */
+	.DataTable td {
+		padding: 2px;
+	}
+}
+
+/*# sourceMappingURL=stylish.gw2.css.map */

@@ -1,0 +1,72 @@
+// Created by USER on 2017/9/18/018.
+
+@import "lib/var.stylish.facebook.scss";
+
+$domain: 'guildwars2.com';
+@-moz-document regexp("http://(.*)\\-forum\\.guildwars2\\.com/.*")
+{
+
+	@include site-elem-here($domain, 'fontSize')
+	{
+		font-size: $fontSize;
+	}
+
+	@include site-elem-here($domain, 'userContent')
+	{
+		//font-size: 1rem !important;
+		font-size: 1rem;
+	}
+
+	@include site-elem-here($domain, 'fontSize2')
+	{
+		font-size: $fontSize2;
+	}
+
+	@include site-elem-here($domain, 'fontSize3')
+	{
+		font-size: $fontSize3;
+	}
+
+	@include site-elem-here($domain, 'fontSize4')
+	{
+		font-size: 11px;
+	}
+
+	@include site-elem-here($domain, 'fontFamily4')
+	{
+		font-family: Cronos Pro Regular,Helvetica,Arial,sans-serif;
+		font-weight: 400;
+	}
+
+	body
+	{
+		@include site-elem-extend($domain, 'fontSize');
+	}
+
+	.DataTable tbody .CategoryName h2 a, .DataTable tbody .CategoryName h3 a, .Item.Category .Title, .Section-DiscussionList .DiscussionsTable .DiscussionName a.Title, .subtitle-style
+	{
+		@include site-elem-extend($domain, 'userContent');
+	}
+
+	.DataList .Meta, .DataList .Meta a, .DataList .MetaItem a, .DataList .MItem, .item-smaller-text, .Item .Block .Meta a, .Item .Block .MItem a, .Item .ChildCategories, a.BlockTitle, a.UserLink
+	{
+		@include site-elem-extend($domain, 'userContent');
+	}
+
+	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .CommentDate time, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.LastUser .CommentDate time
+	{
+		@include site-elem-extend($domain, 'fontSize4');
+		@include site-elem-extend($domain, 'fontFamily4');
+	}
+
+	.message-style, .Preview, .Section-Discussion .Content .Item .Item-BodyWrap .Message
+	{
+		@include site-elem-extend($domain, 'userContent');
+	}
+
+	.DataTable td
+	{
+		padding: 2px;
+	}
+
+}
