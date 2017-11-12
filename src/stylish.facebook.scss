@@ -26,6 +26,11 @@ $domain: 'www.facebook.com';
 		@include site-elem-extend($domain, 'userContent');
 	}
 
+	@include site-elem-here($domain, 'userContent-moz')
+	{
+		font-size: 1rem;
+	}
+
 	@include site-elem-here($domain, 'root')
 	{
 		font-size: stylish-var($fontSize, '/*[[size]]*/');
@@ -133,7 +138,7 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
-	input:-moz-read-write, textarea:-moz-read-write, ._3dc, ._6-6
+	._3dc, ._6-6
 	{
 		@extend .userContent;
 	}
@@ -191,15 +196,30 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
-	._4zq4
+	._4zq4, ._5pbw, ._5pbx, ._21r, ._3wkw, ._2c5x
 	{
 		@extend .userContent;
+	}
+
+	._585- ._5861, ._5861 ._586f, ._5861 ._1frb, ._5861 ._5eay
+	{
+		@extend .userContent;
+	}
+
+	input:-moz-read-write, textarea:-moz-read-write
+	{
+		@include site-elem-extend($domain, 'userContent-moz');
 	}
 
 	._a7s ._524d a
 	, ._37uu ._610i ._4x9_, ._37uu ._610i._a7s ._524d a, ._37uu ._610i._a7s ._50u4, ._37uu ._610i ._1ysv
 	, ._2zam, ._2zam .fsm
 	, ._1k0o ._y-c
+	, ._37uu ._610i ._4x9_, ._37uu ._610i._a7s ._524d a, ._37uu ._610i._a7s ._50u4, ._37uu ._610i ._1ysv
+	, ._1k0o, .fsm
+	, ._2zam, ._2zam .fsm
+	, ._2tyk ._3653
+	, .fbDock
 	{
 		@include site-elem-extend($domain, 'fontSize2');
 	}

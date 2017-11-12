@@ -12,11 +12,11 @@
 		font-size: 11px;
 	}
 	/* line 33, src/lib/lib.scss */
-	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .CommentDate time, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.LastUser .CommentDate time {
+	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .UserLink, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .CommentDate time, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.LastUser .CommentDate time {
 		font-family: Cronos Pro Regular,Helvetica,Arial,sans-serif;
 		font-weight: 400;
 	}
-	/* line 67, src/stylish.gw2.scss */
+	/* line 72, src/stylish.gw2.scss */
 	.DataTable td {
 		padding: 2px;
 	}
