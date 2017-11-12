@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/bluelovers/stylish-adblock-for-mobile/issues"
   },
-  "homepage": "https://github.com/bluelovers/stylish-adblock-for-mobile#readme"
+  "homepage": "https://github.com/bluelovers/stylish-adblock-for-mobile#readme",
+  "dependencies": {
+    "glob": "^7.1.2",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  }
 }
