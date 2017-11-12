@@ -53,6 +53,11 @@ $domain: 'guildwars2.com';
 		@include site-elem-extend($domain, 'userContent');
 	}
 
+	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .UserLink
+	{
+		@include site-elem-extend($domain, 'fontFamily4');
+	}
+
 	.Section-DiscussionList .DiscussionsTable .BlockColumn-User.FirstUser .CommentDate time, .Section-DiscussionList .DiscussionsTable .BlockColumn-User.LastUser .CommentDate time
 	{
 		@include site-elem-extend($domain, 'fontSize4');
