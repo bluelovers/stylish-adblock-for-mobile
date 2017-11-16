@@ -201,6 +201,11 @@ $domain: 'www.facebook.com';
 		@extend .userContent;
 	}
 
+	._1fa6 ._3fbp ._58al, ._2s25
+	{
+		@extend .userContent;
+	}
+
 	._585- ._5861, ._5861 ._586f, ._5861 ._1frb, ._5861 ._5eay
 	{
 		@extend .userContent;
@@ -219,7 +224,7 @@ $domain: 'www.facebook.com';
 	, ._1k0o, .fsm
 	, ._2zam, ._2zam .fsm
 	, ._2tyk ._3653
-	, .fbDock
+	, .fbDock, ._4jy0
 	{
 		@include site-elem-extend($domain, 'fontSize2');
 	}
