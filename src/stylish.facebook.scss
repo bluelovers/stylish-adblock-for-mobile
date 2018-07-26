@@ -548,10 +548,13 @@ $domain: 'www.facebook.com';
 		max-width: 180px !important;;
 	}
 
-	#rightCol #u_0_t
+	#rightCol
 	{
-		width: auto !important;
-		max-width: 308px !important;
+		#u_0_t, .fixed_elem
+		{
+			width: auto !important;
+			max-width: 308px !important;
+		}
 	}
 
 	@media only screen and (max-width: 1035px) {

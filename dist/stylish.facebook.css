@@ -179,40 +179,40 @@
 		width: auto !important;
 		max-width: 180px !important;
 	}
-	/* line 551, src/stylish.facebook.scss */
-	#rightCol #u_0_t {
+	/* line 553, src/stylish.facebook.scss */
+	#rightCol #u_0_t, #rightCol .fixed_elem {
 		width: auto !important;
 		max-width: 308px !important;
 	}
 	@media only screen and (max-width: 1035px) {
-		/* line 559, src/stylish.facebook.scss */
+		/* line 562, src/stylish.facebook.scss */
 		#rightCol {
 			display: none;
 		}
-		/* line 564, src/stylish.facebook.scss */
+		/* line 567, src/stylish.facebook.scss */
 		._14i5 {
 			right: auto;
 		}
-		/* line 569, src/stylish.facebook.scss */
+		/* line 572, src/stylish.facebook.scss */
 		._1ql0 {
 			max-width: 500px;
 			width: 52px !important;
 		}
-		/* line 575, src/stylish.facebook.scss */
+		/* line 578, src/stylish.facebook.scss */
 		._2yq #globalContainer {
 			max-width: 680px;
 		}
 	}
 	@media only screen and (max-width: 740px) {
-		/* line 583, src/stylish.facebook.scss */
+		/* line 586, src/stylish.facebook.scss */
 		.hasLeftCol #leftCol {
 			display: none;
 		}
-		/* line 588, src/stylish.facebook.scss */
+		/* line 591, src/stylish.facebook.scss */
 		._2yq #globalContainer {
 			max-width: 500px;
 		}
-		/* line 593, src/stylish.facebook.scss */
+		/* line 596, src/stylish.facebook.scss */
 		._1qkq {
 			margin-left: 0px !important;
 		}
@@ -224,23 +224,23 @@
 	body, tr, input, textarea, .g, .f, .m .n, .b .m, .b .cg, .touch, .touch tr, .touch input, .touch textarea, .touch .mfsm, .do, ._2tbu, ._1c5c, ._5qc3 {
 		font-size: small;
 	}
-	/* line 648, src/stylish.facebook.scss */
+	/* line 651, src/stylish.facebook.scss */
 	.fk .fo > .bm.fd.fq {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 		border-radius: 5px;
 	}
-	/* line 653, src/stylish.facebook.scss */
+	/* line 656, src/stylish.facebook.scss */
 	.fk .fo > .bm.fd.fq:hover {
 		border-color: #5782DA;
 	}
-	/* line 663, src/stylish.facebook.scss */
+	/* line 666, src/stylish.facebook.scss */
 	#m_newsfeed_stream .dy > div[role="article"], #m_newsfeed_stream .dz > div[role="article"] {
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 		border-radius: 5px;
 	}
-	/* line 668, src/stylish.facebook.scss */
+	/* line 671, src/stylish.facebook.scss */
 	#m_newsfeed_stream .dy > div[role="article"]:hover, #m_newsfeed_stream .dz > div[role="article"]:hover {
 		border-color: #5782DA;
 	}
@@ -254,25 +254,25 @@
 	#m_group_stories_container article > div[data-sigil="m-feed-story-attachments-element"]:hover .img.profpic, .feedRevamp > div article > div[data-sigil="m-feed-story-attachments-element"]:hover .img.profpic, #m_group_stories_container article footer ._4g33:hover ._5xu4 .img.profpic, .feedRevamp > div article footer ._4g33:hover ._5xu4 .img.profpic, .scrollArea ._4g33:hover .img.profpic, .scrollArea ._rzh ._4g33:hover .img.profpic, .flyout .acw:hover .img.profpic, #friends_center_main .bs .bt:hover img.bu, .ct .v:hover img.s, .ct .w:hover img.s, .cw .v:hover img.s, .cw .w:hover img.s {
 		border-radius: 5%;
 	}
-	/* line 817, src/stylish.facebook.scss */
+	/* line 820, src/stylish.facebook.scss */
 	.eq .es.et img.s, .eq .ej.ek img.s, .eg .es.et img.s, .eg .ej.ek img.s {
 		border: 1px solid transparent;
 		-webkit-transition: border-color .20s ease-in-out;
 		transition: border-color .20s ease-in-out;
 	}
-	/* line 822, src/stylish.facebook.scss */
+	/* line 825, src/stylish.facebook.scss */
 	.eq .es.et img.s:hover, .eq .ej.ek img.s:hover, .eg .es.et img.s:hover, .eg .ej.ek img.s:hover {
 		border-color: #5782DA;
 	}
 }
 
 @-moz-document domain("developers.facebook.com") {
-	/* line 834, src/stylish.facebook.scss */
+	/* line 837, src/stylish.facebook.scss */
 	._4l0x, ._1z0j a,
 	._1na, a._1z0k label, a._1z0k span {
 		font-size: 1rem;
 	}
-	/* line 839, src/stylish.facebook.scss */
+	/* line 842, src/stylish.facebook.scss */
 	html, body, :root {
 		font-size: 10pt;
 	}
