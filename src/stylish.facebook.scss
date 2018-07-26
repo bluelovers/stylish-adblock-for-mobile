@@ -89,7 +89,7 @@ $domain: 'www.facebook.com';
 
 	._40n8,
 
-	._50f5, ._3v6c span._38my,
+	._50f5, ._3v6c span._38my
 	{
 		@extend .userContent;
 	}
@@ -141,6 +141,14 @@ $domain: 'www.facebook.com';
 	._3dc, ._6-6
 	{
 		@extend .userContent;
+	}
+
+	#stories_pagelet_rhc
+	{
+		.verbose ._mxb
+		{
+			@extend .userContent;
+		}
 	}
 
 	// https://www.facebook.com/deepwhiteII/posts/1445894665432259
@@ -202,6 +210,8 @@ $domain: 'www.facebook.com';
 	}
 
 	._1fa6 ._3fbp ._58al, ._2s25, .__ji, ._14jn
+		, ._3-a6._4eno .UFICommentActorAndBody
+		, ._3-a6._4eno .UFIAddComment .UFIAddCommentInput._1osb
 	{
 		@extend .userContent;
 	}
@@ -226,6 +236,7 @@ $domain: 'www.facebook.com';
 	, ._2tyk ._3653
 	, .fbDock, ._4jy0
 	, ._1k0o ._1cwg
+		, ._2ieo, ._4a8c ._36bx ._1mwp._3t-3
 	{
 		@include site-elem-extend($domain, 'fontSize2');
 	}
@@ -523,6 +534,68 @@ $domain: 'www.facebook.com';
 			@include site-elem-extend($domain, 'fontSize2');
 		}
 	}
+
+	/* rwd */
+
+	._1qks
+	{
+		max-width: 180px !important;;
+	}
+
+	#leftCol > ._lwx > div
+	{
+		width: auto !important;
+		max-width: 180px !important;;
+	}
+
+	#rightCol #u_0_t
+	{
+		width: auto !important;
+		max-width: 308px !important;
+	}
+
+	@media only screen and (max-width: 1035px) {
+
+		#rightCol
+		{
+			display: none;
+		}
+
+		._14i5
+		{
+			right: auto;
+		}
+
+		._1ql0
+		{
+			max-width: 500px;
+			width: 52px !important;
+		}
+
+		._2yq #globalContainer
+		{
+			max-width: 680px;
+		}
+	}
+
+	@media only screen and (max-width: 740px) {
+
+		.hasLeftCol #leftCol
+		{
+			display: none;
+		}
+
+		._2yq #globalContainer
+		{
+			max-width: 500px;
+		}
+
+		._1qkq
+		{
+			margin-left: 0px !important;
+		}
+
+	}
 }
 
 $domain: 'm.facebook.com';
@@ -773,7 +846,7 @@ $domain: 'developers.facebook.com';
 	._4l0x, ._1z0j a,
 
 	// https://developers.facebook.com/tools-and-support/
-	._1na,
+	._1na
 	{
 		@extend %root;
 	}
