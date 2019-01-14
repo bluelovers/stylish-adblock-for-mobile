@@ -18,11 +18,14 @@
   },
   "homepage": "https://github.com/bluelovers/stylish-adblock-for-mobile#readme",
   "dependencies": {
-    "glob": "^7.1.2",
-    "gulp-autoprefixer": "^4.0.0",
+    "@types/gulp": "^4.0.5",
+    "@types/gulp-sourcemaps": "^0.0.32",
+    "glob": "^7.1.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.1",
-    "node-sass": "^4.9.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.11.0"
   }
 }
