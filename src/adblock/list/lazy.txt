@@ -1,0 +1,113 @@
+||tieba.baidu.com/hottopic/browse/topicList*
+||tieba.baidu.com/game/adtask/getIndexHotList*
+
+! 2018/10/15 下午11:28:24 http://s.imghost.top/img-5a76c5a146de6.html
+s.imghost.top##iframe
+
+! 2018/11/8 上午10:59:20 https://tieba.baidu.com/f?kw=%E5%BC%82%E4%B8%96%E7%95%8C%E8%BF%B7%E5%AE%AB%E6%9C%80%E6%B7%B1%E9%83%A8%E4%B8%BA%E7%9B%AE%E6%A0%87
+||www.2cq.com/third/tieba/sidebar$subdocument
+
+! 2018/12/20 上午5:21:46 http://18av.tv/category/30600.html
+18av.tv##.TW_UTtoy
+
+! 2018/12/20 上午5:22:17 http://18av.tv/category/30600.html
+18av.tv###adult_A
+
+! 2018/12/20 上午5:22:35 http://18av.tv/category/30600.html
+18av.tv###adult_R_GF
+
+! 2018/12/20 上午5:23:12 http://18av.tv/category/30600.html
+18av.tv###toy_hrefid_1
+
+! 2018/12/20 上午5:24:34 http://18av.tv/category/30600.html
+||3.bp.blogspot.com/-QxFoqrOe28Y/V-InWyqMYOI/AAAAAAAAABU/1n5JVnqZ7DAADwpZ-lLr-u2RVWR724ZeACEw/s1600/mm-cg.gif$image
+
+! 2018/12/20 上午5:25:18 http://18av.tv/category/30600.html
+18av.tv###mvcg_content_cg
+
+! 2019/2/13 上午8:35:08 masiro.moe
+||masiro.moe/static/js/transform.js$script,first-party
+
+! 2019/2/17 下午7:59:05 http://www.dayanzai.me/listary-pro.html
+www.dayanzai.me##[href="http://i.hyys.me/aff/Sth"]
+
+! 2019/2/17 下午7:59:40 http://www.dayanzai.me/listary-pro.html
+www.dayanzai.me##[href^="https://www.vidpaw.com/cn"]
+
+! 2019/2/17 下午7:59:57 http://www.dayanzai.me/listary-pro.html
+www.dayanzai.me##[href="http://www.linuxprobe.com"]
+
+! 2019/2/19 上午4:34:41 http://www.dayanzai.me/filemenu-tools.html
+www.dayanzai.me##[href^="http://www.focusky.com.cn/"]
+
+! 2019/2/19 上午5:08:07 https://blogs.systweak.com/2018/08/best-context-menu-editors-for-windows/
+blogs.systweak.com##.ads-cont2
+
+! 2019/2/19 上午5:08:24 https://blogs.systweak.com/2018/08/best-context-menu-editors-for-windows/
+blogs.systweak.com##.ads-cont1
+
+video.8maple.ru###yytf
+
+! 2019/4/21 esjzone.cc
+||www.esjzone.cc/assets/js/script.js$script,domain=www.esjzone.cc
+
+! 2020/1/1 https://manamoa.net
+manamoa.net##.ad-banner-widget
+
+||tieba.baidu.com/hottopic/browse/topicList*
+||tieba.baidu.com/game/adtask/getIndexHotList*
+
+! 2018/10/15 下午11:28:24 http://s.imghost.top/img-5a76c5a146de6.html
+s.imghost.top##iframe
+
+! 2018/11/8 上午10:59:20 https://tieba.baidu.com/f?kw=%E5%BC%82%E4%B8%96%E7%95%8C%E8%BF%B7%E5%AE%AB%E6%9C%80%E6%B7%B1%E9%83%A8%E4%B8%BA%E7%9B%AE%E6%A0%87
+||www.2cq.com/third/tieba/sidebar$subdocument
+
+! 2018/12/20 上午5:21:46 http://18av.tv/category/30600.html
+18av.tv##.TW_UTtoy
+
+! 2018/12/20 上午5:22:17 http://18av.tv/category/30600.html
+18av.tv###adult_A
+
+! 2018/12/20 上午5:22:35 http://18av.tv/category/30600.html
+18av.tv###adult_R_GF
+
+! 2018/12/20 上午5:23:12 http://18av.tv/category/30600.html
+18av.tv###toy_hrefid_1
+
+! 2018/12/20 上午5:24:34 http://18av.tv/category/30600.html
+||3.bp.blogspot.com/-QxFoqrOe28Y/V-InWyqMYOI/AAAAAAAAABU/1n5JVnqZ7DAADwpZ-lLr-u2RVWR724ZeACEw/s1600/mm-cg.gif$image
+
+! 2018/12/20 上午5:25:18 http://18av.tv/category/30600.html
+18av.tv###mvcg_content_cg
+
+! 2019/2/13 上午8:35:08 masiro.moe
+||masiro.moe/static/js/transform.js$script,first-party
+
+! 2019/2/17 下午7:59:05 http://www.dayanzai.me/listary-pro.html
+www.dayanzai.me##[href="http://i.hyys.me/aff/Sth"]
+
+! 2019/2/17 下午7:59:40 http://www.dayanzai.me/listary-pro.html
+www.dayanzai.me##[href^="https://www.vidpaw.com/cn"]
+
+! 2019/2/17 下午7:59:57 http://www.dayanzai.me/listary-pro.html
+www.dayanzai.me##[href="http://www.linuxprobe.com"]
+
+! 2019/2/19 上午4:34:41 http://www.dayanzai.me/filemenu-tools.html
+www.dayanzai.me##[href^="http://www.focusky.com.cn/"]
+
+! 2019/2/19 上午5:08:07 https://blogs.systweak.com/2018/08/best-context-menu-editors-for-windows/
+blogs.systweak.com##.ads-cont2
+
+! 2019/2/19 上午5:08:24 https://blogs.systweak.com/2018/08/best-context-menu-editors-for-windows/
+blogs.systweak.com##.ads-cont1
+
+video.8maple.ru###yytf
+
+||lojalaanvandaresgavor.club^
+
+! 2019/4/27 esjzone.cc
+||www.esjzone.cc/assets/js/script.js$script,domain=www.esjzone.cc
+
+! 2019/7/15 gitlab.com
+@@||assets.gitlab-static.net^$script,domain=gitlab.com
